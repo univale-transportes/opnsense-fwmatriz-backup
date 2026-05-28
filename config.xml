@@ -3111,7 +3111,7 @@ YJaOYXrqzPnq+VLMvJo3AAAAEWZ3bWF0cml6QG9wbnNlbnNlAQIDBA==&#13;
   <revision>
     <username>(root)</username>
     <description>/usr/local/opnsense/scripts/nginx/ngx_autoblock.php made changes</description>
-    <time>1779958800.76</time>
+    <time>1779960000.81</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -15804,7 +15804,7 @@ ip_transnet_bahia</content>
         </ACLs>
       </general>
     </ProxyUserACL>
-    <Nginx version="1.35.2" persisted_at="1779958800.75" description="nginx web server, reverse proxy and waf">
+    <Nginx version="1.35.2" persisted_at="1779960000.80" description="nginx web server, reverse proxy and waf">
       <general>
         <enabled>1</enabled>
         <ban_ttl>4320</ban_ttl>
@@ -16046,10 +16046,6 @@ ip_transnet_bahia</content>
         <errorpages/>
         <proxy_intercept_errors>0</proxy_intercept_errors>
       </http_server>
-      <ban uuid="78ed103d-dca9-4b8c-b9a1-e5218ee16342">
-        <ip>160.119.76.61</ip>
-        <time>1779700440</time>
-      </ban>
       <ban uuid="0d59f9ff-bc66-44b9-ba30-19fe14eb2480">
         <ip>45.33.14.5</ip>
         <time>1779766920</time>
