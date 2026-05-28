@@ -3110,8 +3110,8 @@ YJaOYXrqzPnq+VLMvJo3AAAAEWZ3bWF0cml6QG9wbnNlbnNlAQIDBA==&#13;
   </ntpd>
   <revision>
     <username>jhonatan.rosario@172.16.30.54</username>
-    <description>/api/firewall/filter/del_rule/c2a7b369-c3f4-47c6-a9df-9249c87fe0da made changes</description>
-    <time>1779978145.98</time>
+    <description>/api/kea/dhcpv4/add_reservation/ made changes</description>
+    <time>1779986924.72</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -12453,7 +12453,7 @@ ip_transnet_bahia</content>
           <http_port>8000</http_port>
         </general>
       </ctrl_agent>
-      <dhcp4 version="1.0.4" persisted_at="1779888726.34" description="Kea DHCPv4 configuration">
+      <dhcp4 version="1.0.4" persisted_at="1779986924.72" description="Kea DHCPv4 configuration">
         <general>
           <enabled>1</enabled>
           <manual_config>0</manual_config>
@@ -14851,6 +14851,27 @@ ip_transnet_bahia</content>
             <client_id/>
             <hostname>notinf005.univale.local</hostname>
             <description>Notebook Daniel - TI</description>
+            <option_data>
+              <domain_name_servers/>
+              <domain_search/>
+              <routers/>
+              <static_routes/>
+              <classless_static_route/>
+              <domain_name/>
+              <ntp_servers/>
+              <time_servers/>
+              <tftp_server_name/>
+              <boot_file_name/>
+            </option_data>
+            <option/>
+          </reservation>
+          <reservation uuid="97094dc4-9891-4e31-a7cb-119a6dd14020">
+            <subnet>00ec2699-832f-4b72-a2f7-5d9334143cac</subnet>
+            <ip_address>172.16.20.28</ip_address>
+            <hw_address>00:0c:29:6c:2c:4f</hw_address>
+            <client_id/>
+            <hostname>SRVADCS01</hostname>
+            <description/>
             <option_data>
               <domain_name_servers/>
               <domain_search/>
