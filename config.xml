@@ -3110,8 +3110,8 @@ YJaOYXrqzPnq+VLMvJo3AAAAEWZ3bWF0cml6QG9wbnNlbnNlAQIDBA==&#13;
   </ntpd>
   <revision>
     <username>jhonatan.rosario@172.16.30.54</username>
-    <description>/api/kea/dhcpv4/set made changes</description>
-    <time>1779986947.35</time>
+    <description>/api/firewall/filter/del_rule/ce41ea9f-b634-4d07-9659-2cc63ff48439 made changes</description>
+    <time>1779989192.80</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -5478,7 +5478,7 @@ ip_transnet_bahia</content>
           </category>
         </categories>
       </Category>
-      <Filter version="1.0.4" persisted_at="1779978145.97" description="Firewall rules (new)">
+      <Filter version="1.0.4" persisted_at="1779989192.80" description="Firewall rules (new)">
         <rules>
           <rule uuid="793ce3fc-e2ac-4c48-89cf-5444c91602e2">
             <enabled>0</enabled>
@@ -10575,62 +10575,6 @@ ip_transnet_bahia</content>
             <shaper1/>
             <shaper2/>
             <description>Libera todas as redes para wifi corporativo</description>
-          </rule>
-          <rule uuid="ce41ea9f-b634-4d07-9659-2cc63ff48439">
-            <enabled>0</enabled>
-            <statetype>keep</statetype>
-            <state-policy/>
-            <sequence>1154</sequence>
-            <action>pass</action>
-            <quick>1</quick>
-            <interfacenot>0</interfacenot>
-            <interface>opt3</interface>
-            <direction>in</direction>
-            <ipprotocol>inet</ipprotocol>
-            <protocol>any</protocol>
-            <icmptype/>
-            <icmp6type/>
-            <source_net>any</source_net>
-            <source_not>0</source_not>
-            <source_port/>
-            <destination_net>any</destination_net>
-            <destination_not>0</destination_not>
-            <destination_port/>
-            <divert-to/>
-            <gateway/>
-            <replyto/>
-            <disablereplyto>0</disablereplyto>
-            <log>0</log>
-            <allowopts>0</allowopts>
-            <nosync>0</nosync>
-            <nopfsync>0</nopfsync>
-            <statetimeout/>
-            <udp-first/>
-            <udp-multiple/>
-            <udp-single/>
-            <max-src-nodes/>
-            <max-src-states/>
-            <max-src-conn/>
-            <max/>
-            <max-src-conn-rate/>
-            <max-src-conn-rates/>
-            <overload/>
-            <adaptivestart/>
-            <adaptiveend/>
-            <prio/>
-            <set-prio/>
-            <set-prio-low/>
-            <tag/>
-            <tagged/>
-            <tcpflags1/>
-            <tcpflags2/>
-            <tcpflags_any>0</tcpflags_any>
-            <categories/>
-            <sched/>
-            <tos/>
-            <shaper1/>
-            <shaper2/>
-            <description/>
           </rule>
           <rule uuid="31059ecb-6cbe-40e7-bb1e-90516430258c">
             <enabled>1</enabled>
