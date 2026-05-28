@@ -3110,8 +3110,8 @@ YJaOYXrqzPnq+VLMvJo3AAAAEWZ3bWF0cml6QG9wbnNlbnNlAQIDBA==&#13;
   </ntpd>
   <revision>
     <username>jhonatan.rosario@172.16.30.54</username>
-    <description>/api/firewall/alias/set made changes</description>
-    <time>1779977952.69</time>
+    <description>/api/firewall/filter/set_rule/c053c463-107b-4a2f-ab2e-a5ffd362bf6a made changes</description>
+    <time>1779978132.28</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -5478,7 +5478,7 @@ ip_transnet_bahia</content>
           </category>
         </categories>
       </Category>
-      <Filter version="1.0.4" persisted_at="1779974437.44" description="Firewall rules (new)">
+      <Filter version="1.0.4" persisted_at="1779978132.27" description="Firewall rules (new)">
         <rules>
           <rule uuid="793ce3fc-e2ac-4c48-89cf-5444c91602e2">
             <enabled>0</enabled>
@@ -12376,7 +12376,7 @@ ip_transnet_bahia</content>
             <action>pass</action>
             <quick>1</quick>
             <interfacenot>0</interfacenot>
-            <interface>opt2</interface>
+            <interface>lan,opt2</interface>
             <direction>in</direction>
             <ipprotocol>inet</ipprotocol>
             <protocol>any</protocol>
@@ -12385,7 +12385,7 @@ ip_transnet_bahia</content>
             <source_net>ips_admin</source_net>
             <source_not>0</source_not>
             <source_port/>
-            <destination_net>opt5</destination_net>
+            <destination_net>opt4,opt5</destination_net>
             <destination_not>0</destination_not>
             <destination_port/>
             <divert-to/>
@@ -12422,7 +12422,7 @@ ip_transnet_bahia</content>
             <tos/>
             <shaper1/>
             <shaper2/>
-            <description>Libera acesso a rede MGMT</description>
+            <description>Libera acesso as redes DMZ e MGMT para administradores</description>
           </rule>
           <rule uuid="1708f2a9-421a-42fc-a085-b9fa43b53a08">
             <enabled>1</enabled>
