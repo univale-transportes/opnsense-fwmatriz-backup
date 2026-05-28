@@ -3110,8 +3110,8 @@ YJaOYXrqzPnq+VLMvJo3AAAAEWZ3bWF0cml6QG9wbnNlbnNlAQIDBA==&#13;
   </ntpd>
   <revision>
     <username>jhonatan.rosario@172.16.30.54</username>
-    <description>/api/kea/dhcpv4/set made changes</description>
-    <time>1779989317.34</time>
+    <description>/api/kea/dhcpv4/add_reservation/ made changes</description>
+    <time>1779989402.13</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -12397,7 +12397,7 @@ ip_transnet_bahia</content>
           <http_port>8000</http_port>
         </general>
       </ctrl_agent>
-      <dhcp4 version="1.0.4" persisted_at="1779989317.34" description="Kea DHCPv4 configuration">
+      <dhcp4 version="1.0.4" persisted_at="1779989402.13" description="Kea DHCPv4 configuration">
         <general>
           <enabled>1</enabled>
           <manual_config>0</manual_config>
@@ -14816,6 +14816,27 @@ ip_transnet_bahia</content>
             <client_id/>
             <hostname>SRVADCS01</hostname>
             <description>Servidor AD CS</description>
+            <option_data>
+              <domain_name_servers/>
+              <domain_search/>
+              <routers/>
+              <static_routes/>
+              <classless_static_route/>
+              <domain_name/>
+              <ntp_servers/>
+              <time_servers/>
+              <tftp_server_name/>
+              <boot_file_name/>
+            </option_data>
+            <option/>
+          </reservation>
+          <reservation uuid="284984c8-d80a-4a06-bbd0-3934ee1b373a">
+            <subnet>00ec2699-832f-4b72-a2f7-5d9334143cac</subnet>
+            <ip_address>172.16.20.27</ip_address>
+            <hw_address>00:0c:29:84:2f:5d</hw_address>
+            <client_id/>
+            <hostname>rootca</hostname>
+            <description>Servidor Offline Root CA</description>
             <option_data>
               <domain_name_servers/>
               <domain_search/>
