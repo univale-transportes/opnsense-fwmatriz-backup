@@ -415,7 +415,7 @@
     <firmware version="1.0.1" persisted_at="1772074078.46">
       <mirror/>
       <flavour/>
-      <plugins>os-freeradius,os-gdrive-backup,os-git-backup,os-nginx,os-squid,os-strongswan-legacy,os-theme-advanced,os-vmware,os-web-proxy-sso</plugins>
+      <plugins>os-freeradius,os-gdrive-backup,os-git-backup,os-nginx,os-squid,os-theme-advanced,os-vmware,os-web-proxy-sso</plugins>
       <type/>
       <subscription/>
       <reboot>0</reboot>
@@ -3109,9 +3109,9 @@ YJaOYXrqzPnq+VLMvJo3AAAAEWZ3bWF0cml6QG9wbnNlbnNlAQIDBA==&#13;
     <prefer>0.opnsense.pool.ntp.org</prefer>
   </ntpd>
   <revision>
-    <username>jhonatan.rosario@172.16.30.54</username>
-    <description>/api/ipsec/connections/toggle/0 made changes</description>
-    <time>1780073070.78</time>
+    <username>(root)</username>
+    <description>/usr/local/opnsense/scripts/firmware/register.php made changes</description>
+    <time>1780073087.82</time>
   </revision>
   <OPNsense>
     <wireguard>
