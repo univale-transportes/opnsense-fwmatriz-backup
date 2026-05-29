@@ -3109,9 +3109,9 @@ YJaOYXrqzPnq+VLMvJo3AAAAEWZ3bWF0cml6QG9wbnNlbnNlAQIDBA==&#13;
     <prefer>0.opnsense.pool.ntp.org</prefer>
   </ntpd>
   <revision>
-    <username>jhonatan.rosario@172.16.30.54</username>
-    <description>/api/unbound/settings/setForward/73b73e51-6ee7-46f7-b74e-5646d4cb5cf7 made changes</description>
-    <time>1780081234.69</time>
+    <username>jhonatan.rosario@192.168.0.19</username>
+    <description>/api/routes/routes/delroute/455361ae-c1d5-42f6-a6c0-e1df75c947c2 made changes</description>
+    <time>1780082569.28</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -16195,14 +16195,7 @@ ip_transnet_bahia</content>
       <vlanif>vlan0.100</vlanif>
     </vlan>
   </vlans>
-  <staticroutes version="1.0.0">
-    <route uuid="455361ae-c1d5-42f6-a6c0-e1df75c947c2">
-      <network>192.168.50.0/24</network>
-      <gateway>Roteador_Univale_TI_GW</gateway>
-      <descr>Rota para rede do roteador Univale TI</descr>
-      <disabled>0</disabled>
-    </route>
-  </staticroutes>
+  <staticroutes version="1.0.0" persisted_at="1780082569.28" description="Static routes"/>
   <bridges version="1.0.0">
     <bridged/>
   </bridges>
