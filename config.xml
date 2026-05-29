@@ -3109,9 +3109,9 @@ YJaOYXrqzPnq+VLMvJo3AAAAEWZ3bWF0cml6QG9wbnNlbnNlAQIDBA==&#13;
     <prefer>0.opnsense.pool.ntp.org</prefer>
   </ntpd>
   <revision>
-    <username>(root)</username>
-    <description>/usr/local/opnsense/scripts/firmware/register.php made changes</description>
-    <time>1780073087.82</time>
+    <username>jhonatan.rosario@172.16.30.54</username>
+    <description>/api/unbound/settings/setForward/73b73e51-6ee7-46f7-b74e-5646d4cb5cf7 made changes</description>
+    <time>1780081234.69</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -15196,7 +15196,7 @@ ip_transnet_bahia</content>
         <MinProtocol_DTLS/>
       </general>
     </trust>
-    <unboundplus version="1.0.15" persisted_at="1779874982.21" description="Unbound configuration">
+    <unboundplus version="1.0.15" persisted_at="1780081234.68" description="Unbound configuration">
       <general>
         <enabled>1</enabled>
         <port>53</port>
@@ -15275,7 +15275,7 @@ ip_transnet_bahia</content>
           <port>53</port>
           <verify/>
           <forward_tcp_upstream>0</forward_tcp_upstream>
-          <forward_first>0</forward_first>
+          <forward_first>1</forward_first>
           <description>MS DNS</description>
         </dot>
         <dot uuid="b84122b1-0d9c-42e4-8e48-f298a6678b2d">
