@@ -3109,9 +3109,9 @@ YJaOYXrqzPnq+VLMvJo3AAAAEWZ3bWF0cml6QG9wbnNlbnNlAQIDBA==&#13;
     <prefer>0.opnsense.pool.ntp.org</prefer>
   </ntpd>
   <revision>
-    <username>(root)</username>
-    <description>/usr/local/opnsense/scripts/firmware/register.php made changes</description>
-    <time>1780072948.57</time>
+    <username>jhonatan.rosario@172.16.30.54</username>
+    <description>/api/ipsec/tunnel/del_phase2/6 made changes</description>
+    <time>1780073022.59</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -16983,34 +16983,6 @@ ip_transnet_bahia</content>
       </encryption-algorithm-option>
       <hash-algorithm-option>hmac_sha256</hash-algorithm-option>
       <reqid>6</reqid>
-    </phase2>
-    <phase2>
-      <ikeid>1</ikeid>
-      <uniqid>67fe96b59b6f6</uniqid>
-      <mode>tunnel</mode>
-      <pfsgroup>14</pfsgroup>
-      <lifetime>3600</lifetime>
-      <descr>VPN Filial Bahia</descr>
-      <protocol>esp</protocol>
-      <localid>
-        <type>network</type>
-        <address>10.10.50.0</address>
-        <netbits>24</netbits>
-      </localid>
-      <remoteid>
-        <type>network</type>
-        <address>192.168.7.0</address>
-        <netbits>24</netbits>
-      </remoteid>
-      <encryption-algorithm-option>
-        <name>aes128</name>
-      </encryption-algorithm-option>
-      <encryption-algorithm-option>
-        <name>aes128gcm16</name>
-      </encryption-algorithm-option>
-      <hash-algorithm-option>hmac_sha256</hash-algorithm-option>
-      <reqid>7</reqid>
-      <disabled>1</disabled>
     </phase2>
     <phase2>
       <ikeid>5</ikeid>
