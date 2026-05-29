@@ -3110,8 +3110,8 @@ YJaOYXrqzPnq+VLMvJo3AAAAEWZ3bWF0cml6QG9wbnNlbnNlAQIDBA==&#13;
   </ntpd>
   <revision>
     <username>jhonatan.rosario@172.16.30.54</username>
-    <description>/api/ipsec/tunnel/del_phase1/1 made changes</description>
-    <time>1780073040.72</time>
+    <description>/api/ipsec/connections/toggle/0 made changes</description>
+    <time>1780073070.78</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -16697,7 +16697,6 @@ ip_transnet_bahia</content>
   </ca>
   <ipsec>
     <client/>
-    <enable>1</enable>
   </ipsec>
   <wizardtemp>
     <system>
