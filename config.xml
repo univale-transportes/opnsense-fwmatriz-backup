@@ -3110,8 +3110,8 @@ YJaOYXrqzPnq+VLMvJo3AAAAEWZ3bWF0cml6QG9wbnNlbnNlAQIDBA==&#13;
   </ntpd>
   <revision>
     <username>jhonatan.rosario@172.16.30.54</username>
-    <description>/api/ipsec/tunnel/del_phase1/2 made changes</description>
-    <time>1780073038.53</time>
+    <description>/api/ipsec/tunnel/del_phase1/1 made changes</description>
+    <time>1780073040.72</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -16696,32 +16696,6 @@ ip_transnet_bahia</content>
     <caref/>
   </ca>
   <ipsec>
-    <phase1>
-      <ikeid>1</ikeid>
-      <iketype>ikev2</iketype>
-      <interface>wan</interface>
-      <protocol>inet</protocol>
-      <myid_type>myaddress</myid_type>
-      <peerid_type>peeraddress</peerid_type>
-      <encryption-algorithm>
-        <name>aes</name>
-        <keylen>128</keylen>
-      </encryption-algorithm>
-      <lifetime>28800</lifetime>
-      <pre-shared-key>teste30917577</pre-shared-key>
-      <authentication_method>pre_shared_key</authentication_method>
-      <descr>VPN Filial Bahia</descr>
-      <nat_traversal>on</nat_traversal>
-      <mobike>on</mobike>
-      <dhgroup>14</dhgroup>
-      <hash-algorithm>sha256</hash-algorithm>
-      <private-key/>
-      <remote-gateway>201.48.205.1</remote-gateway>
-      <dpd_delay>10</dpd_delay>
-      <dpd_maxfail>5</dpd_maxfail>
-      <dpd_action/>
-      <disabled>1</disabled>
-    </phase1>
     <client/>
     <enable>1</enable>
   </ipsec>
