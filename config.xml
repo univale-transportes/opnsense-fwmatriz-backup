@@ -3109,9 +3109,9 @@ YJaOYXrqzPnq+VLMvJo3AAAAEWZ3bWF0cml6QG9wbnNlbnNlAQIDBA==&#13;
     <prefer>0.opnsense.pool.ntp.org</prefer>
   </ntpd>
   <revision>
-    <username>jhonatan.rosario@192.168.0.19</username>
-    <description>/api/routing/settings/del_gateway/97361206-054e-421e-b7d4-dbc021c923d6 made changes</description>
-    <time>1780082574.63</time>
+    <username>(root)</username>
+    <description>/usr/local/opnsense/scripts/nginx/ngx_autoblock.php made changes</description>
+    <time>1780231080.64</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -15654,7 +15654,7 @@ ip_transnet_bahia</content>
         </ACLs>
       </general>
     </ProxyUserACL>
-    <Nginx version="1.35.2" persisted_at="1780049400.80" description="nginx web server, reverse proxy and waf">
+    <Nginx version="1.35.2" persisted_at="1780231080.63" description="nginx web server, reverse proxy and waf">
       <general>
         <enabled>1</enabled>
         <ban_ttl>4320</ban_ttl>
@@ -15896,6 +15896,10 @@ ip_transnet_bahia</content>
         <errorpages/>
         <proxy_intercept_errors>0</proxy_intercept_errors>
       </http_server>
+      <ban uuid="0409f71d-4433-4646-b1ef-2d68ec322951">
+        <ip>34.140.175.187</ip>
+        <time>1780231080</time>
+      </ban>
     </Nginx>
     <freeradius>
       <client version="1.0.3">
