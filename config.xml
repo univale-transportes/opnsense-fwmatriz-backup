@@ -3111,7 +3111,7 @@ YJaOYXrqzPnq+VLMvJo3AAAAEWZ3bWF0cml6QG9wbnNlbnNlAQIDBA==&#13;
   <revision>
     <username>jhonatan.rosario@172.16.30.3</username>
     <description>/api/firewall/filter/toggle_rule/3c45b3ec-2ee9-449e-a74b-73c86d083b57 made changes</description>
-    <time>1780320930.12</time>
+    <time>1780320935.23</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -5477,7 +5477,7 @@ ip_transnet_bahia</content>
           </category>
         </categories>
       </Category>
-      <Filter version="1.0.4" persisted_at="1780320930.11" description="Firewall rules (new)">
+      <Filter version="1.0.4" persisted_at="1780320935.22" description="Firewall rules (new)">
         <rules>
           <rule uuid="793ce3fc-e2ac-4c48-89cf-5444c91602e2">
             <enabled>0</enabled>
@@ -9680,7 +9680,7 @@ ip_transnet_bahia</content>
             <description>Libera rpc protocol para vpn funcionarios</description>
           </rule>
           <rule uuid="3c45b3ec-2ee9-449e-a74b-73c86d083b57">
-            <enabled>0</enabled>
+            <enabled>1</enabled>
             <statetype>keep</statetype>
             <state-policy/>
             <sequence>791</sequence>
