@@ -3110,8 +3110,8 @@ YJaOYXrqzPnq+VLMvJo3AAAAEWZ3bWF0cml6QG9wbnNlbnNlAQIDBA==&#13;
   </ntpd>
   <revision>
     <username>jhonatan.rosario@192.168.0.227</username>
-    <description>/api/kea/dhcpv4/set_reservation/677f84ae-0e74-4690-86a6-3b0aa85229e0 made changes</description>
-    <time>1780316101.64</time>
+    <description>/api/kea/dhcpv4/set made changes</description>
+    <time>1780316105.14</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -12396,7 +12396,7 @@ ip_transnet_bahia</content>
           <http_port>8000</http_port>
         </general>
       </ctrl_agent>
-      <dhcp4 version="1.0.4" persisted_at="1780316101.64" description="Kea DHCPv4 configuration">
+      <dhcp4 version="1.0.4" persisted_at="1780316105.14" description="Kea DHCPv4 configuration">
         <general>
           <enabled>1</enabled>
           <manual_config>0</manual_config>
