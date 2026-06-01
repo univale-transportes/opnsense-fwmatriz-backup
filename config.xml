@@ -3110,8 +3110,8 @@ YJaOYXrqzPnq+VLMvJo3AAAAEWZ3bWF0cml6QG9wbnNlbnNlAQIDBA==&#13;
   </ntpd>
   <revision>
     <username>jhonatan.rosario@172.16.30.3</username>
-    <description>/api/firewall/filter/set_rule/3c45b3ec-2ee9-449e-a74b-73c86d083b57 made changes</description>
-    <time>1780320894.57</time>
+    <description>/api/firewall/filter/set_rule/0e8e6250-009d-4fcd-9e04-3cba33c771c6 made changes</description>
+    <time>1780320908.15</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -5477,7 +5477,7 @@ ip_transnet_bahia</content>
           </category>
         </categories>
       </Category>
-      <Filter version="1.0.4" persisted_at="1780320894.57" description="Firewall rules (new)">
+      <Filter version="1.0.4" persisted_at="1780320908.15" description="Firewall rules (new)">
         <rules>
           <rule uuid="793ce3fc-e2ac-4c48-89cf-5444c91602e2">
             <enabled>0</enabled>
