@@ -3110,8 +3110,8 @@ YJaOYXrqzPnq+VLMvJo3AAAAEWZ3bWF0cml6QG9wbnNlbnNlAQIDBA==&#13;
   </ntpd>
   <revision>
     <username>jhonatan.rosario@172.16.30.3</username>
-    <description>/api/firewall/alias/set made changes</description>
-    <time>1780312834.57</time>
+    <description>/api/firewall/filter/del_rule/9041876a-1742-47ac-b36f-087a215967a9 made changes</description>
+    <time>1780313957.56</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -5477,7 +5477,7 @@ ip_transnet_bahia</content>
           </category>
         </categories>
       </Category>
-      <Filter version="1.0.4" persisted_at="1779989192.80" description="Firewall rules (new)">
+      <Filter version="1.0.4" persisted_at="1780313957.55" description="Firewall rules (new)">
         <rules>
           <rule uuid="793ce3fc-e2ac-4c48-89cf-5444c91602e2">
             <enabled>0</enabled>
@@ -12142,62 +12142,6 @@ ip_transnet_bahia</content>
             <shaper1/>
             <shaper2/>
             <description>Libera redirecionamento para o fluig</description>
-          </rule>
-          <rule uuid="9041876a-1742-47ac-b36f-087a215967a9">
-            <enabled>0</enabled>
-            <statetype>keep</statetype>
-            <state-policy/>
-            <sequence>954</sequence>
-            <action>pass</action>
-            <quick>1</quick>
-            <interfacenot>0</interfacenot>
-            <interface>opt2</interface>
-            <direction>in</direction>
-            <ipprotocol>inet</ipprotocol>
-            <protocol>UDP</protocol>
-            <icmptype/>
-            <icmp6type/>
-            <source_net>172.16.30.0/24</source_net>
-            <source_not>0</source_not>
-            <source_port/>
-            <destination_net>opt2ip</destination_net>
-            <destination_not>0</destination_not>
-            <destination_port>53</destination_port>
-            <divert-to/>
-            <gateway/>
-            <replyto/>
-            <disablereplyto>0</disablereplyto>
-            <log>1</log>
-            <allowopts>0</allowopts>
-            <nosync>0</nosync>
-            <nopfsync>0</nopfsync>
-            <statetimeout/>
-            <udp-first/>
-            <udp-multiple/>
-            <udp-single/>
-            <max-src-nodes/>
-            <max-src-states/>
-            <max-src-conn/>
-            <max/>
-            <max-src-conn-rate/>
-            <max-src-conn-rates/>
-            <overload/>
-            <adaptivestart/>
-            <adaptiveend/>
-            <prio/>
-            <set-prio/>
-            <set-prio-low/>
-            <tag/>
-            <tagged/>
-            <tcpflags1/>
-            <tcpflags2/>
-            <tcpflags_any>0</tcpflags_any>
-            <categories/>
-            <sched/>
-            <tos/>
-            <shaper1/>
-            <shaper2/>
-            <description>Libera DNS na rede wifi corporativo</description>
           </rule>
           <rule uuid="c053c463-107b-4a2f-ab2e-a5ffd362bf6a">
             <enabled>1</enabled>
