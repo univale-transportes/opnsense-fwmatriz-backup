@@ -3110,8 +3110,8 @@ YJaOYXrqzPnq+VLMvJo3AAAAEWZ3bWF0cml6QG9wbnNlbnNlAQIDBA==&#13;
   </ntpd>
   <revision>
     <username>jhonatan.rosario@172.16.30.3</username>
-    <description>/api/firewall/filter/add_rule/ made changes</description>
-    <time>1780321780.44</time>
+    <description>/api/firewall/filter/toggle_rule/ea8160c1-574b-46ec-aa85-0c915aa56c76 made changes</description>
+    <time>1780323512.38</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -5477,7 +5477,7 @@ ip_transnet_bahia</content>
           </category>
         </categories>
       </Category>
-      <Filter version="1.0.4" persisted_at="1780321780.43" description="Firewall rules (new)">
+      <Filter version="1.0.4" persisted_at="1780323512.38" description="Firewall rules (new)">
         <rules>
           <rule uuid="793ce3fc-e2ac-4c48-89cf-5444c91602e2">
             <enabled>0</enabled>
@@ -12368,7 +12368,7 @@ ip_transnet_bahia</content>
             <description>Libera tudo para rede wifi corporarivo</description>
           </rule>
           <rule uuid="ea8160c1-574b-46ec-aa85-0c915aa56c76">
-            <enabled>1</enabled>
+            <enabled>0</enabled>
             <statetype>keep</statetype>
             <state-policy/>
             <sequence>2301</sequence>
