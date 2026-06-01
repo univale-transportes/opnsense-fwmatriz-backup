@@ -3110,8 +3110,8 @@ YJaOYXrqzPnq+VLMvJo3AAAAEWZ3bWF0cml6QG9wbnNlbnNlAQIDBA==&#13;
   </ntpd>
   <revision>
     <username>jhonatan.rosario@172.16.30.3</username>
-    <description>/api/firewall/filter/set_rule/c7cc47fb-547c-438d-aafe-1d34930a048f made changes</description>
-    <time>1780332048.03</time>
+    <description>/api/firewall/filter/add_rule/ made changes</description>
+    <time>1780332075.75</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -5477,7 +5477,7 @@ ip_transnet_bahia</content>
           </category>
         </categories>
       </Category>
-      <Filter version="1.0.4" persisted_at="1780332048.03" description="Firewall rules (new)">
+      <Filter version="1.0.4" persisted_at="1780332075.74" description="Firewall rules (new)">
         <rules>
           <rule uuid="793ce3fc-e2ac-4c48-89cf-5444c91602e2">
             <enabled>0</enabled>
@@ -12422,6 +12422,62 @@ ip_transnet_bahia</content>
             <shaper1/>
             <shaper2/>
             <description>Libera tudo para rede MGMT</description>
+          </rule>
+          <rule uuid="2764fad0-d506-4c81-a7ee-ac3bf8113d02">
+            <enabled>1</enabled>
+            <statetype>keep</statetype>
+            <state-policy/>
+            <sequence>2401</sequence>
+            <action>pass</action>
+            <quick>1</quick>
+            <interfacenot>0</interfacenot>
+            <interface>openvpn</interface>
+            <direction>in</direction>
+            <ipprotocol>inet</ipprotocol>
+            <protocol>TCP/UDP</protocol>
+            <icmptype/>
+            <icmp6type/>
+            <source_net>openvpn</source_net>
+            <source_not>0</source_not>
+            <source_port/>
+            <destination_net>ips_servidores_ad</destination_net>
+            <destination_not>0</destination_not>
+            <destination_port>636</destination_port>
+            <divert-to/>
+            <gateway/>
+            <replyto/>
+            <disablereplyto>0</disablereplyto>
+            <log>1</log>
+            <allowopts>0</allowopts>
+            <nosync>0</nosync>
+            <nopfsync>0</nopfsync>
+            <statetimeout/>
+            <udp-first/>
+            <udp-multiple/>
+            <udp-single/>
+            <max-src-nodes/>
+            <max-src-states/>
+            <max-src-conn/>
+            <max/>
+            <max-src-conn-rate/>
+            <max-src-conn-rates/>
+            <overload/>
+            <adaptivestart/>
+            <adaptiveend/>
+            <prio/>
+            <set-prio/>
+            <set-prio-low/>
+            <tag/>
+            <tagged/>
+            <tcpflags1/>
+            <tcpflags2/>
+            <tcpflags_any>0</tcpflags_any>
+            <categories/>
+            <sched/>
+            <tos/>
+            <shaper1/>
+            <shaper2/>
+            <description>Permite conex&#xE3;o LDAPS (directory server)</description>
           </rule>
         </rules>
         <snatrules/>
