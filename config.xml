@@ -3110,8 +3110,8 @@ YJaOYXrqzPnq+VLMvJo3AAAAEWZ3bWF0cml6QG9wbnNlbnNlAQIDBA==&#13;
   </ntpd>
   <revision>
     <username>jhonatan.rosario@172.16.30.8</username>
-    <description>/api/unbound/settings/toggleForward/26a749c7-996d-4fe2-a473-293cdbc73416 made changes</description>
-    <time>1780400917.36</time>
+    <description>/api/unbound/settings/toggleForward/9bbd461c-d7fe-4c74-abc4-3e45a54fccec made changes</description>
+    <time>1780400918.10</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -15437,7 +15437,7 @@ ip_transnet_bahia</content>
         <MinProtocol_DTLS/>
       </general>
     </trust>
-    <unboundplus version="1.0.15" persisted_at="1780400917.36" description="Unbound configuration">
+    <unboundplus version="1.0.15" persisted_at="1780400918.10" description="Unbound configuration">
       <general>
         <enabled>1</enabled>
         <port>53</port>
@@ -15564,7 +15564,7 @@ ip_transnet_bahia</content>
           <description>MS DNS</description>
         </dot>
         <dot uuid="9bbd461c-d7fe-4c74-abc4-3e45a54fccec">
-          <enabled>0</enabled>
+          <enabled>1</enabled>
           <type>forward</type>
           <domain>6.168.192.in-addr.arpa</domain>
           <server>192.168.0.8</server>
