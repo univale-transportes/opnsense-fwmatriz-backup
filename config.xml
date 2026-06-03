@@ -3111,8 +3111,8 @@ YJaOYXrqzPnq+VLMvJo3AAAAEWZ3bWF0cml6QG9wbnNlbnNlAQIDBA==&#13;
   </ntpd>
   <revision>
     <username>jhonatan.rosario@172.16.30.23</username>
-    <description>/system_authservers.php made changes</description>
-    <time>1780486783.81</time>
+    <description>/api/firewall/alias/add_item/ made changes</description>
+    <time>1780489625.61</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -4113,7 +4113,7 @@ a363abe4509328902356d4dabaaac9fc
       <Lvtemplate version="0.0.1">
         <templates/>
       </Lvtemplate>
-      <Alias version="1.0.1" persisted_at="1780427685.04" description="Firewall aliases">
+      <Alias version="1.0.1" persisted_at="1780489625.61" description="Firewall aliases">
         <geoip>
           <url/>
         </geoip>
@@ -5451,6 +5451,23 @@ ip_transnet_bahia</content>
             <expire/>
             <categories/>
             <description>IPs com permiss&#xE3;o para acessar todas as redes (apenas para administradores)</description>
+          </alias>
+          <alias uuid="65c0eefa-24e0-43e2-809e-33adf9ab0e81">
+            <enabled>1</enabled>
+            <name>ips_servidores_acesso_mgmt</name>
+            <type>host</type>
+            <path_expression/>
+            <proto/>
+            <interface/>
+            <counters>0</counters>
+            <updatefreq/>
+            <content>192.168.0.191</content>
+            <password/>
+            <username/>
+            <authtype/>
+            <expire/>
+            <categories/>
+            <description>IPs dos servidores com acesso a rede MGMT (Gerencia)</description>
           </alias>
         </aliases>
       </Alias>
