@@ -3110,9 +3110,9 @@ YJaOYXrqzPnq+VLMvJo3AAAAEWZ3bWF0cml6QG9wbnNlbnNlAQIDBA==&#13;
     <prefer>0.opnsense.pool.ntp.org</prefer>
   </ntpd>
   <revision>
-    <username>(root)</username>
-    <description>/usr/local/opnsense/scripts/nginx/ngx_autoblock.php made changes</description>
-    <time>1780490400.82</time>
+    <username>jhonatan.rosario@172.16.30.23</username>
+    <description>/api/firewall/filter/set_rule/d01894ea-4818-4fb7-8d1b-9e661c5bff7b made changes</description>
+    <time>1780520285.58</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -5495,7 +5495,7 @@ ip_transnet_bahia</content>
           </category>
         </categories>
       </Category>
-      <Filter version="1.0.4" persisted_at="1780490237.72" description="Firewall rules (new)">
+      <Filter version="1.0.4" persisted_at="1780520285.57" description="Firewall rules (new)">
         <rules>
           <rule uuid="793ce3fc-e2ac-4c48-89cf-5444c91602e2">
             <enabled>0</enabled>
@@ -7639,7 +7639,7 @@ ip_transnet_bahia</content>
             <protocol>TCP/UDP</protocol>
             <icmptype/>
             <icmp6type/>
-            <source_net>192.168.0.147/32</source_net>
+            <source_net>192.168.0.218/32</source_net>
             <source_not>0</source_not>
             <source_port/>
             <destination_net>any</destination_net>
@@ -7679,7 +7679,7 @@ ip_transnet_bahia</content>
             <tos/>
             <shaper1/>
             <shaper2/>
-            <description>Libera&#xE7;&#xE3;o de internet  - PC Yasmim (Temp)</description>
+            <description>Libera&#xE7;&#xE3;o de internet  - PC Eleuza (Temp)</description>
           </rule>
           <rule uuid="9489918a-548b-4f79-9ab2-687f34ba0d10">
             <enabled>1</enabled>
