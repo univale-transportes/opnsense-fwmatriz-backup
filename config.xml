@@ -436,7 +436,7 @@
       <refid>67ec1c0cd4630</refid>
       <type>ldap</type>
       <name>AD DC</name>
-      <host>192.168.0.8</host>
+      <host>srvad03.univale.local</host>
       <ldap_port>636</ldap_port>
       <ldap_urltype>SSL - Encrypted</ldap_urltype>
       <ldap_protver>3</ldap_protver>
@@ -3112,7 +3112,7 @@ YJaOYXrqzPnq+VLMvJo3AAAAEWZ3bWF0cml6QG9wbnNlbnNlAQIDBA==&#13;
   <revision>
     <username>jhonatan.rosario@172.16.30.23</username>
     <description>/system_authservers.php made changes</description>
-    <time>1780525013.77</time>
+    <time>1780525946.67</time>
   </revision>
   <OPNsense>
     <wireguard>
