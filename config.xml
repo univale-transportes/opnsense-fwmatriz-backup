@@ -437,8 +437,8 @@
       <type>ldap</type>
       <name>AD DC</name>
       <host>192.168.0.8</host>
-      <ldap_port>389</ldap_port>
-      <ldap_urltype>TCP - Standard</ldap_urltype>
+      <ldap_port>636</ldap_port>
+      <ldap_urltype>SSL - Encrypted</ldap_urltype>
       <ldap_protver>3</ldap_protver>
       <ldap_scope>subtree</ldap_scope>
       <ldap_basedn>DC=univale,DC=local</ldap_basedn>
@@ -451,6 +451,7 @@
       <ldap_sync_default_groups/>
       <caseInSensitiveUsernames/>
       <ldap_read_properties>1</ldap_read_properties>
+      <ldap_attr_memberof/>
     </authserver>
     <authserver>
       <refid>67eedb5f6db5c</refid>
@@ -3109,9 +3110,9 @@ YJaOYXrqzPnq+VLMvJo3AAAAEWZ3bWF0cml6QG9wbnNlbnNlAQIDBA==&#13;
     <prefer>0.opnsense.pool.ntp.org</prefer>
   </ntpd>
   <revision>
-    <username>jhonatan.rosario@172.16.30.8</username>
-    <description>/api/firewall/filter/set_rule/d01894ea-4818-4fb7-8d1b-9e661c5bff7b made changes</description>
-    <time>1780427841.55</time>
+    <username>jhonatan.rosario@172.16.30.23</username>
+    <description>/system_authservers.php made changes</description>
+    <time>1780486783.81</time>
   </revision>
   <OPNsense>
     <wireguard>
