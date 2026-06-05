@@ -515,16 +515,16 @@
       <refid>699c97f0730a3</refid>
       <type>ldap</type>
       <name>AD - OpenVPN</name>
-      <host>192.168.0.8</host>
+      <host>srvad03.univale.local</host>
       <ldap_port>389</ldap_port>
       <ldap_urltype>TCP - Standard</ldap_urltype>
       <ldap_protver>3</ldap_protver>
       <ldap_scope>subtree</ldap_scope>
       <ldap_basedn>DC=univale,DC=local</ldap_basedn>
-      <ldap_authcn>OU=GRUPOS,DC=univale,DC=local;OU=UNIVALE,DC=univale,DC=local</ldap_authcn>
-      <ldap_extended_query>&amp;(memberOf=CN=ACESSO_VPN,OU=GRUPOS,DC=univale,DC=local)</ldap_extended_query>
+      <ldap_authcn>OU=Univale,DC=univale,DC=local</ldap_authcn>
+      <ldap_extended_query>&amp;(memberOf=CN=ACESSO_VPN,OU=Grupos,OU=Univale,DC=univale,DC=local)</ldap_extended_query>
       <ldap_attr_user>sAMAccountName</ldap_attr_user>
-      <ldap_binddn>CN=OPNSense,OU=SISTEMAS,OU=INFORMATICA,OU=MATRIZ,OU=UNIVALE,DC=univale,DC=local</ldap_binddn>
+      <ldap_binddn>CN=OPNSense,OU=Contas de Servico,OU=Univale,DC=univale,DC=local</ldap_binddn>
       <ldap_bindpw>Uni.Info@@1991!((!</ldap_bindpw>
       <ldap_read_properties>1</ldap_read_properties>
       <ldap_sync_memberof>1</ldap_sync_memberof>
@@ -532,6 +532,7 @@
       <ldap_sync_memberof_groups/>
       <ldap_sync_default_groups/>
       <caseInSensitiveUsernames/>
+      <ldap_attr_memberof/>
     </authserver>
     <serialspeed>115200</serialspeed>
     <primaryconsole>video</primaryconsole>
@@ -3112,7 +3113,7 @@ YJaOYXrqzPnq+VLMvJo3AAAAEWZ3bWF0cml6QG9wbnNlbnNlAQIDBA==&#13;
   <revision>
     <username>root@192.168.0.8</username>
     <description>/system_authservers.php made changes</description>
-    <time>1780647056.70</time>
+    <time>1780648674.43</time>
   </revision>
   <OPNsense>
     <wireguard>
