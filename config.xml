@@ -521,13 +521,12 @@
       <ldap_protver>3</ldap_protver>
       <ldap_scope>subtree</ldap_scope>
       <ldap_basedn>DC=univale,DC=local</ldap_basedn>
-      <ldap_authcn>OU=Univale,DC=univale,DC=local</ldap_authcn>
+      <ldap_authcn>OU=Grupos,OU=Univale,DC=univale,DC=local;OU=Univale,DC=univale,DC=local</ldap_authcn>
       <ldap_extended_query>&amp;(memberOf=CN=Acesso VPN,OU=Grupos,OU=Univale,DC=univale,DC=local)</ldap_extended_query>
       <ldap_attr_user>sAMAccountName</ldap_attr_user>
       <ldap_binddn>CN=OPNSense,OU=Contas de Servico,OU=Univale,DC=univale,DC=local</ldap_binddn>
       <ldap_bindpw>Uni.Info@@1991!((!</ldap_bindpw>
       <ldap_read_properties>1</ldap_read_properties>
-      <ldap_sync_memberof>1</ldap_sync_memberof>
       <ldap_sync_memberof_constraint>1</ldap_sync_memberof_constraint>
       <ldap_sync_memberof_groups/>
       <ldap_sync_default_groups/>
@@ -3113,7 +3112,7 @@ YJaOYXrqzPnq+VLMvJo3AAAAEWZ3bWF0cml6QG9wbnNlbnNlAQIDBA==&#13;
   <revision>
     <username>root@192.168.0.8</username>
     <description>/system_authservers.php made changes</description>
-    <time>1780648734.73</time>
+    <time>1780649079.48</time>
   </revision>
   <OPNsense>
     <wireguard>
