@@ -3143,8 +3143,8 @@ YJaOYXrqzPnq+VLMvJo3AAAAEWZ3bWF0cml6QG9wbnNlbnNlAQIDBA==&#13;
   </ntpd>
   <revision>
     <username>jhonatan.rosario@10.10.70.2</username>
-    <description>group "ACESSO_PADRAO" created</description>
-    <time>1780717846.13</time>
+    <description>/api/proxy/acl/add_custom_policy/ made changes</description>
+    <time>1780717928.95</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -17055,9 +17055,18 @@ ip_transnet_bahia</content>
   </dnsmasq>
   <Deciso>
     <Proxy>
-      <ACL version="1.0.0" persisted_at="1780716374.62" description="OPNsense central management / Proxy module">
+      <ACL version="1.0.0" persisted_at="1780717928.95" description="OPNsense central management / Proxy module">
         <policies/>
-        <custom_policies/>
+        <custom_policies>
+          <policy uuid="07c58040-5082-417b-9f53-dbd0d113409c">
+            <enabled>1</enabled>
+            <action>deny</action>
+            <content>.pudim.com.br</content>
+            <applies_on>g:ACESSO_PADRAO</applies_on>
+            <source_net/>
+            <description>Bloqueio Padr&#xE3;o</description>
+          </policy>
+        </custom_policies>
       </ACL>
     </Proxy>
   </Deciso>
