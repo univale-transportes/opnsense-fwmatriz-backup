@@ -3110,9 +3110,9 @@ YJaOYXrqzPnq+VLMvJo3AAAAEWZ3bWF0cml6QG9wbnNlbnNlAQIDBA==&#13;
     <prefer>0.opnsense.pool.ntp.org</prefer>
   </ntpd>
   <revision>
-    <username>(root)</username>
-    <description>/usr/local/opnsense/scripts/firmware/register.php made changes</description>
-    <time>1780716280.15</time>
+    <username>jhonatan.rosario@10.10.70.2</username>
+    <description>/api/proxy/acl/del_custom_policy/ca3cfe67-55c6-4024-9e8f-f82fe86d01e9 made changes</description>
+    <time>1780716364.45</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -17023,7 +17023,7 @@ ip_transnet_bahia</content>
   </dnsmasq>
   <Deciso>
     <Proxy>
-      <ACL version="1.0.0">
+      <ACL version="1.0.0" persisted_at="1780716364.45" description="OPNsense central management / Proxy module">
         <policies>
           <policy uuid="5aaa8e9b-65c2-42b9-a09e-9f2354e52700">
             <enabled>0</enabled>
@@ -17034,16 +17034,7 @@ ip_transnet_bahia</content>
             <description>Bloquear todas as categorias</description>
           </policy>
         </policies>
-        <custom_policies>
-          <policy uuid="ca3cfe67-55c6-4024-9e8f-f82fe86d01e9">
-            <enabled>0</enabled>
-            <action>allow</action>
-            <content>.pudim.com.br</content>
-            <applies_on>g:padrao</applies_on>
-            <source_net/>
-            <description>padrao</description>
-          </policy>
-        </custom_policies>
+        <custom_policies/>
       </ACL>
     </Proxy>
   </Deciso>
