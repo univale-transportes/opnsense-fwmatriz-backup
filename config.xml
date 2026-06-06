@@ -231,6 +231,15 @@
       <member>2004,2005</member>
       <source_networks/>
     </group>
+    <group uuid="cc58fb7e-68c6-4385-83bc-0e314e827509">
+      <gid>2002</gid>
+      <name>ACESSO_PADRAO</name>
+      <scope>user</scope>
+      <description>Acesso a internet padr&#xE3;o</description>
+      <priv/>
+      <member/>
+      <source_networks/>
+    </group>
     <user uuid="2ebd98b6-aa8f-4457-86be-fe2769d6670c">
       <uid>0</uid>
       <name>root</name>
@@ -558,7 +567,6 @@
     </authserver>
     <serialspeed>115200</serialspeed>
     <primaryconsole>video</primaryconsole>
-    <dnslocalhost>1</dnslocalhost>
     <maximumstates/>
     <maximumfrags/>
     <aliasesresolveinterval/>
@@ -590,15 +598,8 @@ YJaOYXrqzPnq+VLMvJo3AAAAEWZ3bWF0cml6QG9wbnNlbnNlAQIDBA==&#13;
         <password/>
       </git>
     </backup>
-    <group uuid="cc58fb7e-68c6-4385-83bc-0e314e827509">
-      <gid>2002</gid>
-      <name>ACESSO_PADRAO</name>
-      <scope>user</scope>
-      <description>Acesso a internet padr&#xE3;o</description>
-      <priv/>
-      <member/>
-      <source_networks/>
-    </group>
+    <dnsallowoverride>0</dnsallowoverride>
+    <dnsallowoverride_exclude/>
   </system>
   <interfaces>
     <wan>
@@ -3143,8 +3144,8 @@ YJaOYXrqzPnq+VLMvJo3AAAAEWZ3bWF0cml6QG9wbnNlbnNlAQIDBA==&#13;
   </ntpd>
   <revision>
     <username>jhonatan.rosario@10.10.70.2</username>
-    <description>/api/proxy/settings/set made changes</description>
-    <time>1780726054.48</time>
+    <description>/system_general.php made changes</description>
+    <time>1780789890.53</time>
   </revision>
   <OPNsense>
     <wireguard>
