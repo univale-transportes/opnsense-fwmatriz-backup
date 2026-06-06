@@ -3110,9 +3110,9 @@ YJaOYXrqzPnq+VLMvJo3AAAAEWZ3bWF0cml6QG9wbnNlbnNlAQIDBA==&#13;
     <prefer>0.opnsense.pool.ntp.org</prefer>
   </ntpd>
   <revision>
-    <username>root@192.168.0.8</username>
-    <description>/system_authservers.php made changes</description>
-    <time>1780649112.67</time>
+    <username>(root)</username>
+    <description>/usr/local/opnsense/mvc/script/run_migrations.php made changes</description>
+    <time>1780715672.17</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -12637,7 +12637,7 @@ ip_transnet_bahia</content>
           <http_port>8000</http_port>
         </general>
       </ctrl_agent>
-      <dhcp4 version="1.0.4" persisted_at="1780524920.33" description="Kea DHCPv4 configuration">
+      <dhcp4 version="1.0.5" persisted_at="1780715668.35" description="Kea DHCPv4 configuration">
         <general>
           <enabled>1</enabled>
           <manual_config>0</manual_config>
@@ -12645,8 +12645,10 @@ ip_transnet_bahia</content>
           <service_sockets_max_retries/>
           <service_sockets_retry_wait_time/>
           <valid_lifetime>1800</valid_lifetime>
+          <decline_probation_period/>
           <fwrules>1</fwrules>
           <dhcp_socket_type>raw</dhcp_socket_type>
+          <compatibility/>
         </general>
         <lexpire>
           <hold_reclaimed_time/>
@@ -12683,6 +12685,7 @@ ip_transnet_bahia</content>
             </option_data>
             <option/>
             <match-client-id>0</match-client-id>
+            <allocator/>
             <pools>192.168.0.70 - 192.168.0.253</pools>
             <ddns_forward_zone/>
             <ddns_reverse_zone/>
@@ -12719,6 +12722,7 @@ ip_transnet_bahia</content>
             </option_data>
             <option/>
             <match-client-id>0</match-client-id>
+            <allocator/>
             <pools>172.16.20.50 - 172.16.20.253</pools>
             <ddns_forward_zone/>
             <ddns_reverse_zone/>
@@ -12755,6 +12759,7 @@ ip_transnet_bahia</content>
             </option_data>
             <option/>
             <match-client-id>0</match-client-id>
+            <allocator/>
             <pools>172.16.30.50 - 172.16.30.199</pools>
             <ddns_forward_zone/>
             <ddns_reverse_zone/>
@@ -12791,6 +12796,7 @@ ip_transnet_bahia</content>
             </option_data>
             <option/>
             <match-client-id>0</match-client-id>
+            <allocator/>
             <pools>172.16.40.2 - 172.16.40.254</pools>
             <ddns_forward_zone/>
             <ddns_reverse_zone/>
@@ -12827,6 +12833,7 @@ ip_transnet_bahia</content>
             </option_data>
             <option/>
             <match-client-id>0</match-client-id>
+            <allocator/>
             <pools>172.16.100.2 - 172.16.100.254</pools>
             <ddns_forward_zone/>
             <ddns_reverse_zone/>
@@ -12851,6 +12858,7 @@ ip_transnet_bahia</content>
             <client_id/>
             <hostname>fluig.univale.local</hostname>
             <description>Servidor Fluig</description>
+            <next_server/>
             <option_data>
               <domain_name_servers/>
               <domain_search/>
@@ -12872,6 +12880,7 @@ ip_transnet_bahia</content>
             <client_id/>
             <hostname>transnet.univale.local</hostname>
             <description>Servidor Transnet</description>
+            <next_server/>
             <option_data>
               <domain_name_servers/>
               <domain_search/>
@@ -12893,6 +12902,7 @@ ip_transnet_bahia</content>
             <client_id/>
             <hostname/>
             <description>Bilhetagem 10</description>
+            <next_server/>
             <option_data>
               <domain_name_servers/>
               <domain_search/>
@@ -12914,6 +12924,7 @@ ip_transnet_bahia</content>
             <client_id/>
             <hostname/>
             <description>Servidor Fluig Homologa&#xE7;&#xE3;o</description>
+            <next_server/>
             <option_data>
               <domain_name_servers/>
               <domain_search/>
@@ -12935,6 +12946,7 @@ ip_transnet_bahia</content>
             <client_id/>
             <hostname/>
             <description>Roteador - Sala Diretor</description>
+            <next_server/>
             <option_data>
               <domain_name_servers/>
               <domain_search/>
@@ -12956,6 +12968,7 @@ ip_transnet_bahia</content>
             <client_id/>
             <hostname/>
             <description>Antena Unicel</description>
+            <next_server/>
             <option_data>
               <domain_name_servers/>
               <domain_search/>
@@ -12977,6 +12990,7 @@ ip_transnet_bahia</content>
             <client_id/>
             <hostname/>
             <description>Impressora Cart&#xE3;o - Bilhetagem</description>
+            <next_server/>
             <option_data>
               <domain_name_servers/>
               <domain_search/>
@@ -12998,6 +13012,7 @@ ip_transnet_bahia</content>
             <client_id/>
             <hostname/>
             <description>Servidor Zabbix</description>
+            <next_server/>
             <option_data>
               <domain_name_servers/>
               <domain_search/>
@@ -13019,6 +13034,7 @@ ip_transnet_bahia</content>
             <client_id/>
             <hostname/>
             <description>Servidor Hotsite/Vtiger</description>
+            <next_server/>
             <option_data>
               <domain_name_servers/>
               <domain_search/>
@@ -13040,6 +13056,7 @@ ip_transnet_bahia</content>
             <client_id/>
             <hostname/>
             <description>DVR Intelbras - Sesmt</description>
+            <next_server/>
             <option_data>
               <domain_name_servers/>
               <domain_search/>
@@ -13061,6 +13078,7 @@ ip_transnet_bahia</content>
             <client_id/>
             <hostname/>
             <description>Servidor Proxy Reverso</description>
+            <next_server/>
             <option_data>
               <domain_name_servers/>
               <domain_search/>
@@ -13082,6 +13100,7 @@ ip_transnet_bahia</content>
             <client_id/>
             <hostname/>
             <description>Tablet Ponto Bloco B</description>
+            <next_server/>
             <option_data>
               <domain_name_servers/>
               <domain_search/>
@@ -13103,6 +13122,7 @@ ip_transnet_bahia</content>
             <client_id/>
             <hostname/>
             <description>Impressora Cart&#xE3;o - DP</description>
+            <next_server/>
             <option_data>
               <domain_name_servers/>
               <domain_search/>
@@ -13124,6 +13144,7 @@ ip_transnet_bahia</content>
             <client_id/>
             <hostname/>
             <description>PC Veronica - Contabilidade</description>
+            <next_server/>
             <option_data>
               <domain_name_servers/>
               <domain_search/>
@@ -13145,6 +13166,7 @@ ip_transnet_bahia</content>
             <client_id/>
             <hostname/>
             <description>PC Sala de Reuni&#xE3;o - Manuten&#xE7;&#xE3;o</description>
+            <next_server/>
             <option_data>
               <domain_name_servers/>
               <domain_search/>
@@ -13166,6 +13188,7 @@ ip_transnet_bahia</content>
             <client_id/>
             <hostname/>
             <description>PC Eleuza - Contabilidade</description>
+            <next_server/>
             <option_data>
               <domain_name_servers/>
               <domain_search/>
@@ -13187,6 +13210,7 @@ ip_transnet_bahia</content>
             <client_id/>
             <hostname/>
             <description>Notebook Marcos - Juridico</description>
+            <next_server/>
             <option_data>
               <domain_name_servers/>
               <domain_search/>
@@ -13208,6 +13232,7 @@ ip_transnet_bahia</content>
             <client_id/>
             <hostname/>
             <description>Impressora HP - Transportes</description>
+            <next_server/>
             <option_data>
               <domain_name_servers/>
               <domain_search/>
@@ -13229,6 +13254,7 @@ ip_transnet_bahia</content>
             <client_id/>
             <hostname/>
             <description>Impressora HP - SCR</description>
+            <next_server/>
             <option_data>
               <domain_name_servers/>
               <domain_search/>
@@ -13250,6 +13276,7 @@ ip_transnet_bahia</content>
             <client_id/>
             <hostname/>
             <description>Impressora HP - DP/Contabilidade/Juridico</description>
+            <next_server/>
             <option_data>
               <domain_name_servers/>
               <domain_search/>
@@ -13271,6 +13298,7 @@ ip_transnet_bahia</content>
             <client_id/>
             <hostname/>
             <description>Impressora HP - CSC</description>
+            <next_server/>
             <option_data>
               <domain_name_servers/>
               <domain_search/>
@@ -13292,6 +13320,7 @@ ip_transnet_bahia</content>
             <client_id/>
             <hostname/>
             <description>PC Claudio - Bilhetagem</description>
+            <next_server/>
             <option_data>
               <domain_name_servers/>
               <domain_search/>
@@ -13313,6 +13342,7 @@ ip_transnet_bahia</content>
             <client_id/>
             <hostname/>
             <description>Impressora HP - Suprimentos</description>
+            <next_server/>
             <option_data>
               <domain_name_servers/>
               <domain_search/>
@@ -13334,6 +13364,7 @@ ip_transnet_bahia</content>
             <client_id/>
             <hostname/>
             <description>Requisicao</description>
+            <next_server/>
             <option_data>
               <domain_name_servers/>
               <domain_search/>
@@ -13355,6 +13386,7 @@ ip_transnet_bahia</content>
             <client_id/>
             <hostname/>
             <description>Notebook Renato - CSC</description>
+            <next_server/>
             <option_data>
               <domain_name_servers/>
               <domain_search/>
@@ -13376,6 +13408,7 @@ ip_transnet_bahia</content>
             <client_id/>
             <hostname/>
             <description>Roteador - Manuten&#xE7;&#xE3;o</description>
+            <next_server/>
             <option_data>
               <domain_name_servers/>
               <domain_search/>
@@ -13397,6 +13430,7 @@ ip_transnet_bahia</content>
             <client_id/>
             <hostname/>
             <description>Notebook Marcelo - CSC</description>
+            <next_server/>
             <option_data>
               <domain_name_servers/>
               <domain_search/>
@@ -13418,6 +13452,7 @@ ip_transnet_bahia</content>
             <client_id/>
             <hostname/>
             <description>Roteador - TI</description>
+            <next_server/>
             <option_data>
               <domain_name_servers/>
               <domain_search/>
@@ -13439,6 +13474,7 @@ ip_transnet_bahia</content>
             <client_id/>
             <hostname/>
             <description>Roteador - Turismo</description>
+            <next_server/>
             <option_data>
               <domain_name_servers/>
               <domain_search/>
@@ -13460,6 +13496,7 @@ ip_transnet_bahia</content>
             <client_id/>
             <hostname/>
             <description>Roteador - Audit&#xF3;rio</description>
+            <next_server/>
             <option_data>
               <domain_name_servers/>
               <domain_search/>
@@ -13481,6 +13518,7 @@ ip_transnet_bahia</content>
             <client_id/>
             <hostname/>
             <description>Inversor Solar 01 - Manuten&#xE7;&#xE3;o</description>
+            <next_server/>
             <option_data>
               <domain_name_servers/>
               <domain_search/>
@@ -13502,6 +13540,7 @@ ip_transnet_bahia</content>
             <client_id/>
             <hostname/>
             <description>Inversor Solar 02 - Manuten&#xE7;&#xE3;o</description>
+            <next_server/>
             <option_data>
               <domain_name_servers/>
               <domain_search/>
@@ -13523,6 +13562,7 @@ ip_transnet_bahia</content>
             <client_id/>
             <hostname/>
             <description>Notebook Cicero - CAB</description>
+            <next_server/>
             <option_data>
               <domain_name_servers/>
               <domain_search/>
@@ -13544,6 +13584,7 @@ ip_transnet_bahia</content>
             <client_id/>
             <hostname/>
             <description>Roteador Itinerario INOVA</description>
+            <next_server/>
             <option_data>
               <domain_name_servers/>
               <domain_search/>
@@ -13565,6 +13606,7 @@ ip_transnet_bahia</content>
             <client_id/>
             <hostname/>
             <description>Notebook Icaro -  Juridico</description>
+            <next_server/>
             <option_data>
               <domain_name_servers/>
               <domain_search/>
@@ -13586,6 +13628,7 @@ ip_transnet_bahia</content>
             <client_id/>
             <hostname/>
             <description>Tablet - Juridico</description>
+            <next_server/>
             <option_data>
               <domain_name_servers/>
               <domain_search/>
@@ -13607,6 +13650,7 @@ ip_transnet_bahia</content>
             <client_id/>
             <hostname/>
             <description>Usina Solar 01 - Manuten&#xE7;&#xE3;o</description>
+            <next_server/>
             <option_data>
               <domain_name_servers/>
               <domain_search/>
@@ -13628,6 +13672,7 @@ ip_transnet_bahia</content>
             <client_id/>
             <hostname/>
             <description>Notebook - Manuten&#xE7;&#xE3;o</description>
+            <next_server/>
             <option_data>
               <domain_name_servers/>
               <domain_search/>
@@ -13649,6 +13694,7 @@ ip_transnet_bahia</content>
             <client_id/>
             <hostname/>
             <description>Roteador - Assessoria Operacional</description>
+            <next_server/>
             <option_data>
               <domain_name_servers/>
               <domain_search/>
@@ -13670,6 +13716,7 @@ ip_transnet_bahia</content>
             <client_id/>
             <hostname/>
             <description>Roteador - Juridico</description>
+            <next_server/>
             <option_data>
               <domain_name_servers/>
               <domain_search/>
@@ -13691,6 +13738,7 @@ ip_transnet_bahia</content>
             <client_id/>
             <hostname/>
             <description>Impressora HP - Manuten&#xE7;&#xE3;o</description>
+            <next_server/>
             <option_data>
               <domain_name_servers/>
               <domain_search/>
@@ -13712,6 +13760,7 @@ ip_transnet_bahia</content>
             <client_id/>
             <hostname/>
             <description>PC Douglas - Custos</description>
+            <next_server/>
             <option_data>
               <domain_name_servers/>
               <domain_search/>
@@ -13733,6 +13782,7 @@ ip_transnet_bahia</content>
             <client_id/>
             <hostname/>
             <description>Roteador - Comercial</description>
+            <next_server/>
             <option_data>
               <domain_name_servers/>
               <domain_search/>
@@ -13754,6 +13804,7 @@ ip_transnet_bahia</content>
             <client_id/>
             <hostname/>
             <description>DVR Hikvision</description>
+            <next_server/>
             <option_data>
               <domain_name_servers/>
               <domain_search/>
@@ -13775,6 +13826,7 @@ ip_transnet_bahia</content>
             <client_id/>
             <hostname>srvad03</hostname>
             <description>Servidor AD Primario</description>
+            <next_server/>
             <option_data>
               <domain_name_servers/>
               <domain_search/>
@@ -13796,6 +13848,7 @@ ip_transnet_bahia</content>
             <client_id/>
             <hostname/>
             <description>PC Sara - SCR</description>
+            <next_server/>
             <option_data>
               <domain_name_servers/>
               <domain_search/>
@@ -13817,6 +13870,7 @@ ip_transnet_bahia</content>
             <client_id/>
             <hostname/>
             <description>PC portaria 2 (acesso cameras)</description>
+            <next_server/>
             <option_data>
               <domain_name_servers/>
               <domain_search/>
@@ -13838,6 +13892,7 @@ ip_transnet_bahia</content>
             <client_id/>
             <hostname/>
             <description>Notebook Joice - Juridico</description>
+            <next_server/>
             <option_data>
               <domain_name_servers/>
               <domain_search/>
@@ -13859,6 +13914,7 @@ ip_transnet_bahia</content>
             <client_id/>
             <hostname/>
             <description>PC - Recep&#xE7;&#xE3;o</description>
+            <next_server/>
             <option_data>
               <domain_name_servers/>
               <domain_search/>
@@ -13880,6 +13936,7 @@ ip_transnet_bahia</content>
             <client_id/>
             <hostname/>
             <description>PC Angelo - Bilhetagem</description>
+            <next_server/>
             <option_data>
               <domain_name_servers/>
               <domain_search/>
@@ -13901,6 +13958,7 @@ ip_transnet_bahia</content>
             <client_id/>
             <hostname/>
             <description>PC Sara - Contabilidade</description>
+            <next_server/>
             <option_data>
               <domain_name_servers/>
               <domain_search/>
@@ -13922,6 +13980,7 @@ ip_transnet_bahia</content>
             <client_id/>
             <hostname/>
             <description>PC Carlos - SCR</description>
+            <next_server/>
             <option_data>
               <domain_name_servers/>
               <domain_search/>
@@ -13943,6 +14002,7 @@ ip_transnet_bahia</content>
             <client_id/>
             <hostname/>
             <description>PC Suelem - Financeiro</description>
+            <next_server/>
             <option_data>
               <domain_name_servers/>
               <domain_search/>
@@ -13964,6 +14024,7 @@ ip_transnet_bahia</content>
             <client_id/>
             <hostname/>
             <description>PC Eduardo - Manuten&#xE7;&#xE3;o</description>
+            <next_server/>
             <option_data>
               <domain_name_servers/>
               <domain_search/>
@@ -13985,6 +14046,7 @@ ip_transnet_bahia</content>
             <client_id/>
             <hostname/>
             <description>Servidor Aplica&#xE7;&#xF5;es</description>
+            <next_server/>
             <option_data>
               <domain_name_servers/>
               <domain_search/>
@@ -14006,6 +14068,7 @@ ip_transnet_bahia</content>
             <client_id/>
             <hostname/>
             <description>PC Wellington - SCR</description>
+            <next_server/>
             <option_data>
               <domain_name_servers/>
               <domain_search/>
@@ -14027,6 +14090,7 @@ ip_transnet_bahia</content>
             <client_id/>
             <hostname>FINAN002</hostname>
             <description>PC Eliene - Financeiro</description>
+            <next_server/>
             <option_data>
               <domain_name_servers/>
               <domain_search/>
@@ -14048,6 +14112,7 @@ ip_transnet_bahia</content>
             <client_id/>
             <hostname/>
             <description>Switch Aruba - TI</description>
+            <next_server/>
             <option_data>
               <domain_name_servers/>
               <domain_search/>
@@ -14069,6 +14134,7 @@ ip_transnet_bahia</content>
             <client_id/>
             <hostname/>
             <description>Impressora HP - Sesmt</description>
+            <next_server/>
             <option_data>
               <domain_name_servers/>
               <domain_search/>
@@ -14090,6 +14156,7 @@ ip_transnet_bahia</content>
             <client_id/>
             <hostname/>
             <description>AP Unifi - Assessoria Operacional (Container)</description>
+            <next_server/>
             <option_data>
               <domain_name_servers/>
               <domain_search/>
@@ -14111,6 +14178,7 @@ ip_transnet_bahia</content>
             <client_id/>
             <hostname/>
             <description>AP Unifi - Lanternagem</description>
+            <next_server/>
             <option_data>
               <domain_name_servers/>
               <domain_search/>
@@ -14132,6 +14200,7 @@ ip_transnet_bahia</content>
             <client_id/>
             <hostname/>
             <description>Print Server - DP</description>
+            <next_server/>
             <option_data>
               <domain_name_servers/>
               <domain_search/>
@@ -14153,6 +14222,7 @@ ip_transnet_bahia</content>
             <client_id/>
             <hostname/>
             <description>PC Rithiane - DP</description>
+            <next_server/>
             <option_data>
               <domain_name_servers/>
               <domain_search/>
@@ -14174,6 +14244,7 @@ ip_transnet_bahia</content>
             <client_id/>
             <hostname/>
             <description>Servidor Impress&#xE3;o</description>
+            <next_server/>
             <option_data>
               <domain_name_servers/>
               <domain_search/>
@@ -14195,6 +14266,7 @@ ip_transnet_bahia</content>
             <client_id/>
             <hostname/>
             <description>Servidor UniFi</description>
+            <next_server/>
             <option_data>
               <domain_name_servers/>
               <domain_search/>
@@ -14216,6 +14288,7 @@ ip_transnet_bahia</content>
             <client_id/>
             <hostname/>
             <description>Notebook Jhonatan - TI</description>
+            <next_server/>
             <option_data>
               <domain_name_servers/>
               <domain_search/>
@@ -14237,6 +14310,7 @@ ip_transnet_bahia</content>
             <client_id/>
             <hostname/>
             <description>PC Sala Reuni&#xE3;o - Ao lado do TI</description>
+            <next_server/>
             <option_data>
               <domain_name_servers/>
               <domain_search/>
@@ -14258,6 +14332,7 @@ ip_transnet_bahia</content>
             <client_id/>
             <hostname/>
             <description>Notebook Reuni&#xE3;o</description>
+            <next_server/>
             <option_data>
               <domain_name_servers/>
               <domain_search/>
@@ -14279,6 +14354,7 @@ ip_transnet_bahia</content>
             <client_id/>
             <hostname>srvpowerbitest</hostname>
             <description>Servidor PowerBI Teste</description>
+            <next_server/>
             <option_data>
               <domain_name_servers/>
               <domain_search/>
@@ -14300,6 +14376,7 @@ ip_transnet_bahia</content>
             <client_id/>
             <hostname/>
             <description>Servidor Proxmox</description>
+            <next_server/>
             <option_data>
               <domain_name_servers/>
               <domain_search/>
@@ -14321,6 +14398,7 @@ ip_transnet_bahia</content>
             <client_id/>
             <hostname/>
             <description>DVR Intelbras - Externo (Sala Douglas)</description>
+            <next_server/>
             <option_data>
               <domain_name_servers/>
               <domain_search/>
@@ -14342,6 +14420,7 @@ ip_transnet_bahia</content>
             <client_id/>
             <hostname/>
             <description>DVR Intelbras - Interno (Sala Douglas)</description>
+            <next_server/>
             <option_data>
               <domain_name_servers/>
               <domain_search/>
@@ -14363,6 +14442,7 @@ ip_transnet_bahia</content>
             <client_id/>
             <hostname/>
             <description>Servidor Fluig Teste 02</description>
+            <next_server/>
             <option_data>
               <domain_name_servers/>
               <domain_search/>
@@ -14384,6 +14464,7 @@ ip_transnet_bahia</content>
             <client_id/>
             <hostname/>
             <description>Servidor Veeam</description>
+            <next_server/>
             <option_data>
               <domain_name_servers/>
               <domain_search/>
@@ -14405,6 +14486,7 @@ ip_transnet_bahia</content>
             <client_id/>
             <hostname/>
             <description>Scanner Canon - DP</description>
+            <next_server/>
             <option_data>
               <domain_name_servers/>
               <domain_search/>
@@ -14426,6 +14508,7 @@ ip_transnet_bahia</content>
             <client_id/>
             <hostname/>
             <description>ATA Intelbras</description>
+            <next_server/>
             <option_data>
               <domain_name_servers/>
               <domain_search/>
@@ -14447,6 +14530,7 @@ ip_transnet_bahia</content>
             <client_id/>
             <hostname/>
             <description>PC Evaldo - Transportes</description>
+            <next_server/>
             <option_data>
               <domain_name_servers/>
               <domain_search/>
@@ -14468,6 +14552,7 @@ ip_transnet_bahia</content>
             <client_id/>
             <hostname/>
             <description>PC Portaria 1 (acesso principal)</description>
+            <next_server/>
             <option_data>
               <domain_name_servers/>
               <domain_search/>
@@ -14489,6 +14574,7 @@ ip_transnet_bahia</content>
             <client_id/>
             <hostname/>
             <description>PC Douglas - Custos</description>
+            <next_server/>
             <option_data>
               <domain_name_servers/>
               <domain_search/>
@@ -14510,6 +14596,7 @@ ip_transnet_bahia</content>
             <client_id/>
             <hostname/>
             <description>Notebook Auditorio</description>
+            <next_server/>
             <option_data>
               <domain_name_servers/>
               <domain_search/>
@@ -14531,6 +14618,7 @@ ip_transnet_bahia</content>
             <client_id/>
             <hostname/>
             <description>Notebook Marcelo Barbosa - Mariana</description>
+            <next_server/>
             <option_data>
               <domain_name_servers/>
               <domain_search/>
@@ -14552,6 +14640,7 @@ ip_transnet_bahia</content>
             <client_id/>
             <hostname/>
             <description>Servidor Assina Recarga</description>
+            <next_server/>
             <option_data>
               <domain_name_servers/>
               <domain_search/>
@@ -14573,6 +14662,7 @@ ip_transnet_bahia</content>
             <client_id/>
             <hostname/>
             <description>PC Keila - Contabilidade</description>
+            <next_server/>
             <option_data>
               <domain_name_servers/>
               <domain_search/>
@@ -14594,6 +14684,7 @@ ip_transnet_bahia</content>
             <client_id/>
             <hostname/>
             <description>Notebook Paulo - TI</description>
+            <next_server/>
             <option_data>
               <domain_name_servers/>
               <domain_search/>
@@ -14615,6 +14706,7 @@ ip_transnet_bahia</content>
             <client_id/>
             <hostname/>
             <description>Incontrol Controlador (fechadura)</description>
+            <next_server/>
             <option_data>
               <domain_name_servers/>
               <domain_search/>
@@ -14636,6 +14728,7 @@ ip_transnet_bahia</content>
             <client_id/>
             <hostname/>
             <description>Servidor - Aplica&#xE7;&#xF5;es Fiscais</description>
+            <next_server/>
             <option_data>
               <domain_name_servers/>
               <domain_search/>
@@ -14657,6 +14750,7 @@ ip_transnet_bahia</content>
             <client_id/>
             <hostname/>
             <description>Servidor Monitoramento</description>
+            <next_server/>
             <option_data>
               <domain_name_servers/>
               <domain_search/>
@@ -14678,6 +14772,7 @@ ip_transnet_bahia</content>
             <client_id/>
             <hostname/>
             <description>Servidor TOTVS01</description>
+            <next_server/>
             <option_data>
               <domain_name_servers/>
               <domain_search/>
@@ -14699,6 +14794,7 @@ ip_transnet_bahia</content>
             <client_id/>
             <hostname/>
             <description>Notebook Felipe - Suprimentos</description>
+            <next_server/>
             <option_data>
               <domain_name_servers/>
               <domain_search/>
@@ -14720,6 +14816,7 @@ ip_transnet_bahia</content>
             <client_id/>
             <hostname/>
             <description>Scanner Canon - Juridico</description>
+            <next_server/>
             <option_data>
               <domain_name_servers/>
               <domain_search/>
@@ -14741,6 +14838,7 @@ ip_transnet_bahia</content>
             <client_id/>
             <hostname/>
             <description>PC Gabriella - RH</description>
+            <next_server/>
             <option_data>
               <domain_name_servers/>
               <domain_search/>
@@ -14762,6 +14860,7 @@ ip_transnet_bahia</content>
             <client_id/>
             <hostname/>
             <description>PC Brunelle - Turismo</description>
+            <next_server/>
             <option_data>
               <domain_name_servers/>
               <domain_search/>
@@ -14783,6 +14882,7 @@ ip_transnet_bahia</content>
             <client_id/>
             <hostname>transnetba.unviale.local</hostname>
             <description>Servidor Transnet BA</description>
+            <next_server/>
             <option_data>
               <domain_name_servers/>
               <domain_search/>
@@ -14804,6 +14904,7 @@ ip_transnet_bahia</content>
             <client_id/>
             <hostname/>
             <description>PC Intelbras Defense IA Lite 02</description>
+            <next_server/>
             <option_data>
               <domain_name_servers/>
               <domain_search/>
@@ -14825,6 +14926,7 @@ ip_transnet_bahia</content>
             <client_id/>
             <hostname/>
             <description>PC Intelbras Defense IA Lite 01</description>
+            <next_server/>
             <option_data>
               <domain_name_servers/>
               <domain_search/>
@@ -14846,6 +14948,7 @@ ip_transnet_bahia</content>
             <client_id/>
             <hostname/>
             <description>Servidor Veeam 2</description>
+            <next_server/>
             <option_data>
               <domain_name_servers/>
               <domain_search/>
@@ -14867,6 +14970,7 @@ ip_transnet_bahia</content>
             <client_id/>
             <hostname>transp010.univale.local.</hostname>
             <description>PC Dione - Transportes</description>
+            <next_server/>
             <option_data>
               <domain_name_servers/>
               <domain_search/>
@@ -14888,6 +14992,7 @@ ip_transnet_bahia</content>
             <client_id/>
             <hostname>vabdsk164397.aguiabranca.com.br.</hostname>
             <description>PC &#xC1;guia Branca - Presta&#xE7;&#xE3;o de Contas</description>
+            <next_server/>
             <option_data>
               <domain_name_servers/>
               <domain_search/>
@@ -14909,6 +15014,7 @@ ip_transnet_bahia</content>
             <client_id/>
             <hostname>notecont01.univale.local.</hostname>
             <description>PC Jose Carlos - Contabilidade</description>
+            <next_server/>
             <option_data>
               <domain_name_servers/>
               <domain_search/>
@@ -14930,6 +15036,7 @@ ip_transnet_bahia</content>
             <client_id/>
             <hostname>cco010.univale.local.</hostname>
             <description>PC Nicole - CSC (Impressora Epson)</description>
+            <next_server/>
             <option_data>
               <domain_name_servers/>
               <domain_search/>
@@ -14951,6 +15058,7 @@ ip_transnet_bahia</content>
             <client_id/>
             <hostname/>
             <description>Notebook Andre - TI</description>
+            <next_server/>
             <option_data>
               <domain_name_servers/>
               <domain_search/>
@@ -14972,6 +15080,7 @@ ip_transnet_bahia</content>
             <client_id/>
             <hostname>notinf005.univale.local</hostname>
             <description>Notebook Daniel - TI</description>
+            <next_server/>
             <option_data>
               <domain_name_servers/>
               <domain_search/>
@@ -14993,6 +15102,7 @@ ip_transnet_bahia</content>
             <client_id/>
             <hostname/>
             <description>Roteador - TI</description>
+            <next_server/>
             <option_data>
               <domain_name_servers/>
               <domain_search/>
@@ -15014,6 +15124,7 @@ ip_transnet_bahia</content>
             <client_id/>
             <hostname/>
             <description>Notebook Andre - TI</description>
+            <next_server/>
             <option_data>
               <domain_name_servers/>
               <domain_search/>
@@ -15035,6 +15146,7 @@ ip_transnet_bahia</content>
             <client_id/>
             <hostname>notinf005.univale.local</hostname>
             <description>Notebook Daniel - TI</description>
+            <next_server/>
             <option_data>
               <domain_name_servers/>
               <domain_search/>
@@ -15056,6 +15168,7 @@ ip_transnet_bahia</content>
             <client_id/>
             <hostname>SRVADCS01</hostname>
             <description>Servidor AD CS</description>
+            <next_server/>
             <option_data>
               <domain_name_servers/>
               <domain_search/>
@@ -15077,6 +15190,7 @@ ip_transnet_bahia</content>
             <client_id/>
             <hostname>rootca</hostname>
             <description>Servidor Offline Root CA</description>
+            <next_server/>
             <option_data>
               <domain_name_servers/>
               <domain_search/>
@@ -15098,6 +15212,7 @@ ip_transnet_bahia</content>
             <client_id/>
             <hostname/>
             <description>Notebook Jhonatan - TI</description>
+            <next_server/>
             <option_data>
               <domain_name_servers/>
               <domain_search/>
@@ -15119,6 +15234,7 @@ ip_transnet_bahia</content>
             <client_id/>
             <hostname/>
             <description>Gerador de Energia - TI</description>
+            <next_server/>
             <option_data>
               <domain_name_servers/>
               <domain_search/>
@@ -15137,7 +15253,7 @@ ip_transnet_bahia</content>
         <options/>
         <ha_peers/>
       </dhcp4>
-      <dhcp6 version="1.0.1" persisted_at="1779874984.27" description="Kea DHCPv6 configuration">
+      <dhcp6 version="1.0.2" persisted_at="1780715668.59" description="Kea DHCPv6 configuration">
         <general>
           <enabled>0</enabled>
           <manual_config>0</manual_config>
@@ -15145,6 +15261,7 @@ ip_transnet_bahia</content>
           <service_sockets_max_retries/>
           <service_sockets_retry_wait_time/>
           <valid_lifetime>4000</valid_lifetime>
+          <decline_probation_period/>
           <mac_sources>ipv6-link-local</mac_sources>
           <fwrules>1</fwrules>
         </general>
