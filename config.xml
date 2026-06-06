@@ -600,6 +600,7 @@ YJaOYXrqzPnq+VLMvJo3AAAAEWZ3bWF0cml6QG9wbnNlbnNlAQIDBA==&#13;
     </backup>
     <dnsallowoverride>0</dnsallowoverride>
     <dnsallowoverride_exclude/>
+    <dnslocalhost>1</dnslocalhost>
   </system>
   <interfaces>
     <wan>
@@ -3145,7 +3146,7 @@ YJaOYXrqzPnq+VLMvJo3AAAAEWZ3bWF0cml6QG9wbnNlbnNlAQIDBA==&#13;
   <revision>
     <username>jhonatan.rosario@10.10.70.2</username>
     <description>/system_general.php made changes</description>
-    <time>1780789890.53</time>
+    <time>1780789916.14</time>
   </revision>
   <OPNsense>
     <wireguard>
