@@ -3144,7 +3144,7 @@ YJaOYXrqzPnq+VLMvJo3AAAAEWZ3bWF0cml6QG9wbnNlbnNlAQIDBA==&#13;
   <revision>
     <username>jhonatan.rosario@10.10.70.2</username>
     <description>/api/proxy/settings/set made changes</description>
-    <time>1780725702.37</time>
+    <time>1780726024.20</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -15806,7 +15806,7 @@ ip_transnet_bahia</content>
       </hosts>
       <aliases/>
     </unboundplus>
-    <proxy version="1.0.9" persisted_at="1780725702.36" description="Squid web proxy settings">
+    <proxy version="1.0.9" persisted_at="1780726024.20" description="Squid web proxy settings">
       <general>
         <enabled>1</enabled>
         <error_pages>opnsense</error_pages>
@@ -15887,7 +15887,7 @@ ip_transnet_bahia</content>
           <bannedHosts/>
           <allowWhitelistBannedHosts>0</allowWhitelistBannedHosts>
           <whiteList>dropbox,fortinet.com,191.242.203.32,windows.com,windowsupdate.com,azureedge.net,microsoft.com,googleapis.com,google.com,anydesk.com,visualstudio.com,windows.net,ctasmart.com.br,gstatic.com,googleusercontent.com,hcaptcha.com,transoft.com.br,univale.com,kaspersky-labs.com,kaspersky.com,ssl.com,office.net,milvus.com.br,powerbi.com,powerapps.com,itau.com.br,evergage.com,gov.br,1.178.36.122,177.222.248.182,office.com,static.microsoft,128.0.0.26,amazonaws.com,univale.local,outlook.com,aefsistemas.inf.br,pki.goog,digicert.com,bradesconetempresa.b.br,bradesco,gvt1.com,intelbras.com,caixa.gov.br,gastecnologia.com.br,dataengine.com.br,dmcenter.com.br,typekit.net,webex.com,bing.com,msedge.net,tjmg.jus.br,wbx2.com,microsoft.net,msftconnecttest.com,docusign.net,akamaihd.net,mixpainel.com,moovsec.com.br,moovsec.com.br:5000,bancodoc.com.br,microsoftonline.com,exametoxicologico.com.br,cloudflare.com,cloudflareinsights.com,cloudfront.net,googletagmanager.com,usisaude.com.br,mconnect.unimedva.com.br:2096,unimedva.com.br,mixtelematics.com,mercadonarede.com.br,get.activated.win</whiteList>
-          <blackList/>
+          <blackList>pudim.com.br</blackList>
           <browser/>
           <mimeType/>
           <googleapps/>
