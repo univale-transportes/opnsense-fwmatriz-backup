@@ -3143,8 +3143,8 @@ YJaOYXrqzPnq+VLMvJo3AAAAEWZ3bWF0cml6QG9wbnNlbnNlAQIDBA==&#13;
   </ntpd>
   <revision>
     <username>jhonatan.rosario@10.10.70.2</username>
-    <description>/api/proxyuseracl/settings/setACL/ab880690-e839-436e-a9aa-4c0ebc09a4b3 made changes</description>
-    <time>1780724587.28</time>
+    <description>/api/proxyuseracl/settings/setACL/ec067af0-e468-412a-a36c-a92f88256979 made changes</description>
+    <time>1780724786.88</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -16025,7 +16025,7 @@ ip_transnet_bahia</content>
         <max_len>128</max_len>
       </slowlog>
     </redis>
-    <ProxyUserACL version="1.0.1" persisted_at="1780724587.28" description="Group and User ACL settings">
+    <ProxyUserACL version="1.0.1" persisted_at="1780724786.88" description="Group and User ACL settings">
       <general>
         <ACLs>
           <ACL uuid="ab880690-e839-436e-a9aa-4c0ebc09a4b3">
@@ -16046,7 +16046,7 @@ ip_transnet_bahia</content>
             <SourceType>group</SourceType>
             <SourceAddress/>
             <Categories/>
-            <Domains>.whatsapp.com,.whatsapp.net,.youtube.com,.googlevideo.com,.sportrecife.com.br</Domains>
+            <Domains>sportrecife.com.br,whatsapp.com,whatsapp.net,youtube.com,googlevideo.com</Domains>
           </ACL>
           <ACL uuid="64f68705-3d98-415b-b895-51333c53a084">
             <Priority>2</Priority>
