@@ -3134,8 +3134,8 @@ YJaOYXrqzPnq+VLMvJo3AAAAEWZ3bWF0cml6QG9wbnNlbnNlAQIDBA==&#13;
   </ntpd>
   <revision>
     <username>jhonatan.rosario@10.10.70.2</username>
-    <description>/system_authservers.php made changes</description>
-    <time>1780716732.32</time>
+    <description>/api/proxy/settings/set made changes</description>
+    <time>1780716793.02</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -15797,7 +15797,7 @@ ip_transnet_bahia</content>
       </hosts>
       <aliases/>
     </unboundplus>
-    <proxy version="1.0.9" persisted_at="1773944862.12" description="Squid web proxy settings">
+    <proxy version="1.0.9" persisted_at="1780716793.02" description="Squid web proxy settings">
       <general>
         <enabled>1</enabled>
         <error_pages>opnsense</error_pages>
@@ -15915,7 +15915,7 @@ ip_transnet_bahia</content>
           <exclude/>
         </icap>
         <authentication>
-          <method>AD DC</method>
+          <method>AD - Proxy</method>
           <authEnforceGroup/>
           <realm>Univale</realm>
           <credentialsttl>1</credentialsttl>
