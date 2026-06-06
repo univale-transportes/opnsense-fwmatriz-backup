@@ -3111,8 +3111,8 @@ YJaOYXrqzPnq+VLMvJo3AAAAEWZ3bWF0cml6QG9wbnNlbnNlAQIDBA==&#13;
   </ntpd>
   <revision>
     <username>jhonatan.rosario@10.10.70.2</username>
-    <description>/api/proxy/acl/del_custom_policy/ca3cfe67-55c6-4024-9e8f-f82fe86d01e9 made changes</description>
-    <time>1780716364.45</time>
+    <description>/api/proxy/acl/del_policy/5aaa8e9b-65c2-42b9-a09e-9f2354e52700 made changes</description>
+    <time>1780716374.62</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -17023,17 +17023,8 @@ ip_transnet_bahia</content>
   </dnsmasq>
   <Deciso>
     <Proxy>
-      <ACL version="1.0.0" persisted_at="1780716364.45" description="OPNsense central management / Proxy module">
-        <policies>
-          <policy uuid="5aaa8e9b-65c2-42b9-a09e-9f2354e52700">
-            <enabled>0</enabled>
-            <action>deny</action>
-            <content>adult,aggressive,astrology,audio-video,bitcoin,blog,celebrity,chat,child,cleaning,cooking,cryptojacking,dangerous_material,dating,ddos,doh,drugs,educational_games,filehosting,financial,forums,gambling,games,hacking,jobsearch,lingerie,malware,manga,marketingware,mixed_adult,mobile-phone,press,advertisements,radio,redirector,sexual_education,shopping,shortener,social_networks,sports,stalkerware,update,warez</content>
-            <applies_on/>
-            <source_net>192.168.0.0/24</source_net>
-            <description>Bloquear todas as categorias</description>
-          </policy>
-        </policies>
+      <ACL version="1.0.0" persisted_at="1780716374.62" description="OPNsense central management / Proxy module">
+        <policies/>
         <custom_policies/>
       </ACL>
     </Proxy>
