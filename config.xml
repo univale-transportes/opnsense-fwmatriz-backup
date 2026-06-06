@@ -3143,8 +3143,8 @@ YJaOYXrqzPnq+VLMvJo3AAAAEWZ3bWF0cml6QG9wbnNlbnNlAQIDBA==&#13;
   </ntpd>
   <revision>
     <username>jhonatan.rosario@10.10.70.2</username>
-    <description>/api/proxyuseracl/settings/setACL/ec067af0-e468-412a-a36c-a92f88256979 made changes</description>
-    <time>1780724786.88</time>
+    <description>/api/proxyuseracl/settings/setACL/64f68705-3d98-415b-b895-51333c53a084 made changes</description>
+    <time>1780725324.61</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -16025,7 +16025,7 @@ ip_transnet_bahia</content>
         <max_len>128</max_len>
       </slowlog>
     </redis>
-    <ProxyUserACL version="1.0.1" persisted_at="1780724786.88" description="Group and User ACL settings">
+    <ProxyUserACL version="1.0.1" persisted_at="1780725324.61" description="Group and User ACL settings">
       <general>
         <ACLs>
           <ACL uuid="ab880690-e839-436e-a9aa-4c0ebc09a4b3">
@@ -16056,7 +16056,7 @@ ip_transnet_bahia</content>
             <SourceType>group</SourceType>
             <SourceAddress/>
             <Categories/>
-            <Domains>youtube.com</Domains>
+            <Domains>youtube.com,facebook.com</Domains>
           </ACL>
           <ACL uuid="68c51ce1-dec0-4ae0-a84e-954714fd41b4">
             <Priority>3</Priority>
