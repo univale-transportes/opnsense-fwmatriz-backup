@@ -3143,8 +3143,8 @@ YJaOYXrqzPnq+VLMvJo3AAAAEWZ3bWF0cml6QG9wbnNlbnNlAQIDBA==&#13;
   </ntpd>
   <revision>
     <username>jhonatan.rosario@10.10.70.2</username>
-    <description>/api/proxyuseracl/settings/setACL/68c51ce1-dec0-4ae0-a84e-954714fd41b4 made changes</description>
-    <time>1780724368.37</time>
+    <description>/api/proxyuseracl/settings/delACL/85745cad-8e87-47c9-9939-bae6433b7da8 made changes</description>
+    <time>1780724374.58</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -16025,7 +16025,7 @@ ip_transnet_bahia</content>
         <max_len>128</max_len>
       </slowlog>
     </redis>
-    <ProxyUserACL version="1.0.1" persisted_at="1780724368.37" description="Group and User ACL settings">
+    <ProxyUserACL version="1.0.1" persisted_at="1780724374.58" description="Group and User ACL settings">
       <general>
         <ACLs>
           <ACL uuid="ab880690-e839-436e-a9aa-4c0ebc09a4b3">
@@ -16072,16 +16072,6 @@ ip_transnet_bahia</content>
             <Priority>4</Priority>
             <Name>ACESSO_BLOQUEADO</Name>
             <Hex>41434553534f5f424c4f51554541444f</Hex>
-            <Action>deny</Action>
-            <SourceType>group</SourceType>
-            <SourceAddress/>
-            <Categories/>
-            <Domains>.*</Domains>
-          </ACL>
-          <ACL uuid="85745cad-8e87-47c9-9939-bae6433b7da8">
-            <Priority>5</Priority>
-            <Name>*</Name>
-            <Hex>2a</Hex>
             <Action>deny</Action>
             <SourceType>group</SourceType>
             <SourceAddress/>
