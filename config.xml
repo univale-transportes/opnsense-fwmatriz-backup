@@ -590,6 +590,15 @@ YJaOYXrqzPnq+VLMvJo3AAAAEWZ3bWF0cml6QG9wbnNlbnNlAQIDBA==&#13;
         <password/>
       </git>
     </backup>
+    <group uuid="cc58fb7e-68c6-4385-83bc-0e314e827509">
+      <gid>2002</gid>
+      <name>ACESSO_PADRAO</name>
+      <scope>user</scope>
+      <description>Acesso a internet padr&#xE3;o</description>
+      <priv/>
+      <member/>
+      <source_networks/>
+    </group>
   </system>
   <interfaces>
     <wan>
@@ -3134,8 +3143,8 @@ YJaOYXrqzPnq+VLMvJo3AAAAEWZ3bWF0cml6QG9wbnNlbnNlAQIDBA==&#13;
   </ntpd>
   <revision>
     <username>jhonatan.rosario@10.10.70.2</username>
-    <description>/api/proxy/settings/set made changes</description>
-    <time>1780716793.02</time>
+    <description>group "ACESSO_PADRAO" created</description>
+    <time>1780717846.13</time>
   </revision>
   <OPNsense>
     <wireguard>
