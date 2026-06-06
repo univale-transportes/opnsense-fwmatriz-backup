@@ -415,7 +415,7 @@
     <firmware version="1.0.1" persisted_at="1772074078.46">
       <mirror/>
       <flavour/>
-      <plugins>os-freeradius,os-gdrive-backup,os-git-backup,os-nginx,os-redis,os-squid,os-theme-advanced,os-vmware,os-web-proxy-sso</plugins>
+      <plugins>os-OPNProxy,os-freeradius,os-gdrive-backup,os-git-backup,os-nginx,os-redis,os-squid,os-theme-advanced,os-vmware,os-web-proxy-sso</plugins>
       <type/>
       <subscription/>
       <reboot>0</reboot>
@@ -3112,7 +3112,7 @@ YJaOYXrqzPnq+VLMvJo3AAAAEWZ3bWF0cml6QG9wbnNlbnNlAQIDBA==&#13;
   <revision>
     <username>(root)</username>
     <description>/usr/local/opnsense/scripts/firmware/register.php made changes</description>
-    <time>1780716248.02</time>
+    <time>1780716280.15</time>
   </revision>
   <OPNsense>
     <wireguard>
