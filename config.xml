@@ -3145,8 +3145,8 @@ YJaOYXrqzPnq+VLMvJo3AAAAEWZ3bWF0cml6QG9wbnNlbnNlAQIDBA==&#13;
   </ntpd>
   <revision>
     <username>jhonatan.rosario@10.10.70.2</username>
-    <description>/api/proxy/settings/toggle_remote_blacklist/401cd64c-c252-4ee9-9dc2-d0a3c8f51117 made changes</description>
-    <time>1780859082.05</time>
+    <description>/api/proxy/settings/toggle_remote_blacklist/297755db-78f8-4a28-9cdf-a51dc3288c23 made changes</description>
+    <time>1780859083.26</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -15852,7 +15852,7 @@ ip_transnet_bahia</content>
       </hosts>
       <aliases/>
     </unboundplus>
-    <proxy version="1.0.9" persisted_at="1780859082.05" description="Squid web proxy settings">
+    <proxy version="1.0.9" persisted_at="1780859083.26" description="Squid web proxy settings">
       <general>
         <enabled>1</enabled>
         <error_pages>custom</error_pages>
@@ -16003,7 +16003,7 @@ ip_transnet_bahia</content>
                 <description>Sites for bitcoin mining</description>
               </blacklist>
               <blacklist uuid="297755db-78f8-4a28-9cdf-a51dc3288c23">
-                <enabled>0</enabled>
+                <enabled>1</enabled>
                 <filename>blog</filename>
                 <url>https://dsi.ut-capitole.fr/blacklists/download/blog.tar.gz</url>
                 <username/>
