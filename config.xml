@@ -3145,8 +3145,8 @@ YJaOYXrqzPnq+VLMvJo3AAAAEWZ3bWF0cml6QG9wbnNlbnNlAQIDBA==&#13;
   </ntpd>
   <revision>
     <username>jhonatan.rosario@10.10.70.2</username>
-    <description>/api/proxy/settings/del_remote_blacklist/7cb39ecb-5547-4e4d-98bf-8359f2a023b6 made changes</description>
-    <time>1780853015.53</time>
+    <description>/api/proxy/settings/del_remote_blacklist/8739ad18-6578-409f-a1eb-eefe4a21b308 made changes</description>
+    <time>1780853019.13</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -15852,7 +15852,7 @@ ip_transnet_bahia</content>
       </hosts>
       <aliases/>
     </unboundplus>
-    <proxy version="1.0.9" persisted_at="1780853015.53" description="Squid web proxy settings">
+    <proxy version="1.0.9" persisted_at="1780853019.13" description="Squid web proxy settings">
       <general>
         <enabled>1</enabled>
         <error_pages/>
@@ -15941,18 +15941,7 @@ ip_transnet_bahia</content>
           <safePorts>88,123,135,389,445,500,3389,8080,80:http,21:ftp,443:https,70:gopher,210:wais,1025-65535:unregistered ports,280:http-mgmt,488:gss-http,591:filemaker,777:multiling http,17600-17603,49152-65535,137-139,6568:anydesk,50001-50003:anydesk,7507:transnet,17500:dropbox,17599-17609:dropbox,5222:whatsapp,7777:fluig,8008:fluig,13000:itau,5500:milvus,5800:milvus,5900:milvus,8081:fluig-cipalan,5000:moovsec</safePorts>
           <sslPorts>500,563,443:https,4443:webgui,6568:anydesk,50001-50003:anydesk,17500:dropbox,17599-17609:dropbox,17600-17603:dropbox,13000:itau,5000:moovsec</sslPorts>
           <remoteACLs>
-            <blacklists>
-              <blacklist uuid="8739ad18-6578-409f-a1eb-eefe4a21b308">
-                <enabled>1</enabled>
-                <filename>adult</filename>
-                <url>ftp://ftp.ut-capitole.fr/pub/reseau/cache/squidguard_contrib/adult.tar.gz</url>
-                <username/>
-                <password/>
-                <filter/>
-                <sslNoVerify>0</sslNoVerify>
-                <description>Some adult site from erotic to hard pornography</description>
-              </blacklist>
-            </blacklists>
+            <blacklists/>
             <UpdateCron>07710b7c-fc36-401b-8470-37d14e248622</UpdateCron>
           </remoteACLs>
         </acl>
