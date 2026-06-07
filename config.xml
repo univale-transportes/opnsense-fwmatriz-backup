@@ -3145,8 +3145,8 @@ YJaOYXrqzPnq+VLMvJo3AAAAEWZ3bWF0cml6QG9wbnNlbnNlAQIDBA==&#13;
   </ntpd>
   <revision>
     <username>jhonatan.rosario@10.10.70.2</username>
-    <description>/api/proxy/settings/set_remote_blacklist/7cb39ecb-5547-4e4d-98bf-8359f2a023b6 made changes</description>
-    <time>1780852810.01</time>
+    <description>/api/proxy/settings/toggle_remote_blacklist/7cb39ecb-5547-4e4d-98bf-8359f2a023b6 made changes</description>
+    <time>1780852834.71</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -15852,7 +15852,7 @@ ip_transnet_bahia</content>
       </hosts>
       <aliases/>
     </unboundplus>
-    <proxy version="1.0.9" persisted_at="1780852810.01" description="Squid web proxy settings">
+    <proxy version="1.0.9" persisted_at="1780852834.71" description="Squid web proxy settings">
       <general>
         <enabled>1</enabled>
         <error_pages/>
@@ -15943,7 +15943,7 @@ ip_transnet_bahia</content>
           <remoteACLs>
             <blacklists>
               <blacklist uuid="7cb39ecb-5547-4e4d-98bf-8359f2a023b6">
-                <enabled>1</enabled>
+                <enabled>0</enabled>
                 <filename>UT1</filename>
                 <url>ftp://ftp.ut-capitole.fr/pub/reseau/cache/squidguard_contrib/blacklists.tar.gz</url>
                 <username/>
