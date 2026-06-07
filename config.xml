@@ -3144,8 +3144,8 @@ YJaOYXrqzPnq+VLMvJo3AAAAEWZ3bWF0cml6QG9wbnNlbnNlAQIDBA==&#13;
   </ntpd>
   <revision>
     <username>jhonatan.rosario@10.10.70.2</username>
-    <description>/system_general.php made changes</description>
-    <time>1780799507.77</time>
+    <description>/api/redis/settings/set made changes</description>
+    <time>1780799728.51</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -16044,9 +16044,9 @@ ip_transnet_bahia</content>
       <ADKerberosImplementation>W2008</ADKerberosImplementation>
       <KerberosHostName>FWMATRIZ</KerberosHostName>
     </ProxySSO>
-    <redis version="0.0.0">
+    <redis version="0.0.0" persisted_at="1780799728.51" description="Redis DB">
       <general>
-        <enabled>1</enabled>
+        <enabled>0</enabled>
         <listen>lan</listen>
         <protected_mode>1</protected_mode>
         <port>6379</port>
