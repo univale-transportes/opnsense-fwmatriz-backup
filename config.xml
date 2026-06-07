@@ -3145,8 +3145,8 @@ YJaOYXrqzPnq+VLMvJo3AAAAEWZ3bWF0cml6QG9wbnNlbnNlAQIDBA==&#13;
   </ntpd>
   <revision>
     <username>jhonatan.rosario@10.10.70.2</username>
-    <description>/api/proxy/settings/toggle_remote_blacklist/8a0b2ce1-f679-49b2-8f01-ca528e12de9e made changes</description>
-    <time>1780856925.65</time>
+    <description>/api/proxy/settings/toggle_remote_blacklist/728b7916-514e-4823-b92d-be56df8fd7a5 made changes</description>
+    <time>1780856927.11</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -15852,7 +15852,7 @@ ip_transnet_bahia</content>
       </hosts>
       <aliases/>
     </unboundplus>
-    <proxy version="1.0.9" persisted_at="1780856925.65" description="Squid web proxy settings">
+    <proxy version="1.0.9" persisted_at="1780856927.11" description="Squid web proxy settings">
       <general>
         <enabled>1</enabled>
         <error_pages/>
@@ -15963,7 +15963,7 @@ ip_transnet_bahia</content>
                 <description>Games sites. Flash and online games</description>
               </blacklist>
               <blacklist uuid="728b7916-514e-4823-b92d-be56df8fd7a5">
-                <enabled>1</enabled>
+                <enabled>0</enabled>
                 <filename>gambling</filename>
                 <url>https://dsi.ut-capitole.fr/blacklists/download/gambling.tar.gz</url>
                 <username/>
