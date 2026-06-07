@@ -3145,8 +3145,8 @@ YJaOYXrqzPnq+VLMvJo3AAAAEWZ3bWF0cml6QG9wbnNlbnNlAQIDBA==&#13;
   </ntpd>
   <revision>
     <username>jhonatan.rosario@10.10.70.2</username>
-    <description>/api/proxy/settings/toggle_remote_blacklist/728b7916-514e-4823-b92d-be56df8fd7a5 made changes</description>
-    <time>1780856927.11</time>
+    <description>/api/proxy/settings/toggle_remote_blacklist/351cec3d-05b8-4dab-bde7-6a4dfe437d89 made changes</description>
+    <time>1780856927.62</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -15852,7 +15852,7 @@ ip_transnet_bahia</content>
       </hosts>
       <aliases/>
     </unboundplus>
-    <proxy version="1.0.9" persisted_at="1780856927.11" description="Squid web proxy settings">
+    <proxy version="1.0.9" persisted_at="1780856927.62" description="Squid web proxy settings">
       <general>
         <enabled>1</enabled>
         <error_pages/>
@@ -15953,7 +15953,7 @@ ip_transnet_bahia</content>
                 <description>Some adult site from erotic to hard pornography</description>
               </blacklist>
               <blacklist uuid="351cec3d-05b8-4dab-bde7-6a4dfe437d89">
-                <enabled>1</enabled>
+                <enabled>0</enabled>
                 <filename>games</filename>
                 <url>https://dsi.ut-capitole.fr/blacklists/download/games.tar.gz</url>
                 <username/>
