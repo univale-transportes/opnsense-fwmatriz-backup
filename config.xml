@@ -3145,8 +3145,8 @@ YJaOYXrqzPnq+VLMvJo3AAAAEWZ3bWF0cml6QG9wbnNlbnNlAQIDBA==&#13;
   </ntpd>
   <revision>
     <username>jhonatan.rosario@10.10.70.2</username>
-    <description>/api/proxy/settings/toggle_remote_blacklist/6bbe9dbe-5bdd-4b9a-97fb-69ba347a19ab made changes</description>
-    <time>1780857559.81</time>
+    <description>/api/proxy/settings/toggle_remote_blacklist/91450ff0-8a4c-4ad7-9775-8a8e52190c70 made changes</description>
+    <time>1780857561.31</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -15852,7 +15852,7 @@ ip_transnet_bahia</content>
       </hosts>
       <aliases/>
     </unboundplus>
-    <proxy version="1.0.9" persisted_at="1780857559.81" description="Squid web proxy settings">
+    <proxy version="1.0.9" persisted_at="1780857561.31" description="Squid web proxy settings">
       <general>
         <enabled>1</enabled>
         <error_pages>custom</error_pages>
@@ -16023,7 +16023,7 @@ ip_transnet_bahia</content>
                 <description>Sites for cooking</description>
               </blacklist>
               <blacklist uuid="91450ff0-8a4c-4ad7-9775-8a8e52190c70">
-                <enabled>0</enabled>
+                <enabled>1</enabled>
                 <filename>dangerous_material</filename>
                 <url>https://dsi.ut-capitole.fr/blacklists/download/dangerous_material.tar.gz</url>
                 <username/>
