@@ -3145,8 +3145,8 @@ YJaOYXrqzPnq+VLMvJo3AAAAEWZ3bWF0cml6QG9wbnNlbnNlAQIDBA==&#13;
   </ntpd>
   <revision>
     <username>jhonatan.rosario@10.10.70.2</username>
-    <description>/api/proxy/settings/toggle_remote_blacklist/91450ff0-8a4c-4ad7-9775-8a8e52190c70 made changes</description>
-    <time>1780856942.15</time>
+    <description>/api/proxy/settings/toggle_remote_blacklist/618d55ce-8b71-4924-ab85-3cedd3448f53 made changes</description>
+    <time>1780856943.95</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -15852,7 +15852,7 @@ ip_transnet_bahia</content>
       </hosts>
       <aliases/>
     </unboundplus>
-    <proxy version="1.0.9" persisted_at="1780856942.14" description="Squid web proxy settings">
+    <proxy version="1.0.9" persisted_at="1780856943.95" description="Squid web proxy settings">
       <general>
         <enabled>1</enabled>
         <error_pages/>
@@ -16053,7 +16053,7 @@ ip_transnet_bahia</content>
                 <description>DDoS or Stresser Sites</description>
               </blacklist>
               <blacklist uuid="618d55ce-8b71-4924-ab85-3cedd3448f53">
-                <enabled>1</enabled>
+                <enabled>0</enabled>
                 <filename>download</filename>
                 <url>https://dsi.ut-capitole.fr/blacklists/download/download.tar.gz</url>
                 <username/>
