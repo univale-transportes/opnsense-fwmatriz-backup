@@ -3146,7 +3146,7 @@ YJaOYXrqzPnq+VLMvJo3AAAAEWZ3bWF0cml6QG9wbnNlbnNlAQIDBA==&#13;
   <revision>
     <username>jhonatan.rosario@10.10.70.2</username>
     <description>/api/proxy/settings/add_remote_blacklist/ made changes</description>
-    <time>1780856429.19</time>
+    <time>1780856449.65</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -15852,7 +15852,7 @@ ip_transnet_bahia</content>
       </hosts>
       <aliases/>
     </unboundplus>
-    <proxy version="1.0.9" persisted_at="1780856429.19" description="Squid web proxy settings">
+    <proxy version="1.0.9" persisted_at="1780856449.65" description="Squid web proxy settings">
       <general>
         <enabled>1</enabled>
         <error_pages/>
@@ -16111,6 +16111,16 @@ ip_transnet_bahia</content>
                 <filter/>
                 <sslNoVerify>0</sslNoVerify>
                 <description>Sites for lingerie</description>
+              </blacklist>
+              <blacklist uuid="da4be46e-2cab-48c5-aef8-92cae1ce9dc8">
+                <enabled>1</enabled>
+                <filename>malware</filename>
+                <url>https://dsi.ut-capitole.fr/blacklists/download/malware.tar.gz</url>
+                <username/>
+                <password/>
+                <filter/>
+                <sslNoVerify>0</sslNoVerify>
+                <description>Any website which deliver malware</description>
               </blacklist>
             </blacklists>
             <UpdateCron>07710b7c-fc36-401b-8470-37d14e248622</UpdateCron>
