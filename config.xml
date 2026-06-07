@@ -3146,7 +3146,7 @@ YJaOYXrqzPnq+VLMvJo3AAAAEWZ3bWF0cml6QG9wbnNlbnNlAQIDBA==&#13;
   <revision>
     <username>jhonatan.rosario@10.10.70.2</username>
     <description>/api/proxy/settings/set made changes</description>
-    <time>1780798841.17</time>
+    <time>1780798928.03</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -15852,7 +15852,7 @@ ip_transnet_bahia</content>
       </hosts>
       <aliases/>
     </unboundplus>
-    <proxy version="1.0.9" persisted_at="1780798841.17" description="Squid web proxy settings">
+    <proxy version="1.0.9" persisted_at="1780798928.03" description="Squid web proxy settings">
       <general>
         <enabled>1</enabled>
         <error_pages>opnsense</error_pages>
@@ -15937,7 +15937,7 @@ ip_transnet_bahia</content>
           <browser/>
           <mimeType/>
           <googleapps/>
-          <youtube/>
+          <youtube>strict</youtube>
           <safePorts>88,123,135,389,445,500,3389,8080,80:http,21:ftp,443:https,70:gopher,210:wais,1025-65535:unregistered ports,280:http-mgmt,488:gss-http,591:filemaker,777:multiling http,17600-17603,49152-65535,137-139,6568:anydesk,50001-50003:anydesk,7507:transnet,17500:dropbox,17599-17609:dropbox,5222:whatsapp,7777:fluig,8008:fluig,13000:itau,5500:milvus,5800:milvus,5900:milvus,8081:fluig-cipalan,5000:moovsec</safePorts>
           <sslPorts>500,563,443:https,4443:webgui,6568:anydesk,50001-50003:anydesk,17500:dropbox,17599-17609:dropbox,17600-17603:dropbox,13000:itau,5000:moovsec</sslPorts>
           <remoteACLs>
