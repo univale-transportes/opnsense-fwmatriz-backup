@@ -3145,8 +3145,8 @@ YJaOYXrqzPnq+VLMvJo3AAAAEWZ3bWF0cml6QG9wbnNlbnNlAQIDBA==&#13;
   </ntpd>
   <revision>
     <username>jhonatan.rosario@10.10.70.2</username>
-    <description>/api/proxy/settings/toggle_remote_blacklist/0857d058-090d-4328-9287-b695ffba6e6f made changes</description>
-    <time>1780857554.97</time>
+    <description>/api/proxy/settings/toggle_remote_blacklist/f0e79b4a-3607-4f29-884e-87199082f2f0 made changes</description>
+    <time>1780857556.42</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -15852,7 +15852,7 @@ ip_transnet_bahia</content>
       </hosts>
       <aliases/>
     </unboundplus>
-    <proxy version="1.0.9" persisted_at="1780857554.97" description="Squid web proxy settings">
+    <proxy version="1.0.9" persisted_at="1780857556.42" description="Squid web proxy settings">
       <general>
         <enabled>1</enabled>
         <error_pages>custom</error_pages>
@@ -16143,7 +16143,7 @@ ip_transnet_bahia</content>
                 <description>Websites which contains adult sections unstructured</description>
               </blacklist>
               <blacklist uuid="f0e79b4a-3607-4f29-884e-87199082f2f0">
-                <enabled>0</enabled>
+                <enabled>1</enabled>
                 <filename>phishing</filename>
                 <url>https://dsi.ut-capitole.fr/blacklists/download/phishing.tar.gz</url>
                 <username/>
