@@ -3145,8 +3145,8 @@ YJaOYXrqzPnq+VLMvJo3AAAAEWZ3bWF0cml6QG9wbnNlbnNlAQIDBA==&#13;
   </ntpd>
   <revision>
     <username>jhonatan.rosario@10.10.70.2</username>
-    <description>/api/proxy/settings/add_remote_blacklist/ made changes</description>
-    <time>1780855738.65</time>
+    <description>/api/proxy/settings/set_remote_blacklist/351cec3d-05b8-4dab-bde7-6a4dfe437d89 made changes</description>
+    <time>1780855751.60</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -15852,7 +15852,7 @@ ip_transnet_bahia</content>
       </hosts>
       <aliases/>
     </unboundplus>
-    <proxy version="1.0.9" persisted_at="1780855738.65" description="Squid web proxy settings">
+    <proxy version="1.0.9" persisted_at="1780855751.60" description="Squid web proxy settings">
       <general>
         <enabled>1</enabled>
         <error_pages/>
@@ -15970,7 +15970,7 @@ ip_transnet_bahia</content>
                 <password/>
                 <filter/>
                 <sslNoVerify>0</sslNoVerify>
-                <description>Games sites flash and online games</description>
+                <description>Games sites. Flash and online games</description>
               </blacklist>
               <blacklist uuid="728b7916-514e-4823-b92d-be56df8fd7a5">
                 <enabled>1</enabled>
