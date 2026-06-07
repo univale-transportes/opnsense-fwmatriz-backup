@@ -3145,8 +3145,8 @@ YJaOYXrqzPnq+VLMvJo3AAAAEWZ3bWF0cml6QG9wbnNlbnNlAQIDBA==&#13;
   </ntpd>
   <revision>
     <username>jhonatan.rosario@10.10.70.2</username>
-    <description>/api/proxy/settings/toggle_remote_blacklist/ea630cfb-e998-425a-a0e5-3f52d42144b0 made changes</description>
-    <time>1780856936.78</time>
+    <description>/api/proxy/settings/toggle_remote_blacklist/c38728ad-958b-4d7a-9a2e-e78de32fedcc made changes</description>
+    <time>1780856941.68</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -15852,7 +15852,7 @@ ip_transnet_bahia</content>
       </hosts>
       <aliases/>
     </unboundplus>
-    <proxy version="1.0.9" persisted_at="1780856936.78" description="Squid web proxy settings">
+    <proxy version="1.0.9" persisted_at="1780856941.68" description="Squid web proxy settings">
       <general>
         <enabled>1</enabled>
         <error_pages/>
@@ -16063,7 +16063,7 @@ ip_transnet_bahia</content>
                 <description>Sites which propose to download software</description>
               </blacklist>
               <blacklist uuid="c38728ad-958b-4d7a-9a2e-e78de32fedcc">
-                <enabled>1</enabled>
+                <enabled>0</enabled>
                 <filename>drogue</filename>
                 <url>https://dsi.ut-capitole.fr/blacklists/download/drogue.tar.gz</url>
                 <username/>
