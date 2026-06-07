@@ -3145,8 +3145,8 @@ YJaOYXrqzPnq+VLMvJo3AAAAEWZ3bWF0cml6QG9wbnNlbnNlAQIDBA==&#13;
   </ntpd>
   <revision>
     <username>jhonatan.rosario@10.10.70.2</username>
-    <description>/api/proxy/settings/set_remote_blacklist/83730cca-0366-462d-95a7-6af99375936c made changes</description>
-    <time>1780856134.87</time>
+    <description>/api/proxy/settings/del_remote_blacklist/a1963dcc-10a4-40bb-b9a7-7d972435dcee made changes</description>
+    <time>1780856146.73</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -15852,7 +15852,7 @@ ip_transnet_bahia</content>
       </hosts>
       <aliases/>
     </unboundplus>
-    <proxy version="1.0.9" persisted_at="1780856134.87" description="Squid web proxy settings">
+    <proxy version="1.0.9" persisted_at="1780856146.73" description="Squid web proxy settings">
       <general>
         <enabled>1</enabled>
         <error_pages/>
@@ -15942,16 +15942,6 @@ ip_transnet_bahia</content>
           <sslPorts>500,563,443:https,4443:webgui,6568:anydesk,50001-50003:anydesk,17500:dropbox,17599-17609:dropbox,17600-17603:dropbox,13000:itau,5000:moovsec</sslPorts>
           <remoteACLs>
             <blacklists>
-              <blacklist uuid="a1963dcc-10a4-40bb-b9a7-7d972435dcee">
-                <enabled>0</enabled>
-                <filename>blacklist</filename>
-                <url>https://dsi.ut-capitole.fr/blacklists/download/blacklists.tar.gz</url>
-                <username/>
-                <password/>
-                <filter>adult,audio-video,bitcoin,blog,cooking,dating,ddos,download,drogue,fakenews,forums,games,hacking,lingerie,malware,manga,mixed_adult,phishing,press,sexual_education,social_networks,sports,warez</filter>
-                <sslNoVerify>1</sslNoVerify>
-                <description>Blacklists UT1</description>
-              </blacklist>
               <blacklist uuid="007e5853-6ca2-4adb-8f2b-833b5dbf9eae">
                 <enabled>1</enabled>
                 <filename>adult</filename>
