@@ -3145,8 +3145,8 @@ YJaOYXrqzPnq+VLMvJo3AAAAEWZ3bWF0cml6QG9wbnNlbnNlAQIDBA==&#13;
   </ntpd>
   <revision>
     <username>jhonatan.rosario@10.10.70.2</username>
-    <description>/api/proxy/settings/toggle_remote_blacklist/44b4ae2c-3589-4af0-b388-3a1e0ab662f0 made changes</description>
-    <time>1780857540.18</time>
+    <description>/api/proxy/settings/toggle_remote_blacklist/b592b18e-aa64-4c70-9319-190a9906bf39 made changes</description>
+    <time>1780857541.10</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -15852,7 +15852,7 @@ ip_transnet_bahia</content>
       </hosts>
       <aliases/>
     </unboundplus>
-    <proxy version="1.0.9" persisted_at="1780857540.18" description="Squid web proxy settings">
+    <proxy version="1.0.9" persisted_at="1780857541.10" description="Squid web proxy settings">
       <general>
         <enabled>1</enabled>
         <error_pages>custom</error_pages>
@@ -16043,7 +16043,7 @@ ip_transnet_bahia</content>
                 <description>Dating, matching site for single person</description>
               </blacklist>
               <blacklist uuid="b592b18e-aa64-4c70-9319-190a9906bf39">
-                <enabled>0</enabled>
+                <enabled>1</enabled>
                 <filename>ddos</filename>
                 <url>https://dsi.ut-capitole.fr/blacklists/download/ddos.tar.gz</url>
                 <username/>
