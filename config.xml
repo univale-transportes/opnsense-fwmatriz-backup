@@ -3145,8 +3145,8 @@ YJaOYXrqzPnq+VLMvJo3AAAAEWZ3bWF0cml6QG9wbnNlbnNlAQIDBA==&#13;
   </ntpd>
   <revision>
     <username>jhonatan.rosario@10.10.70.2</username>
-    <description>/api/proxy/settings/set_remote_blacklist/bbcf364a-87c4-45de-bf42-42f3a2f1ae12 made changes</description>
-    <time>1780856830.82</time>
+    <description>/api/proxy/settings/toggle_remote_blacklist/425c5557-0c13-4238-a81b-410c99ee8b11/0 made changes</description>
+    <time>1780856914.14</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -15852,7 +15852,7 @@ ip_transnet_bahia</content>
       </hosts>
       <aliases/>
     </unboundplus>
-    <proxy version="1.0.9" persisted_at="1780856830.82" description="Squid web proxy settings">
+    <proxy version="1.0.9" persisted_at="1780856914.14" description="Squid web proxy settings">
       <general>
         <enabled>1</enabled>
         <error_pages/>
@@ -16163,7 +16163,7 @@ ip_transnet_bahia</content>
                 <description>Any press, informational site</description>
               </blacklist>
               <blacklist uuid="425c5557-0c13-4238-a81b-410c99ee8b11">
-                <enabled>1</enabled>
+                <enabled>0</enabled>
                 <filename>social_networks</filename>
                 <url>https://dsi.ut-capitole.fr/blacklists/download/social_networks.tar.gz</url>
                 <username/>
