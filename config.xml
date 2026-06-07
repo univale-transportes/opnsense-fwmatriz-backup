@@ -3145,8 +3145,8 @@ YJaOYXrqzPnq+VLMvJo3AAAAEWZ3bWF0cml6QG9wbnNlbnNlAQIDBA==&#13;
   </ntpd>
   <revision>
     <username>jhonatan.rosario@10.10.70.2</username>
-    <description>/api/proxy/settings/toggle_remote_blacklist/b592b18e-aa64-4c70-9319-190a9906bf39 made changes</description>
-    <time>1780856923.78</time>
+    <description>/api/proxy/settings/toggle_remote_blacklist/44b4ae2c-3589-4af0-b388-3a1e0ab662f0 made changes</description>
+    <time>1780856924.47</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -15852,7 +15852,7 @@ ip_transnet_bahia</content>
       </hosts>
       <aliases/>
     </unboundplus>
-    <proxy version="1.0.9" persisted_at="1780856923.78" description="Squid web proxy settings">
+    <proxy version="1.0.9" persisted_at="1780856924.47" description="Squid web proxy settings">
       <general>
         <enabled>1</enabled>
         <error_pages/>
@@ -16033,7 +16033,7 @@ ip_transnet_bahia</content>
                 <description>Sites which describe how to make bomb and some dangerous material</description>
               </blacklist>
               <blacklist uuid="44b4ae2c-3589-4af0-b388-3a1e0ab662f0">
-                <enabled>1</enabled>
+                <enabled>0</enabled>
                 <filename>dating</filename>
                 <url>https://dsi.ut-capitole.fr/blacklists/download/dating.tar.gz</url>
                 <username/>
