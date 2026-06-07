@@ -3145,8 +3145,8 @@ YJaOYXrqzPnq+VLMvJo3AAAAEWZ3bWF0cml6QG9wbnNlbnNlAQIDBA==&#13;
   </ntpd>
   <revision>
     <username>jhonatan.rosario@10.10.70.2</username>
-    <description>/api/proxy/settings/set made changes</description>
-    <time>1780798928.03</time>
+    <description>/api/unbound/settings/set made changes</description>
+    <time>1780798972.75</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -15605,7 +15605,7 @@ ip_transnet_bahia</content>
         <MinProtocol_DTLS/>
       </general>
     </trust>
-    <unboundplus version="1.0.15" persisted_at="1780790856.48" description="Unbound configuration">
+    <unboundplus version="1.0.15" persisted_at="1780798972.75" description="Unbound configuration">
       <general>
         <enabled>1</enabled>
         <port>53</port>
@@ -15622,7 +15622,7 @@ ip_transnet_bahia</content>
         <noregrecords>1</noregrecords>
         <txtsupport>0</txtsupport>
         <cacheflush>1</cacheflush>
-        <safesearch/>
+        <safesearch>1</safesearch>
         <local_zone_type>transparent</local_zone_type>
         <outgoing_interface/>
         <enable_wpad>0</enable_wpad>
