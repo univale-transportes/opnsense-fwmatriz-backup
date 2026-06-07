@@ -600,7 +600,6 @@ YJaOYXrqzPnq+VLMvJo3AAAAEWZ3bWF0cml6QG9wbnNlbnNlAQIDBA==&#13;
     </backup>
     <dnsallowoverride>0</dnsallowoverride>
     <dnsallowoverride_exclude/>
-    <dnslocalhost>1</dnslocalhost>
   </system>
   <interfaces>
     <wan>
@@ -3145,8 +3144,8 @@ YJaOYXrqzPnq+VLMvJo3AAAAEWZ3bWF0cml6QG9wbnNlbnNlAQIDBA==&#13;
   </ntpd>
   <revision>
     <username>jhonatan.rosario@10.10.70.2</username>
-    <description>/api/unbound/settings/set made changes</description>
-    <time>1780798998.34</time>
+    <description>/system_general.php made changes</description>
+    <time>1780799507.77</time>
   </revision>
   <OPNsense>
     <wireguard>
