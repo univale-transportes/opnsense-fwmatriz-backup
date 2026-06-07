@@ -3145,8 +3145,8 @@ YJaOYXrqzPnq+VLMvJo3AAAAEWZ3bWF0cml6QG9wbnNlbnNlAQIDBA==&#13;
   </ntpd>
   <revision>
     <username>jhonatan.rosario@10.10.70.2</username>
-    <description>/api/proxy/settings/toggle_remote_blacklist/425c5557-0c13-4238-a81b-410c99ee8b11/0 made changes</description>
-    <time>1780856914.14</time>
+    <description>/api/proxy/settings/toggle_remote_blacklist/c9724f4b-edce-48e0-885b-e14369bb7eef made changes</description>
+    <time>1780856920.20</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -15852,7 +15852,7 @@ ip_transnet_bahia</content>
       </hosts>
       <aliases/>
     </unboundplus>
-    <proxy version="1.0.9" persisted_at="1780856914.14" description="Squid web proxy settings">
+    <proxy version="1.0.9" persisted_at="1780856920.20" description="Squid web proxy settings">
       <general>
         <enabled>1</enabled>
         <error_pages/>
@@ -16153,7 +16153,7 @@ ip_transnet_bahia</content>
                 <description>Phishing sites. Same as malware category</description>
               </blacklist>
               <blacklist uuid="c9724f4b-edce-48e0-885b-e14369bb7eef">
-                <enabled>1</enabled>
+                <enabled>0</enabled>
                 <filename>press</filename>
                 <url>https://dsi.ut-capitole.fr/blacklists/download/press.tar.gz</url>
                 <username/>
