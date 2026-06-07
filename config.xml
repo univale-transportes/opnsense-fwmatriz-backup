@@ -3145,8 +3145,8 @@ YJaOYXrqzPnq+VLMvJo3AAAAEWZ3bWF0cml6QG9wbnNlbnNlAQIDBA==&#13;
   </ntpd>
   <revision>
     <username>jhonatan.rosario@10.10.70.2</username>
-    <description>/system_general.php made changes</description>
-    <time>1780789916.14</time>
+    <description>/api/unbound/settings/addForward/ made changes</description>
+    <time>1780790811.19</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -15605,7 +15605,7 @@ ip_transnet_bahia</content>
         <MinProtocol_DTLS/>
       </general>
     </trust>
-    <unboundplus version="1.0.15" persisted_at="1780400918.80" description="Unbound configuration">
+    <unboundplus version="1.0.15" persisted_at="1780790811.19" description="Unbound configuration">
       <general>
         <enabled>1</enabled>
         <port>53</port>
@@ -15758,6 +15758,17 @@ ip_transnet_bahia</content>
           <type>forward</type>
           <domain>4.168.192.in-addr.arpa</domain>
           <server>192.168.0.8</server>
+          <port>53</port>
+          <verify/>
+          <forward_tcp_upstream>0</forward_tcp_upstream>
+          <forward_first>0</forward_first>
+          <description>MS DNS</description>
+        </dot>
+        <dot uuid="c81f988d-14fc-45e1-9937-b468d55dd901">
+          <enabled>1</enabled>
+          <type>forward</type>
+          <domain>0.168.192.in-addr.arpa</domain>
+          <server>192.168.0.11</server>
           <port>53</port>
           <verify/>
           <forward_tcp_upstream>0</forward_tcp_upstream>
