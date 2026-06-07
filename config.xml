@@ -3145,8 +3145,8 @@ YJaOYXrqzPnq+VLMvJo3AAAAEWZ3bWF0cml6QG9wbnNlbnNlAQIDBA==&#13;
   </ntpd>
   <revision>
     <username>jhonatan.rosario@10.10.70.2</username>
-    <description>/api/proxy/settings/toggle_remote_blacklist/7cb39ecb-5547-4e4d-98bf-8359f2a023b6 made changes</description>
-    <time>1780852834.71</time>
+    <description>/api/proxy/settings/add_remote_blacklist/ made changes</description>
+    <time>1780852888.47</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -15852,7 +15852,7 @@ ip_transnet_bahia</content>
       </hosts>
       <aliases/>
     </unboundplus>
-    <proxy version="1.0.9" persisted_at="1780852834.71" description="Squid web proxy settings">
+    <proxy version="1.0.9" persisted_at="1780852888.47" description="Squid web proxy settings">
       <general>
         <enabled>1</enabled>
         <error_pages/>
@@ -15951,6 +15951,16 @@ ip_transnet_bahia</content>
                 <filter/>
                 <sslNoVerify>0</sslNoVerify>
                 <description>UTI Web Filter</description>
+              </blacklist>
+              <blacklist uuid="8739ad18-6578-409f-a1eb-eefe4a21b308">
+                <enabled>1</enabled>
+                <filename>adult</filename>
+                <url>ftp://ftp.ut-capitole.fr/pub/reseau/cache/squidguard_contrib/adult.tar.gz</url>
+                <username/>
+                <password/>
+                <filter/>
+                <sslNoVerify>0</sslNoVerify>
+                <description>Some adult site from erotic to hard pornography</description>
               </blacklist>
             </blacklists>
             <UpdateCron>07710b7c-fc36-401b-8470-37d14e248622</UpdateCron>
