@@ -3145,8 +3145,8 @@ YJaOYXrqzPnq+VLMvJo3AAAAEWZ3bWF0cml6QG9wbnNlbnNlAQIDBA==&#13;
   </ntpd>
   <revision>
     <username>jhonatan.rosario@10.10.70.2</username>
-    <description>/api/proxy/settings/set made changes</description>
-    <time>1780858958.17</time>
+    <description>/api/proxy/settings/toggle_remote_blacklist/a6f88e75-29ad-4bb6-89d8-a4d21ea6da39 made changes</description>
+    <time>1780859079.74</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -15852,7 +15852,7 @@ ip_transnet_bahia</content>
       </hosts>
       <aliases/>
     </unboundplus>
-    <proxy version="1.0.9" persisted_at="1780858958.17" description="Squid web proxy settings">
+    <proxy version="1.0.9" persisted_at="1780859079.74" description="Squid web proxy settings">
       <general>
         <enabled>1</enabled>
         <error_pages>custom</error_pages>
@@ -16183,7 +16183,7 @@ ip_transnet_bahia</content>
                 <description>Sports sites</description>
               </blacklist>
               <blacklist uuid="a6f88e75-29ad-4bb6-89d8-a4d21ea6da39">
-                <enabled>0</enabled>
+                <enabled>1</enabled>
                 <filename>warez</filename>
                 <url>https://dsi.ut-capitole.fr/blacklists/download/warez.tar.gz</url>
                 <username/>
