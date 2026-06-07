@@ -3145,8 +3145,8 @@ YJaOYXrqzPnq+VLMvJo3AAAAEWZ3bWF0cml6QG9wbnNlbnNlAQIDBA==&#13;
   </ntpd>
   <revision>
     <username>jhonatan.rosario@10.10.70.2</username>
-    <description>/api/proxy/settings/toggle_remote_blacklist/d36015c5-da5a-47c6-af85-1541945b8779 made changes</description>
-    <time>1780857557.27</time>
+    <description>/api/proxy/settings/toggle_remote_blacklist/a1c49989-4f2a-47c2-b033-9814dd68b7e4 made changes</description>
+    <time>1780857558.13</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -15852,7 +15852,7 @@ ip_transnet_bahia</content>
       </hosts>
       <aliases/>
     </unboundplus>
-    <proxy version="1.0.9" persisted_at="1780857557.27" description="Squid web proxy settings">
+    <proxy version="1.0.9" persisted_at="1780857558.13" description="Squid web proxy settings">
       <general>
         <enabled>1</enabled>
         <error_pages>custom</error_pages>
@@ -16013,7 +16013,7 @@ ip_transnet_bahia</content>
                 <description>Some blogs sites</description>
               </blacklist>
               <blacklist uuid="a1c49989-4f2a-47c2-b033-9814dd68b7e4">
-                <enabled>0</enabled>
+                <enabled>1</enabled>
                 <filename>cooking</filename>
                 <url>https://dsi.ut-capitole.fr/blacklists/download/cooking.tar.gz</url>
                 <username/>
