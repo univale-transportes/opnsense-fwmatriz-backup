@@ -3145,8 +3145,8 @@ YJaOYXrqzPnq+VLMvJo3AAAAEWZ3bWF0cml6QG9wbnNlbnNlAQIDBA==&#13;
   </ntpd>
   <revision>
     <username>jhonatan.rosario@10.10.70.2</username>
-    <description>/api/proxy/settings/toggle_remote_blacklist/a1963dcc-10a4-40bb-b9a7-7d972435dcee made changes</description>
-    <time>1780854721.16</time>
+    <description>/api/proxy/settings/add_remote_blacklist/ made changes</description>
+    <time>1780854946.43</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -15852,7 +15852,7 @@ ip_transnet_bahia</content>
       </hosts>
       <aliases/>
     </unboundplus>
-    <proxy version="1.0.9" persisted_at="1780854721.16" description="Squid web proxy settings">
+    <proxy version="1.0.9" persisted_at="1780854946.43" description="Squid web proxy settings">
       <general>
         <enabled>1</enabled>
         <error_pages/>
@@ -15951,6 +15951,16 @@ ip_transnet_bahia</content>
                 <filter>adult,audio-video,bitcoin,blog,cooking,dating,ddos,download,drogue,fakenews,forums,games,hacking,lingerie,malware,manga,mixed_adult,phishing,press,sexual_education,social_networks,sports,warez</filter>
                 <sslNoVerify>1</sslNoVerify>
                 <description>Blacklists UT1</description>
+              </blacklist>
+              <blacklist uuid="007e5853-6ca2-4adb-8f2b-833b5dbf9eae">
+                <enabled>1</enabled>
+                <filename>adult</filename>
+                <url>https://dsi.ut-capitole.fr/blacklists/download/adult.tar.gz</url>
+                <username/>
+                <password/>
+                <filter/>
+                <sslNoVerify>0</sslNoVerify>
+                <description>Some adult site from erotic to hard pornography</description>
               </blacklist>
             </blacklists>
             <UpdateCron>07710b7c-fc36-401b-8470-37d14e248622</UpdateCron>
