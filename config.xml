@@ -3145,8 +3145,8 @@ YJaOYXrqzPnq+VLMvJo3AAAAEWZ3bWF0cml6QG9wbnNlbnNlAQIDBA==&#13;
   </ntpd>
   <revision>
     <username>jhonatan.rosario@10.10.70.2</username>
-    <description>/api/proxyuseracl/settings/delACL/1267ec6b-e991-4d9b-bf0f-408e37d63ad7 made changes</description>
-    <time>1780862385.26</time>
+    <description>/api/cron/settings/add_job/ made changes</description>
+    <time>1780863622.50</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -4125,7 +4125,7 @@ a363abe4509328902356d4dabaaac9fc
       </zones>
       <templates/>
     </captiveportal>
-    <cron version="1.0.4">
+    <cron version="1.0.4" persisted_at="1780863622.50" description="Cron settings">
       <jobs>
         <job uuid="07710b7c-fc36-401b-8470-37d14e248622">
           <origin>Proxy</origin>
@@ -4139,6 +4139,19 @@ a363abe4509328902356d4dabaaac9fc
           <command>proxy fetchacls</command>
           <parameters/>
           <description>fetch proxy acls</description>
+        </job>
+        <job uuid="bc959e68-fc7b-468f-b85a-3dc727337735">
+          <origin>cron</origin>
+          <enabled>1</enabled>
+          <minutes>*/4</minutes>
+          <hours>0</hours>
+          <days>*</days>
+          <months>*</months>
+          <weekdays>*</weekdays>
+          <who>root</who>
+          <command>sarg compile</command>
+          <parameters/>
+          <description>Gera relat&#xF3;rios de acesso do Squid usando o Sarg</description>
         </job>
       </jobs>
     </cron>
