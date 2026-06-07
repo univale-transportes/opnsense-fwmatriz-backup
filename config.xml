@@ -3145,8 +3145,8 @@ YJaOYXrqzPnq+VLMvJo3AAAAEWZ3bWF0cml6QG9wbnNlbnNlAQIDBA==&#13;
   </ntpd>
   <revision>
     <username>jhonatan.rosario@10.10.70.2</username>
-    <description>/api/proxy/settings/toggle_remote_blacklist/c9724f4b-edce-48e0-885b-e14369bb7eef made changes</description>
-    <time>1780856920.20</time>
+    <description>/api/proxy/settings/toggle_remote_blacklist/96f34cf3-4b6e-49b6-b5b1-81551517b3ca made changes</description>
+    <time>1780856921.69</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -15852,7 +15852,7 @@ ip_transnet_bahia</content>
       </hosts>
       <aliases/>
     </unboundplus>
-    <proxy version="1.0.9" persisted_at="1780856920.20" description="Squid web proxy settings">
+    <proxy version="1.0.9" persisted_at="1780856921.68" description="Squid web proxy settings">
       <general>
         <enabled>1</enabled>
         <error_pages/>
@@ -16123,7 +16123,7 @@ ip_transnet_bahia</content>
                 <description>Any website which deliver malware</description>
               </blacklist>
               <blacklist uuid="96f34cf3-4b6e-49b6-b5b1-81551517b3ca">
-                <enabled>1</enabled>
+                <enabled>0</enabled>
                 <filename>manga</filename>
                 <url>https://dsi.ut-capitole.fr/blacklists/download/manga.tar.gz</url>
                 <username/>
