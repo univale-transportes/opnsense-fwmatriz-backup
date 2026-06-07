@@ -3145,8 +3145,8 @@ YJaOYXrqzPnq+VLMvJo3AAAAEWZ3bWF0cml6QG9wbnNlbnNlAQIDBA==&#13;
   </ntpd>
   <revision>
     <username>jhonatan.rosario@10.10.70.2</username>
-    <description>/api/proxy/settings/toggle_remote_blacklist/351cec3d-05b8-4dab-bde7-6a4dfe437d89 made changes</description>
-    <time>1780856927.62</time>
+    <description>/api/proxy/settings/toggle_remote_blacklist/0857d058-090d-4328-9287-b695ffba6e6f made changes</description>
+    <time>1780856928.33</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -15852,7 +15852,7 @@ ip_transnet_bahia</content>
       </hosts>
       <aliases/>
     </unboundplus>
-    <proxy version="1.0.9" persisted_at="1780856927.62" description="Squid web proxy settings">
+    <proxy version="1.0.9" persisted_at="1780856928.33" description="Squid web proxy settings">
       <general>
         <enabled>1</enabled>
         <error_pages/>
@@ -15973,7 +15973,7 @@ ip_transnet_bahia</content>
                 <description>Gambling and games sites, casino, etc</description>
               </blacklist>
               <blacklist uuid="0857d058-090d-4328-9287-b695ffba6e6f">
-                <enabled>1</enabled>
+                <enabled>0</enabled>
                 <filename>hacking</filename>
                 <url>https://dsi.ut-capitole.fr/blacklists/download/hacking.tar.gz</url>
                 <username/>
