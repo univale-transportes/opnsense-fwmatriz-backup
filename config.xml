@@ -3146,7 +3146,7 @@ YJaOYXrqzPnq+VLMvJo3AAAAEWZ3bWF0cml6QG9wbnNlbnNlAQIDBA==&#13;
   <revision>
     <username>jhonatan.rosario@10.10.70.2</username>
     <description>/api/proxyuseracl/settings/addACL/ made changes</description>
-    <time>1780801409.17</time>
+    <time>1780802134.19</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -16071,11 +16071,11 @@ ip_transnet_bahia</content>
         <max_len>128</max_len>
       </slowlog>
     </redis>
-    <ProxyUserACL version="1.0.1" persisted_at="1780801409.17" description="Group and User ACL settings">
+    <ProxyUserACL version="1.0.1" persisted_at="1780802134.18" description="Group and User ACL settings">
       <general>
         <ACLs>
           <ACL uuid="ab880690-e839-436e-a9aa-4c0ebc09a4b3">
-            <Priority>2</Priority>
+            <Priority>3</Priority>
             <Name>ACESSO_PADRAO</Name>
             <Hex>41434553534f5f50414452414f</Hex>
             <Action>allow</Action>
@@ -16085,7 +16085,7 @@ ip_transnet_bahia</content>
             <Domains>.*</Domains>
           </ACL>
           <ACL uuid="ec067af0-e468-412a-a36c-a92f88256979">
-            <Priority>1</Priority>
+            <Priority>2</Priority>
             <Name>ACESSO_PADRAO</Name>
             <Hex>41434553534f5f50414452414f</Hex>
             <Action>deny</Action>
@@ -16095,7 +16095,7 @@ ip_transnet_bahia</content>
             <Domains>sportrecife.com.br,whatsapp.com,whatsapp.net,youtube.com,googlevideo.com</Domains>
           </ACL>
           <ACL uuid="64f68705-3d98-415b-b895-51333c53a084">
-            <Priority>3</Priority>
+            <Priority>4</Priority>
             <Name>ACESSO_LIBERADO</Name>
             <Hex>41434553534f5f4c4942455241444f</Hex>
             <Action>deny</Action>
@@ -16105,7 +16105,7 @@ ip_transnet_bahia</content>
             <Domains>youtube.com,facebook.com</Domains>
           </ACL>
           <ACL uuid="68c51ce1-dec0-4ae0-a84e-954714fd41b4">
-            <Priority>4</Priority>
+            <Priority>5</Priority>
             <Name>ACESSO_LIBERADO</Name>
             <Hex>41434553534f5f4c4942455241444f</Hex>
             <Action>allow</Action>
@@ -16115,7 +16115,7 @@ ip_transnet_bahia</content>
             <Domains>.*</Domains>
           </ACL>
           <ACL uuid="1f5ffe08-28ea-47a9-b292-85a9db80be7d">
-            <Priority>5</Priority>
+            <Priority>6</Priority>
             <Name>ACESSO_BLOQUEADO</Name>
             <Hex>41434553534f5f424c4f51554541444f</Hex>
             <Action>deny</Action>
@@ -16125,7 +16125,7 @@ ip_transnet_bahia</content>
             <Domains>.*</Domains>
           </ACL>
           <ACL uuid="58d28885-a53e-49f3-9bab-89104d3304ae">
-            <Priority>0</Priority>
+            <Priority>1</Priority>
             <Name>Whitelist</Name>
             <Hex>57686974656c697374</Hex>
             <Action>allow</Action>
@@ -16133,6 +16133,16 @@ ip_transnet_bahia</content>
             <SourceAddress>192.168.0.0/24</SourceAddress>
             <Categories/>
             <Domains>dropbox,fortinet.com,191.242.203.32,windows.com,windowsupdate.com,azureedge.net,microsoft.com,googleapis.com,google.com,anydesk.com,visualstudio.com,windows.net,ctasmart.com.br,gstatic.com,googleusercontent.com,hcaptcha.com,transoft.com.br,univale.com,kaspersky-labs.com,kaspersky.com,ssl.com,office.net,milvus.com.br,powerbi.com,powerapps.com,itau.com.br,evergage.com,gov.br,1.178.36.122,177.222.248.182,office.com,static.microsoft,128.0.0.26,amazonaws.com,univale.local,outlook.com,aefsistemas.inf.br,pki.goog,digicert.com,bradesconetempresa.b.br,bradesco,gvt1.com,intelbras.com,caixa.gov.br,gastecnologia.com.br,dataengine.com.br,dmcenter.com.br,typekit.net,webex.com,bing.com,msedge.net,tjmg.jus.br,wbx2.com,microsoft.net,msftconnecttest.com,docusign.net,akamaihd.net,mixpainel.com,moovsec.com.br,bancodoc.com.br,microsoftonline.com,exametoxicologico.com.br,cloudflare.com,cloudflareinsights.com,cloudfront.net,googletagmanager.com,usisaude.com.br,mconnect.unimedva.com.br:2096 unimedva.com.br,mixtelematics.com,mercadonarede.com.br,get.activated.win</Domains>
+          </ACL>
+          <ACL uuid="43ab3527-3413-4804-8bc2-b9c61f4b0ead">
+            <Priority>0</Priority>
+            <Name>Blacklist</Name>
+            <Hex>426c61636b6c697374</Hex>
+            <Action>deny</Action>
+            <SourceType>address</SourceType>
+            <SourceAddress>192.168.0.0/24</SourceAddress>
+            <Categories/>
+            <Domains/>
           </ACL>
         </ACLs>
       </general>
