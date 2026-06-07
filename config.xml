@@ -3146,7 +3146,7 @@ YJaOYXrqzPnq+VLMvJo3AAAAEWZ3bWF0cml6QG9wbnNlbnNlAQIDBA==&#13;
   <revision>
     <username>jhonatan.rosario@10.10.70.2</username>
     <description>/api/proxy/settings/add_remote_blacklist/ made changes</description>
-    <time>1780856502.15</time>
+    <time>1780856533.73</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -15852,7 +15852,7 @@ ip_transnet_bahia</content>
       </hosts>
       <aliases/>
     </unboundplus>
-    <proxy version="1.0.9" persisted_at="1780856502.15" description="Squid web proxy settings">
+    <proxy version="1.0.9" persisted_at="1780856533.73" description="Squid web proxy settings">
       <general>
         <enabled>1</enabled>
         <error_pages/>
@@ -16131,6 +16131,16 @@ ip_transnet_bahia</content>
                 <filter/>
                 <sslNoVerify>0</sslNoVerify>
                 <description>Any website related to manga, and cartoons</description>
+              </blacklist>
+              <blacklist uuid="401cd64c-c252-4ee9-9dc2-d0a3c8f51117">
+                <enabled>1</enabled>
+                <filename>mixed_adult</filename>
+                <url>https://dsi.ut-capitole.fr/blacklists/download/mixed_adult.tar.gz</url>
+                <username/>
+                <password/>
+                <filter/>
+                <sslNoVerify>0</sslNoVerify>
+                <description>Websites which contains adult sections unstructured</description>
               </blacklist>
             </blacklists>
             <UpdateCron>07710b7c-fc36-401b-8470-37d14e248622</UpdateCron>
