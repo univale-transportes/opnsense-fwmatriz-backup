@@ -3145,8 +3145,8 @@ YJaOYXrqzPnq+VLMvJo3AAAAEWZ3bWF0cml6QG9wbnNlbnNlAQIDBA==&#13;
   </ntpd>
   <revision>
     <username>jhonatan.rosario@10.10.70.2</username>
-    <description>/api/proxyuseracl/settings/setACL/43ab3527-3413-4804-8bc2-b9c61f4b0ead made changes</description>
-    <time>1780804636.83</time>
+    <description>/api/proxy/settings/set made changes</description>
+    <time>1780804640.80</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -15852,7 +15852,7 @@ ip_transnet_bahia</content>
       </hosts>
       <aliases/>
     </unboundplus>
-    <proxy version="1.0.9" persisted_at="1780804251.00" description="Squid web proxy settings">
+    <proxy version="1.0.9" persisted_at="1780804640.80" description="Squid web proxy settings">
       <general>
         <enabled>1</enabled>
         <error_pages>opnsense</error_pages>
