@@ -3146,7 +3146,7 @@ YJaOYXrqzPnq+VLMvJo3AAAAEWZ3bWF0cml6QG9wbnNlbnNlAQIDBA==&#13;
   <revision>
     <username>jhonatan.rosario@10.10.70.2</username>
     <description>/api/proxy/settings/set made changes</description>
-    <time>1780804779.78</time>
+    <time>1780804806.29</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -15852,7 +15852,7 @@ ip_transnet_bahia</content>
       </hosts>
       <aliases/>
     </unboundplus>
-    <proxy version="1.0.9" persisted_at="1780804779.78" description="Squid web proxy settings">
+    <proxy version="1.0.9" persisted_at="1780804806.29" description="Squid web proxy settings">
       <general>
         <enabled>1</enabled>
         <error_pages/>
