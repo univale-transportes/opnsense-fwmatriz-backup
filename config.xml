@@ -3145,8 +3145,8 @@ YJaOYXrqzPnq+VLMvJo3AAAAEWZ3bWF0cml6QG9wbnNlbnNlAQIDBA==&#13;
   </ntpd>
   <revision>
     <username>jhonatan.rosario@10.10.70.2</username>
-    <description>/api/proxy/settings/toggle_remote_blacklist/96f34cf3-4b6e-49b6-b5b1-81551517b3ca made changes</description>
-    <time>1780857535.51</time>
+    <description>/api/proxy/settings/toggle_remote_blacklist/da4be46e-2cab-48c5-aef8-92cae1ce9dc8 made changes</description>
+    <time>1780857536.96</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -15852,7 +15852,7 @@ ip_transnet_bahia</content>
       </hosts>
       <aliases/>
     </unboundplus>
-    <proxy version="1.0.9" persisted_at="1780857535.51" description="Squid web proxy settings">
+    <proxy version="1.0.9" persisted_at="1780857536.96" description="Squid web proxy settings">
       <general>
         <enabled>1</enabled>
         <error_pages>custom</error_pages>
@@ -16113,7 +16113,7 @@ ip_transnet_bahia</content>
                 <description>Sites for lingerie</description>
               </blacklist>
               <blacklist uuid="da4be46e-2cab-48c5-aef8-92cae1ce9dc8">
-                <enabled>0</enabled>
+                <enabled>1</enabled>
                 <filename>malware</filename>
                 <url>https://dsi.ut-capitole.fr/blacklists/download/malware.tar.gz</url>
                 <username/>
