@@ -3145,8 +3145,8 @@ YJaOYXrqzPnq+VLMvJo3AAAAEWZ3bWF0cml6QG9wbnNlbnNlAQIDBA==&#13;
   </ntpd>
   <revision>
     <username>jhonatan.rosario@10.10.70.2</username>
-    <description>/api/proxy/settings/toggle_remote_blacklist/278f17eb-4e1f-46a4-a4d5-52684159ca91 made changes</description>
-    <time>1780796406.80</time>
+    <description>/api/proxy/settings/set_remote_blacklist/278f17eb-4e1f-46a4-a4d5-52684159ca91 made changes</description>
+    <time>1780798395.79</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -15852,7 +15852,7 @@ ip_transnet_bahia</content>
       </hosts>
       <aliases/>
     </unboundplus>
-    <proxy version="1.0.9" persisted_at="1780796406.80" description="Squid web proxy settings">
+    <proxy version="1.0.9" persisted_at="1780798395.79" description="Squid web proxy settings">
       <general>
         <enabled>1</enabled>
         <error_pages>opnsense</error_pages>
@@ -15948,7 +15948,7 @@ ip_transnet_bahia</content>
                 <url>ftp://ftp.ut-capitole.fr/pub/reseau/cache/squidguard_contrib/blacklists.tar.gz</url>
                 <username/>
                 <password/>
-                <filter>adult,agressif,arjel,associations_religieuses,astrology,audio-video,bank,bitcoin,blog,celebrity,chat,child,cleaning,cooking,cryptojacking,dangerous_material,dating,ddos,dialer,doh,download,drogue,dynamic-dns,educational_games,examen_pix,exceptions_liste_bu,fakenews,filehosting,financial,forums,gambling,games,hacking,jobsearch,lingerie,liste_blanche,liste_bu,malware,manga,marketingware,mixed_adult,mobile-phone,phishing,press,publicite,radio,reaffected,redirector,remote-control,residential-proxies,sect,sexual_education,shopping,shortener,social_networks,special,sports,stalkerware,strict_redirector,strong_redirector,translation,tricheur,tricheur_pix,update,vpn,warez,webhosting,webmail</filter>
+                <filter>adult,blacklists/dating,blacklists/fakenews,blacklists/games,blacklists/hacking,blacklists/sports,cooking,dangerous_material,dating,ddos,fakenews,games,hacking,lingerie,malware,manga,mixed_adult,phishing,sexual_education,sports</filter>
                 <sslNoVerify>0</sslNoVerify>
                 <description>UT1 Web Filter</description>
               </blacklist>
