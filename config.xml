@@ -3145,8 +3145,8 @@ YJaOYXrqzPnq+VLMvJo3AAAAEWZ3bWF0cml6QG9wbnNlbnNlAQIDBA==&#13;
   </ntpd>
   <revision>
     <username>jhonatan.rosario@10.10.70.2</username>
-    <description>/api/proxy/settings/set_remote_blacklist/a1963dcc-10a4-40bb-b9a7-7d972435dcee made changes</description>
-    <time>1780854202.04</time>
+    <description>/api/proxy/settings/toggle_remote_blacklist/a1963dcc-10a4-40bb-b9a7-7d972435dcee made changes</description>
+    <time>1780854721.16</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -15852,7 +15852,7 @@ ip_transnet_bahia</content>
       </hosts>
       <aliases/>
     </unboundplus>
-    <proxy version="1.0.9" persisted_at="1780854202.04" description="Squid web proxy settings">
+    <proxy version="1.0.9" persisted_at="1780854721.16" description="Squid web proxy settings">
       <general>
         <enabled>1</enabled>
         <error_pages/>
@@ -15943,7 +15943,7 @@ ip_transnet_bahia</content>
           <remoteACLs>
             <blacklists>
               <blacklist uuid="a1963dcc-10a4-40bb-b9a7-7d972435dcee">
-                <enabled>1</enabled>
+                <enabled>0</enabled>
                 <filename>blacklist</filename>
                 <url>https://dsi.ut-capitole.fr/blacklists/download/blacklists.tar.gz</url>
                 <username/>
