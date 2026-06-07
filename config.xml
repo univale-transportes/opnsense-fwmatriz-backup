@@ -3146,7 +3146,7 @@ YJaOYXrqzPnq+VLMvJo3AAAAEWZ3bWF0cml6QG9wbnNlbnNlAQIDBA==&#13;
   <revision>
     <username>jhonatan.rosario@10.10.70.2</username>
     <description>/api/proxy/settings/set_remote_blacklist/278f17eb-4e1f-46a4-a4d5-52684159ca91 made changes</description>
-    <time>1780798395.79</time>
+    <time>1780798674.63</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -15852,7 +15852,7 @@ ip_transnet_bahia</content>
       </hosts>
       <aliases/>
     </unboundplus>
-    <proxy version="1.0.9" persisted_at="1780798395.79" description="Squid web proxy settings">
+    <proxy version="1.0.9" persisted_at="1780798674.63" description="Squid web proxy settings">
       <general>
         <enabled>1</enabled>
         <error_pages>opnsense</error_pages>
@@ -15948,7 +15948,7 @@ ip_transnet_bahia</content>
                 <url>ftp://ftp.ut-capitole.fr/pub/reseau/cache/squidguard_contrib/blacklists.tar.gz</url>
                 <username/>
                 <password/>
-                <filter>adult,blacklists/dating,blacklists/fakenews,blacklists/games,blacklists/hacking,blacklists/sports,cooking,dangerous_material,dating,ddos,fakenews,games,hacking,lingerie,malware,manga,mixed_adult,phishing,sexual_education,sports</filter>
+                <filter>adult,audio-video,bitcoin,blacklists/adult,blacklists/audio-video,blacklists/bitcoin,blacklists/celebrity,blacklists/dating,blacklists/ddos,blacklists/educational_games,blacklists/fakenews,blacklists/forums,blacklists/games,blacklists/hacking,blacklists/mixed_adult,blacklists/sports,blacklists/warez,celebrity,cooking,dangerous_material,dating,ddos,educational_games,fakenews,forums,games,hacking,lingerie,malware,manga,mixed_adult,phishing,sexual_education,sports,warez</filter>
                 <sslNoVerify>0</sslNoVerify>
                 <description>UT1 Web Filter</description>
               </blacklist>
