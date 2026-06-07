@@ -3144,8 +3144,8 @@ YJaOYXrqzPnq+VLMvJo3AAAAEWZ3bWF0cml6QG9wbnNlbnNlAQIDBA==&#13;
   </ntpd>
   <revision>
     <username>jhonatan.rosario@10.10.70.2</username>
-    <description>/api/redis/settings/set made changes</description>
-    <time>1780799728.51</time>
+    <description>/api/proxy/settings/set made changes</description>
+    <time>1780800603.66</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -15851,7 +15851,7 @@ ip_transnet_bahia</content>
       </hosts>
       <aliases/>
     </unboundplus>
-    <proxy version="1.0.9" persisted_at="1780798928.03" description="Squid web proxy settings">
+    <proxy version="1.0.9" persisted_at="1780800603.65" description="Squid web proxy settings">
       <general>
         <enabled>1</enabled>
         <error_pages>opnsense</error_pages>
@@ -15914,7 +15914,7 @@ ip_transnet_bahia</content>
         <sslbump>1</sslbump>
         <sslurlonly>1</sslurlonly>
         <sslcertificate>67f566938eca3</sslcertificate>
-        <sslnobumpsites>itau.com.br,conectividadesocialv2.caixa.gov.br,guardiao.itau.com.br,www.itau.com.br,aefsistemas.inf.br,certificado.sso.acesso.gov.br,gov.br</sslnobumpsites>
+        <sslnobumpsites>.caixa.gov.br,.itau.com.br,.gov.br</sslnobumpsites>
         <workers>2</workers>
         <ssl_crtd_storage_max_size>2048</ssl_crtd_storage_max_size>
         <sslcrtd_children>10</sslcrtd_children>
