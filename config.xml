@@ -3145,8 +3145,8 @@ YJaOYXrqzPnq+VLMvJo3AAAAEWZ3bWF0cml6QG9wbnNlbnNlAQIDBA==&#13;
   </ntpd>
   <revision>
     <username>jhonatan.rosario@10.10.70.2</username>
-    <description>/api/proxy/settings/toggle_remote_blacklist/f0e79b4a-3607-4f29-884e-87199082f2f0 made changes</description>
-    <time>1780857556.42</time>
+    <description>/api/proxy/settings/toggle_remote_blacklist/d36015c5-da5a-47c6-af85-1541945b8779 made changes</description>
+    <time>1780857557.27</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -15852,7 +15852,7 @@ ip_transnet_bahia</content>
       </hosts>
       <aliases/>
     </unboundplus>
-    <proxy version="1.0.9" persisted_at="1780857556.42" description="Squid web proxy settings">
+    <proxy version="1.0.9" persisted_at="1780857557.27" description="Squid web proxy settings">
       <general>
         <enabled>1</enabled>
         <error_pages>custom</error_pages>
@@ -15993,7 +15993,7 @@ ip_transnet_bahia</content>
                 <description>Some audio and video sites</description>
               </blacklist>
               <blacklist uuid="d36015c5-da5a-47c6-af85-1541945b8779">
-                <enabled>0</enabled>
+                <enabled>1</enabled>
                 <filename>bitcoin</filename>
                 <url>https://dsi.ut-capitole.fr/blacklists/download/bitcoin.tar.gz</url>
                 <username/>
