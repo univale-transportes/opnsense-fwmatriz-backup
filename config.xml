@@ -3146,7 +3146,7 @@ YJaOYXrqzPnq+VLMvJo3AAAAEWZ3bWF0cml6QG9wbnNlbnNlAQIDBA==&#13;
   <revision>
     <username>jhonatan.rosario@10.10.70.2</username>
     <description>/api/unbound/settings/set made changes</description>
-    <time>1780798972.75</time>
+    <time>1780798998.34</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -15605,12 +15605,12 @@ ip_transnet_bahia</content>
         <MinProtocol_DTLS/>
       </general>
     </trust>
-    <unboundplus version="1.0.15" persisted_at="1780798972.75" description="Unbound configuration">
+    <unboundplus version="1.0.15" persisted_at="1780798998.34" description="Unbound configuration">
       <general>
         <enabled>1</enabled>
         <port>53</port>
         <stats/>
-        <active_interface/>
+        <active_interface>opt4,lan,opt5,opt3,opt2</active_interface>
         <dnssec>0</dnssec>
         <dns64>0</dns64>
         <dns64prefix/>
