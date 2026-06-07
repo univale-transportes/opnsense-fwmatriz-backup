@@ -3145,8 +3145,8 @@ YJaOYXrqzPnq+VLMvJo3AAAAEWZ3bWF0cml6QG9wbnNlbnNlAQIDBA==&#13;
   </ntpd>
   <revision>
     <username>jhonatan.rosario@10.10.70.2</username>
-    <description>/api/proxy/settings/toggle_remote_blacklist/297755db-78f8-4a28-9cdf-a51dc3288c23 made changes</description>
-    <time>1780856949.09</time>
+    <description>/api/proxy/settings/toggle_remote_blacklist/bbcf364a-87c4-45de-bf42-42f3a2f1ae12 made changes</description>
+    <time>1780856949.87</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -15852,7 +15852,7 @@ ip_transnet_bahia</content>
       </hosts>
       <aliases/>
     </unboundplus>
-    <proxy version="1.0.9" persisted_at="1780856949.09" description="Squid web proxy settings">
+    <proxy version="1.0.9" persisted_at="1780856949.87" description="Squid web proxy settings">
       <general>
         <enabled>1</enabled>
         <error_pages/>
@@ -16173,7 +16173,7 @@ ip_transnet_bahia</content>
                 <description>All social networks sites</description>
               </blacklist>
               <blacklist uuid="bbcf364a-87c4-45de-bf42-42f3a2f1ae12">
-                <enabled>1</enabled>
+                <enabled>0</enabled>
                 <filename>sports</filename>
                 <url>https://dsi.ut-capitole.fr/blacklists/download/sports.tar.gz</url>
                 <username/>
