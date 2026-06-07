@@ -3146,7 +3146,7 @@ YJaOYXrqzPnq+VLMvJo3AAAAEWZ3bWF0cml6QG9wbnNlbnNlAQIDBA==&#13;
   <revision>
     <username>jhonatan.rosario@10.10.70.2</username>
     <description>/api/proxy/settings/add_remote_blacklist/ made changes</description>
-    <time>1780856297.58</time>
+    <time>1780856327.29</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -15852,7 +15852,7 @@ ip_transnet_bahia</content>
       </hosts>
       <aliases/>
     </unboundplus>
-    <proxy version="1.0.9" persisted_at="1780856297.58" description="Squid web proxy settings">
+    <proxy version="1.0.9" persisted_at="1780856327.29" description="Squid web proxy settings">
       <general>
         <enabled>1</enabled>
         <error_pages/>
@@ -16071,6 +16071,16 @@ ip_transnet_bahia</content>
                 <filter/>
                 <sslNoVerify>0</sslNoVerify>
                 <description>Sites relative to drugs</description>
+              </blacklist>
+              <blacklist uuid="7199a8f8-364b-4c58-9fc4-2ec38f0dbb1e">
+                <enabled>1</enabled>
+                <filename>fakenews</filename>
+                <url>https://dsi.ut-capitole.fr/blacklists/download/fakenews.tar.gz</url>
+                <username/>
+                <password/>
+                <filter/>
+                <sslNoVerify>0</sslNoVerify>
+                <description>Site which provides fakenews</description>
               </blacklist>
             </blacklists>
             <UpdateCron>07710b7c-fc36-401b-8470-37d14e248622</UpdateCron>
