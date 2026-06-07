@@ -3145,8 +3145,8 @@ YJaOYXrqzPnq+VLMvJo3AAAAEWZ3bWF0cml6QG9wbnNlbnNlAQIDBA==&#13;
   </ntpd>
   <revision>
     <username>jhonatan.rosario@10.10.70.2</username>
-    <description>/api/proxy/settings/toggle_remote_blacklist/a1c49989-4f2a-47c2-b033-9814dd68b7e4 made changes</description>
-    <time>1780856934.70</time>
+    <description>/api/proxy/settings/toggle_remote_blacklist/6bbe9dbe-5bdd-4b9a-97fb-69ba347a19ab made changes</description>
+    <time>1780856935.72</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -15852,7 +15852,7 @@ ip_transnet_bahia</content>
       </hosts>
       <aliases/>
     </unboundplus>
-    <proxy version="1.0.9" persisted_at="1780856934.70" description="Squid web proxy settings">
+    <proxy version="1.0.9" persisted_at="1780856935.72" description="Squid web proxy settings">
       <general>
         <enabled>1</enabled>
         <error_pages/>
@@ -16103,7 +16103,7 @@ ip_transnet_bahia</content>
                 <description>Forums site</description>
               </blacklist>
               <blacklist uuid="6bbe9dbe-5bdd-4b9a-97fb-69ba347a19ab">
-                <enabled>1</enabled>
+                <enabled>0</enabled>
                 <filename>lingerie</filename>
                 <url>https://dsi.ut-capitole.fr/blacklists/download/lingerie.tar.gz</url>
                 <username/>
