@@ -3146,7 +3146,7 @@ YJaOYXrqzPnq+VLMvJo3AAAAEWZ3bWF0cml6QG9wbnNlbnNlAQIDBA==&#13;
   <revision>
     <username>jhonatan.rosario@10.10.70.2</username>
     <description>/api/proxy/settings/add_remote_blacklist/ made changes</description>
-    <time>1780855791.56</time>
+    <time>1780855877.31</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -15852,7 +15852,7 @@ ip_transnet_bahia</content>
       </hosts>
       <aliases/>
     </unboundplus>
-    <proxy version="1.0.9" persisted_at="1780855791.56" description="Squid web proxy settings">
+    <proxy version="1.0.9" persisted_at="1780855877.30" description="Squid web proxy settings">
       <general>
         <enabled>1</enabled>
         <error_pages/>
@@ -15991,6 +15991,16 @@ ip_transnet_bahia</content>
                 <filter/>
                 <sslNoVerify>0</sslNoVerify>
                 <description>Hacking sites</description>
+              </blacklist>
+              <blacklist uuid="83730cca-0366-462d-95a7-6af99375936c">
+                <enabled>1</enabled>
+                <filename>audiovideo</filename>
+                <url>https://dsi.ut-capitole.fr/blacklists/download/audio-video.tar.gz</url>
+                <username/>
+                <password/>
+                <filter/>
+                <sslNoVerify>0</sslNoVerify>
+                <description>Some audio and video sites</description>
               </blacklist>
             </blacklists>
             <UpdateCron>07710b7c-fc36-401b-8470-37d14e248622</UpdateCron>
