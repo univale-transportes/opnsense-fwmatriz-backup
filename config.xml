@@ -3145,8 +3145,8 @@ YJaOYXrqzPnq+VLMvJo3AAAAEWZ3bWF0cml6QG9wbnNlbnNlAQIDBA==&#13;
   </ntpd>
   <revision>
     <username>jhonatan.rosario@10.10.70.2</username>
-    <description>/api/proxyuseracl/settings/setACL/1267ec6b-e991-4d9b-bf0f-408e37d63ad7 made changes</description>
-    <time>1780861231.07</time>
+    <description>/api/proxyuseracl/settings/delACL/1267ec6b-e991-4d9b-bf0f-408e37d63ad7 made changes</description>
+    <time>1780862385.26</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -16311,11 +16311,11 @@ ip_transnet_bahia</content>
         <max_len>128</max_len>
       </slowlog>
     </redis>
-    <ProxyUserACL version="1.0.1" persisted_at="1780861231.07" description="Group and User ACL settings">
+    <ProxyUserACL version="1.0.1" persisted_at="1780862385.26" description="Group and User ACL settings">
       <general>
         <ACLs>
           <ACL uuid="ab880690-e839-436e-a9aa-4c0ebc09a4b3">
-            <Priority>3</Priority>
+            <Priority>2</Priority>
             <Name>ACESSO_PADRAO</Name>
             <Hex>41434553534f5f50414452414f</Hex>
             <Action>allow</Action>
@@ -16325,7 +16325,7 @@ ip_transnet_bahia</content>
             <Domains>.*</Domains>
           </ACL>
           <ACL uuid="ec067af0-e468-412a-a36c-a92f88256979">
-            <Priority>2</Priority>
+            <Priority>1</Priority>
             <Name>ACESSO_PADRAO</Name>
             <Hex>41434553534f5f50414452414f</Hex>
             <Action>deny</Action>
@@ -16335,7 +16335,7 @@ ip_transnet_bahia</content>
             <Domains>whatsapp.com,whatsapp.net</Domains>
           </ACL>
           <ACL uuid="64f68705-3d98-415b-b895-51333c53a084">
-            <Priority>4</Priority>
+            <Priority>3</Priority>
             <Name>ACESSO_LIBERADO</Name>
             <Hex>41434553534f5f4c4942455241444f</Hex>
             <Action>deny</Action>
@@ -16345,7 +16345,7 @@ ip_transnet_bahia</content>
             <Domains>youtube.com,facebook.com</Domains>
           </ACL>
           <ACL uuid="68c51ce1-dec0-4ae0-a84e-954714fd41b4">
-            <Priority>5</Priority>
+            <Priority>4</Priority>
             <Name>ACESSO_LIBERADO</Name>
             <Hex>41434553534f5f4c4942455241444f</Hex>
             <Action>allow</Action>
@@ -16355,7 +16355,7 @@ ip_transnet_bahia</content>
             <Domains>.*</Domains>
           </ACL>
           <ACL uuid="1f5ffe08-28ea-47a9-b292-85a9db80be7d">
-            <Priority>6</Priority>
+            <Priority>5</Priority>
             <Name>ACESSO_BLOQUEADO</Name>
             <Hex>41434553534f5f424c4f51554541444f</Hex>
             <Action>deny</Action>
@@ -16365,7 +16365,7 @@ ip_transnet_bahia</content>
             <Domains>.*</Domains>
           </ACL>
           <ACL uuid="43ab3527-3413-4804-8bc2-b9c61f4b0ead">
-            <Priority>1</Priority>
+            <Priority>0</Priority>
             <Name>Blacklist</Name>
             <Hex>426c61636b6c697374</Hex>
             <Action>deny</Action>
@@ -16373,16 +16373,6 @@ ip_transnet_bahia</content>
             <SourceAddress>192.168.0.0/24</SourceAddress>
             <Categories/>
             <Domains>shopee.com.br,mercadolivre.com.br,banggood.com,shein.com,aliexpress.com,gearbest.ma,americanas.com.br,magazineluiza.com.br,casasbahia.com.br,pontofrio.com.br,carrefour.com.br,madeiramadeira.com.br,zema.com,ebay.com,tidal.com,signal.org,threads.com,messenger.com,kabum.com.br,zoom.com.br,pichau.com.br,terabyteshop.com.br,studiopc.com.br,chipart.com.br,olx.com.br,enjoei.com.br,meliuz.com.br,livelo.com.br,esfera.com.vc,4shared.com,depositfiles.org,mega.io,mediafire.com,zippyshare.com,sourceforge.net,wetransfer.com,rapidshare.com,upload.com,bitshare.com,depositfiles.com,turbobit.net,sendspace.com,uploaded.net,perplexity.ai,deepseek.com,grok.com,bbc.com,uol.com.br,terra.com.br,r7.com,sbt.com.br,ocioso.com.br,estadao.com.br,espn.com.br,tntsports.com.br,ticketsports.com.br,shopee.com,whasapp.com,whatsapp.net</Domains>
-          </ACL>
-          <ACL uuid="1267ec6b-e991-4d9b-bf0f-408e37d63ad7">
-            <Priority>0</Priority>
-            <Name>Whitelist</Name>
-            <Hex>57686974656c697374</Hex>
-            <Action>allow</Action>
-            <SourceType>address</SourceType>
-            <SourceAddress>192.168.0.0/24</SourceAddress>
-            <Categories/>
-            <Domains>whatsapp.com,whatsapp.net</Domains>
           </ACL>
         </ACLs>
       </general>
