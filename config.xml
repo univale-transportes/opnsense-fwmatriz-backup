@@ -3145,8 +3145,8 @@ YJaOYXrqzPnq+VLMvJo3AAAAEWZ3bWF0cml6QG9wbnNlbnNlAQIDBA==&#13;
   </ntpd>
   <revision>
     <username>jhonatan.rosario@10.10.70.2</username>
-    <description>/api/proxy/settings/add_remote_blacklist/ made changes</description>
-    <time>1780856824.81</time>
+    <description>/api/proxy/settings/set_remote_blacklist/bbcf364a-87c4-45de-bf42-42f3a2f1ae12 made changes</description>
+    <time>1780856830.82</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -15852,7 +15852,7 @@ ip_transnet_bahia</content>
       </hosts>
       <aliases/>
     </unboundplus>
-    <proxy version="1.0.9" persisted_at="1780856824.81" description="Squid web proxy settings">
+    <proxy version="1.0.9" persisted_at="1780856830.82" description="Squid web proxy settings">
       <general>
         <enabled>1</enabled>
         <error_pages/>
@@ -16180,7 +16180,7 @@ ip_transnet_bahia</content>
                 <password/>
                 <filter/>
                 <sslNoVerify>0</sslNoVerify>
-                <description>Sports</description>
+                <description>Sports sites</description>
               </blacklist>
               <blacklist uuid="a6f88e75-29ad-4bb6-89d8-a4d21ea6da39">
                 <enabled>1</enabled>
