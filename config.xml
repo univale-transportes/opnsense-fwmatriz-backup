@@ -3145,8 +3145,8 @@ YJaOYXrqzPnq+VLMvJo3AAAAEWZ3bWF0cml6QG9wbnNlbnNlAQIDBA==&#13;
   </ntpd>
   <revision>
     <username>jhonatan.rosario@172.16.30.18</username>
-    <description>/api/kea/dhcpv4/set made changes</description>
-    <time>1780954893.09</time>
+    <description>/api/kea/dhcpv4/del_reservation/677f84ae-0e74-4690-86a6-3b0aa85229e0 made changes</description>
+    <time>1780954963.75</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -12739,7 +12739,7 @@ ip_transnet_bahia</content>
           <http_port>8000</http_port>
         </general>
       </ctrl_agent>
-      <dhcp4 version="1.0.5" persisted_at="1780954893.09" description="Kea DHCPv4 configuration">
+      <dhcp4 version="1.0.5" persisted_at="1780954963.74" description="Kea DHCPv4 configuration">
         <general>
           <enabled>1</enabled>
           <manual_config>0</manual_config>
@@ -15292,28 +15292,6 @@ ip_transnet_bahia</content>
             <client_id/>
             <hostname>rootca</hostname>
             <description>Servidor Offline Root CA</description>
-            <next_server/>
-            <option_data>
-              <domain_name_servers/>
-              <domain_search/>
-              <routers/>
-              <static_routes/>
-              <classless_static_route/>
-              <domain_name/>
-              <ntp_servers/>
-              <time_servers/>
-              <tftp_server_name/>
-              <boot_file_name/>
-            </option_data>
-            <option/>
-          </reservation>
-          <reservation uuid="677f84ae-0e74-4690-86a6-3b0aa85229e0">
-            <subnet>2f21f5d8-fbf9-4130-9eab-b25ef1c82224</subnet>
-            <ip_address>172.16.30.3</ip_address>
-            <hw_address>04:68:74:44:f2:cb</hw_address>
-            <client_id/>
-            <hostname/>
-            <description>Notebook Jhonatan - TI</description>
             <next_server/>
             <option_data>
               <domain_name_servers/>
