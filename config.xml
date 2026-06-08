@@ -3145,8 +3145,8 @@ YJaOYXrqzPnq+VLMvJo3AAAAEWZ3bWF0cml6QG9wbnNlbnNlAQIDBA==&#13;
   </ntpd>
   <revision>
     <username>jhonatan.rosario@10.10.70.2</username>
-    <description>/api/proxyuseracl/settings/setACL/43ab3527-3413-4804-8bc2-b9c61f4b0ead made changes</description>
-    <time>1780889539.55</time>
+    <description>/api/proxyuseracl/settings/updownACL/ab880690-e839-436e-a9aa-4c0ebc09a4b3 made changes</description>
+    <time>1780889546.58</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -16324,11 +16324,11 @@ ip_transnet_bahia</content>
         <max_len>128</max_len>
       </slowlog>
     </redis>
-    <ProxyUserACL version="1.0.1" persisted_at="1780889539.55" description="Group and User ACL settings">
+    <ProxyUserACL version="1.0.1" persisted_at="1780889546.58" description="Group and User ACL settings">
       <general>
         <ACLs>
           <ACL uuid="ab880690-e839-436e-a9aa-4c0ebc09a4b3">
-            <Priority>2</Priority>
+            <Priority>1</Priority>
             <Name>ACESSO_PADRAO</Name>
             <Hex>41434553534f5f50414452414f</Hex>
             <Action>allow</Action>
@@ -16358,7 +16358,7 @@ ip_transnet_bahia</content>
             <Domains>.*</Domains>
           </ACL>
           <ACL uuid="43ab3527-3413-4804-8bc2-b9c61f4b0ead">
-            <Priority>1</Priority>
+            <Priority>2</Priority>
             <Name>Blacklist</Name>
             <Hex>426c61636b6c697374</Hex>
             <Action>deny</Action>
