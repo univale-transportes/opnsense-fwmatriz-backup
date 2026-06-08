@@ -3145,8 +3145,8 @@ YJaOYXrqzPnq+VLMvJo3AAAAEWZ3bWF0cml6QG9wbnNlbnNlAQIDBA==&#13;
   </ntpd>
   <revision>
     <username>jhonatan.rosario@10.10.70.2</username>
-    <description>/api/firewall/filter/add_rule/ made changes</description>
-    <time>1780893892.27</time>
+    <description>/api/openvpn/instances/set/7eefb52c-3978-4f5e-8282-e95583ef74f1 made changes</description>
+    <time>1780893973.81</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -3457,7 +3457,7 @@ YJaOYXrqzPnq+VLMvJo3AAAAEWZ3bWF0cml6QG9wbnNlbnNlAQIDBA==&#13;
         </server>
       </servers>
     </OpenVPNExport>
-    <OpenVPN version="1.0.1" persisted_at="1777914180.98" description="OpenVPN">
+    <OpenVPN version="1.0.1" persisted_at="1780893973.81" description="OpenVPN">
       <Overwrites>
         <Overwrite uuid="a58eee64-8a26-4c51-9845-a7e05df65602">
           <enabled>1</enabled>
@@ -3869,7 +3869,7 @@ YJaOYXrqzPnq+VLMvJo3AAAAEWZ3bWF0cml6QG9wbnNlbnNlAQIDBA==&#13;
           <bridge_gateway/>
           <bridge_pool/>
           <route/>
-          <push_route>192.168.0.0/24,192.168.1.0/24,192.168.2.0/24,192.168.3.0/24,192.168.4.0/24,192.168.5.0/24,192.168.6.0/24,192.168.7.0/24,172.16.20.0/24</push_route>
+          <push_route>192.168.0.0/24,192.168.1.0/24,192.168.2.0/24,192.168.3.0/24,192.168.4.0/24,192.168.5.0/24,192.168.6.0/24,192.168.7.0/24,172.16.20.0/24,172.16.100.0/24</push_route>
           <push_excluded_routes/>
           <cert>67fac559bd4be</cert>
           <crl/>
