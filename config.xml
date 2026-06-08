@@ -3145,8 +3145,8 @@ YJaOYXrqzPnq+VLMvJo3AAAAEWZ3bWF0cml6QG9wbnNlbnNlAQIDBA==&#13;
   </ntpd>
   <revision>
     <username>jhonatan.rosario@10.10.70.2</username>
-    <description>/api/proxyuseracl/settings/updownACL/68c51ce1-dec0-4ae0-a84e-954714fd41b4 made changes</description>
-    <time>1780885197.65</time>
+    <description>/api/proxyuseracl/settings/delACL/ec067af0-e468-412a-a36c-a92f88256979 made changes</description>
+    <time>1780885214.86</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -16324,11 +16324,11 @@ ip_transnet_bahia</content>
         <max_len>128</max_len>
       </slowlog>
     </redis>
-    <ProxyUserACL version="1.0.1" persisted_at="1780885197.65" description="Group and User ACL settings">
+    <ProxyUserACL version="1.0.1" persisted_at="1780885214.86" description="Group and User ACL settings">
       <general>
         <ACLs>
           <ACL uuid="ab880690-e839-436e-a9aa-4c0ebc09a4b3">
-            <Priority>3</Priority>
+            <Priority>2</Priority>
             <Name>ACESSO_PADRAO</Name>
             <Hex>41434553534f5f50414452414f</Hex>
             <Action>allow</Action>
@@ -16337,18 +16337,8 @@ ip_transnet_bahia</content>
             <Categories/>
             <Domains>.*</Domains>
           </ACL>
-          <ACL uuid="ec067af0-e468-412a-a36c-a92f88256979">
-            <Priority>2</Priority>
-            <Name>ACESSO_PADRAO</Name>
-            <Hex>41434553534f5f50414452414f</Hex>
-            <Action>deny</Action>
-            <SourceType>group</SourceType>
-            <SourceAddress/>
-            <Categories/>
-            <Domains>whatsapp.com,whatsapp.net</Domains>
-          </ACL>
           <ACL uuid="64f68705-3d98-415b-b895-51333c53a084">
-            <Priority>4</Priority>
+            <Priority>3</Priority>
             <Name>ACESSO_LIBERADO</Name>
             <Hex>41434553534f5f4c4942455241444f</Hex>
             <Action>deny</Action>
@@ -16368,7 +16358,7 @@ ip_transnet_bahia</content>
             <Domains>.*</Domains>
           </ACL>
           <ACL uuid="1f5ffe08-28ea-47a9-b292-85a9db80be7d">
-            <Priority>5</Priority>
+            <Priority>4</Priority>
             <Name>ACESSO_BLOQUEADO</Name>
             <Hex>41434553534f5f424c4f51554541444f</Hex>
             <Action>deny</Action>
