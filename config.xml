@@ -3146,7 +3146,7 @@ YJaOYXrqzPnq+VLMvJo3AAAAEWZ3bWF0cml6QG9wbnNlbnNlAQIDBA==&#13;
   <revision>
     <username>jhonatan.rosario@172.16.30.18</username>
     <description>/api/proxyuseracl/settings/addACL/ made changes</description>
-    <time>1780937932.57</time>
+    <time>1780938089.17</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -16379,7 +16379,7 @@ ip_transnet_bahia</content>
         <max_len>128</max_len>
       </slowlog>
     </redis>
-    <ProxyUserACL version="1.0.1" persisted_at="1780937932.57" description="Group and User ACL settings">
+    <ProxyUserACL version="1.0.1" persisted_at="1780938089.17" description="Group and User ACL settings">
       <general>
         <ACLs>
           <ACL uuid="ab880690-e839-436e-a9aa-4c0ebc09a4b3">
@@ -16413,7 +16413,7 @@ ip_transnet_bahia</content>
             <Domains>.*</Domains>
           </ACL>
           <ACL uuid="43ab3527-3413-4804-8bc2-b9c61f4b0ead">
-            <Priority>8</Priority>
+            <Priority>9</Priority>
             <Name>Blacklist</Name>
             <Hex>426c61636b6c697374</Hex>
             <Action>deny</Action>
@@ -16471,6 +16471,16 @@ ip_transnet_bahia</content>
             <SourceAddress>192.168.0.0/24</SourceAddress>
             <Categories/>
             <Domains>tidal.com,youtube.com,googlevideo.com</Domains>
+          </ACL>
+          <ACL uuid="7bc88039-f40b-4ac5-ba58-2b2f400aaf0c">
+            <Priority>8</Priority>
+            <Name>Noticias</Name>
+            <Hex>4e6f746963696173</Hex>
+            <Action>deny</Action>
+            <SourceType>address</SourceType>
+            <SourceAddress>192.168.0.0/24</SourceAddress>
+            <Categories/>
+            <Domains>bbc.com,uol.com.br,terra.com.br,r7.com,sbt.com.br,ocioso.com.br,estadao.com.br,espn.com.br,tntsports.com.br,ticketsports.com.br,hojeemdia.com.br,itatiaia.com.br,bhaz.com.br,em.com.br,uai.com.br,otempo.com.br,exame.com,flashscore.com.br,lance.com.br,sofascore.com,ogol.com.br,365scores.com,r10score.com,livescore.com</Domains>
           </ACL>
         </ACLs>
       </general>
