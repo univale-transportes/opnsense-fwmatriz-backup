@@ -3144,9 +3144,9 @@ YJaOYXrqzPnq+VLMvJo3AAAAEWZ3bWF0cml6QG9wbnNlbnNlAQIDBA==&#13;
     <prefer>0.opnsense.pool.ntp.org</prefer>
   </ntpd>
   <revision>
-    <username>jhonatan.rosario@10.10.70.2</username>
-    <description>/api/proxyuseracl/settings/setACL/43ab3527-3413-4804-8bc2-b9c61f4b0ead made changes</description>
-    <time>1780889731.89</time>
+    <username>(root)</username>
+    <description>/usr/local/opnsense/scripts/nginx/ngx_autoblock.php made changes</description>
+    <time>1780890720.66</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -16370,7 +16370,7 @@ ip_transnet_bahia</content>
         </ACLs>
       </general>
     </ProxyUserACL>
-    <Nginx version="1.35.2" persisted_at="1780490400.81" description="nginx web server, reverse proxy and waf">
+    <Nginx version="1.35.2" persisted_at="1780890720.65" description="nginx web server, reverse proxy and waf">
       <general>
         <enabled>1</enabled>
         <ban_ttl>4320</ban_ttl>
@@ -16612,6 +16612,10 @@ ip_transnet_bahia</content>
         <errorpages/>
         <proxy_intercept_errors>0</proxy_intercept_errors>
       </http_server>
+      <ban uuid="8af16bcc-fc9c-4a1d-ba6c-bf974f7dc715">
+        <ip>45.56.79.53</ip>
+        <time>1780890720</time>
+      </ban>
     </Nginx>
     <freeradius>
       <client version="1.0.3">
