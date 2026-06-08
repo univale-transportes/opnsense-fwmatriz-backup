@@ -3146,7 +3146,7 @@ YJaOYXrqzPnq+VLMvJo3AAAAEWZ3bWF0cml6QG9wbnNlbnNlAQIDBA==&#13;
   <revision>
     <username>jhonatan.rosario@10.10.70.2</username>
     <description>/api/proxyuseracl/settings/updownACL/ab880690-e839-436e-a9aa-4c0ebc09a4b3 made changes</description>
-    <time>1780889546.58</time>
+    <time>1780889550.78</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -16324,11 +16324,11 @@ ip_transnet_bahia</content>
         <max_len>128</max_len>
       </slowlog>
     </redis>
-    <ProxyUserACL version="1.0.1" persisted_at="1780889546.58" description="Group and User ACL settings">
+    <ProxyUserACL version="1.0.1" persisted_at="1780889550.78" description="Group and User ACL settings">
       <general>
         <ACLs>
           <ACL uuid="ab880690-e839-436e-a9aa-4c0ebc09a4b3">
-            <Priority>1</Priority>
+            <Priority>0</Priority>
             <Name>ACESSO_PADRAO</Name>
             <Hex>41434553534f5f50414452414f</Hex>
             <Action>allow</Action>
@@ -16338,7 +16338,7 @@ ip_transnet_bahia</content>
             <Domains>univale.com</Domains>
           </ACL>
           <ACL uuid="68c51ce1-dec0-4ae0-a84e-954714fd41b4">
-            <Priority>0</Priority>
+            <Priority>1</Priority>
             <Name>ACESSO_LIBERADO</Name>
             <Hex>41434553534f5f4c4942455241444f</Hex>
             <Action>allow</Action>
