@@ -3145,8 +3145,8 @@ YJaOYXrqzPnq+VLMvJo3AAAAEWZ3bWF0cml6QG9wbnNlbnNlAQIDBA==&#13;
   </ntpd>
   <revision>
     <username>jhonatan.rosario@10.10.70.2</username>
-    <description>/api/proxy/settings/set made changes</description>
-    <time>1780885076.48</time>
+    <description>/api/proxyuseracl/settings/updownACL/68c51ce1-dec0-4ae0-a84e-954714fd41b4 made changes</description>
+    <time>1780885192.54</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -16324,7 +16324,7 @@ ip_transnet_bahia</content>
         <max_len>128</max_len>
       </slowlog>
     </redis>
-    <ProxyUserACL version="1.0.1" persisted_at="1780862385.26" description="Group and User ACL settings">
+    <ProxyUserACL version="1.0.1" persisted_at="1780885192.54" description="Group and User ACL settings">
       <general>
         <ACLs>
           <ACL uuid="ab880690-e839-436e-a9aa-4c0ebc09a4b3">
@@ -16348,7 +16348,7 @@ ip_transnet_bahia</content>
             <Domains>whatsapp.com,whatsapp.net</Domains>
           </ACL>
           <ACL uuid="64f68705-3d98-415b-b895-51333c53a084">
-            <Priority>3</Priority>
+            <Priority>4</Priority>
             <Name>ACESSO_LIBERADO</Name>
             <Hex>41434553534f5f4c4942455241444f</Hex>
             <Action>deny</Action>
@@ -16358,7 +16358,7 @@ ip_transnet_bahia</content>
             <Domains>youtube.com,facebook.com</Domains>
           </ACL>
           <ACL uuid="68c51ce1-dec0-4ae0-a84e-954714fd41b4">
-            <Priority>4</Priority>
+            <Priority>3</Priority>
             <Name>ACESSO_LIBERADO</Name>
             <Hex>41434553534f5f4c4942455241444f</Hex>
             <Action>allow</Action>
