@@ -3146,7 +3146,7 @@ YJaOYXrqzPnq+VLMvJo3AAAAEWZ3bWF0cml6QG9wbnNlbnNlAQIDBA==&#13;
   <revision>
     <username>jhonatan.rosario@172.16.30.18</username>
     <description>/api/proxyuseracl/settings/addACL/ made changes</description>
-    <time>1780938155.37</time>
+    <time>1780938201.85</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -16379,7 +16379,7 @@ ip_transnet_bahia</content>
         <max_len>128</max_len>
       </slowlog>
     </redis>
-    <ProxyUserACL version="1.0.1" persisted_at="1780938155.37" description="Group and User ACL settings">
+    <ProxyUserACL version="1.0.1" persisted_at="1780938201.85" description="Group and User ACL settings">
       <general>
         <ACLs>
           <ACL uuid="ab880690-e839-436e-a9aa-4c0ebc09a4b3">
@@ -16413,7 +16413,7 @@ ip_transnet_bahia</content>
             <Domains>.*</Domains>
           </ACL>
           <ACL uuid="43ab3527-3413-4804-8bc2-b9c61f4b0ead">
-            <Priority>10</Priority>
+            <Priority>11</Priority>
             <Name>Blacklist</Name>
             <Hex>426c61636b6c697374</Hex>
             <Action>deny</Action>
@@ -16491,6 +16491,16 @@ ip_transnet_bahia</content>
             <SourceAddress>192.168.0.0/24</SourceAddress>
             <Categories/>
             <Domains>signal.org,threads.com,messenger.com,whatsapp.net,whatsapp.com</Domains>
+          </ACL>
+          <ACL uuid="3402ba4b-8403-4e96-9096-6de79e4dd35e">
+            <Priority>10</Priority>
+            <Name>IA</Name>
+            <Hex>4941</Hex>
+            <Action>deny</Action>
+            <SourceType>address</SourceType>
+            <SourceAddress>192.168.0.0/24</SourceAddress>
+            <Categories/>
+            <Domains>perplexity.ai,deepseek.com,grok.com</Domains>
           </ACL>
         </ACLs>
       </general>
