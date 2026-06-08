@@ -3145,8 +3145,8 @@ YJaOYXrqzPnq+VLMvJo3AAAAEWZ3bWF0cml6QG9wbnNlbnNlAQIDBA==&#13;
   </ntpd>
   <revision>
     <username>jhonatan.rosario@10.10.70.2</username>
-    <description>/api/proxyuseracl/settings/updownACL/ab880690-e839-436e-a9aa-4c0ebc09a4b3 made changes</description>
-    <time>1780889550.78</time>
+    <description>/api/proxyuseracl/settings/setACL/ab880690-e839-436e-a9aa-4c0ebc09a4b3 made changes</description>
+    <time>1780889568.70</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -16324,7 +16324,7 @@ ip_transnet_bahia</content>
         <max_len>128</max_len>
       </slowlog>
     </redis>
-    <ProxyUserACL version="1.0.1" persisted_at="1780889550.78" description="Group and User ACL settings">
+    <ProxyUserACL version="1.0.1" persisted_at="1780889568.70" description="Group and User ACL settings">
       <general>
         <ACLs>
           <ACL uuid="ab880690-e839-436e-a9aa-4c0ebc09a4b3">
@@ -16335,7 +16335,7 @@ ip_transnet_bahia</content>
             <SourceType>group</SourceType>
             <SourceAddress/>
             <Categories/>
-            <Domains>univale.com</Domains>
+            <Domains>whatsapp.com,whatsapp.net</Domains>
           </ACL>
           <ACL uuid="68c51ce1-dec0-4ae0-a84e-954714fd41b4">
             <Priority>1</Priority>
