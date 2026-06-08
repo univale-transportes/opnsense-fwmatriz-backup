@@ -3145,8 +3145,8 @@ YJaOYXrqzPnq+VLMvJo3AAAAEWZ3bWF0cml6QG9wbnNlbnNlAQIDBA==&#13;
   </ntpd>
   <revision>
     <username>jhonatan.rosario@172.16.30.18</username>
-    <description>/api/proxyuseracl/settings/setACL/8b258e33-15ee-4371-a068-e88040fa8830 made changes</description>
-    <time>1780950173.49</time>
+    <description>/api/kea/dhcpv4/add_reservation/ made changes</description>
+    <time>1780950804.82</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -12739,7 +12739,7 @@ ip_transnet_bahia</content>
           <http_port>8000</http_port>
         </general>
       </ctrl_agent>
-      <dhcp4 version="1.0.5" persisted_at="1780715668.35" description="Kea DHCPv4 configuration">
+      <dhcp4 version="1.0.5" persisted_at="1780950804.82" description="Kea DHCPv4 configuration">
         <general>
           <enabled>1</enabled>
           <manual_config>0</manual_config>
@@ -15336,6 +15336,28 @@ ip_transnet_bahia</content>
             <client_id/>
             <hostname/>
             <description>Gerador de Energia - TI</description>
+            <next_server/>
+            <option_data>
+              <domain_name_servers/>
+              <domain_search/>
+              <routers/>
+              <static_routes/>
+              <classless_static_route/>
+              <domain_name/>
+              <ntp_servers/>
+              <time_servers/>
+              <tftp_server_name/>
+              <boot_file_name/>
+            </option_data>
+            <option/>
+          </reservation>
+          <reservation uuid="2c676417-8f5b-4640-af71-d448030ed43a">
+            <subnet>00ec2699-832f-4b72-a2f7-5d9334143cac</subnet>
+            <ip_address>172.16.20.14</ip_address>
+            <hw_address>00:0c:29:e2:12:b3</hw_address>
+            <client_id/>
+            <hostname>nxfilter</hostname>
+            <description>Servidor NxFilter (DNS)</description>
             <next_server/>
             <option_data>
               <domain_name_servers/>
