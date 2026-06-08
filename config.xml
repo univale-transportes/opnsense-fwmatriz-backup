@@ -3145,8 +3145,8 @@ YJaOYXrqzPnq+VLMvJo3AAAAEWZ3bWF0cml6QG9wbnNlbnNlAQIDBA==&#13;
   </ntpd>
   <revision>
     <username>jhonatan.rosario@10.10.70.2</username>
-    <description>/api/trust/ca/add/ made changes</description>
-    <time>1780895146.90</time>
+    <description>/api/proxy/settings/set made changes</description>
+    <time>1780895185.14</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -15921,7 +15921,7 @@ ip_transnet_bahia</content>
       </hosts>
       <aliases/>
     </unboundplus>
-    <proxy version="1.0.9" persisted_at="1780885836.74" description="Squid web proxy settings">
+    <proxy version="1.0.9" persisted_at="1780895185.14" description="Squid web proxy settings">
       <general>
         <enabled>1</enabled>
         <error_pages>custom</error_pages>
@@ -15983,7 +15983,7 @@ ip_transnet_bahia</content>
         <sslbumpport>3129</sslbumpport>
         <sslbump>1</sslbump>
         <sslurlonly>1</sslurlonly>
-        <sslcertificate>67f566938eca3</sslcertificate>
+        <sslcertificate>6a264da9a1b8d</sslcertificate>
         <sslnobumpsites>.itau.com.br,.gov.br,.santander.com.br</sslnobumpsites>
         <workers>2</workers>
         <ssl_crtd_storage_max_size>2048</ssl_crtd_storage_max_size>
