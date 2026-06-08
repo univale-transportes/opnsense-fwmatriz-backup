@@ -3146,7 +3146,7 @@ YJaOYXrqzPnq+VLMvJo3AAAAEWZ3bWF0cml6QG9wbnNlbnNlAQIDBA==&#13;
   <revision>
     <username>jhonatan.rosario@172.16.30.18</username>
     <description>/api/proxyuseracl/settings/addACL/ made changes</description>
-    <time>1780922367.68</time>
+    <time>1780922384.85</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -16380,11 +16380,11 @@ ip_transnet_bahia</content>
         <max_len>128</max_len>
       </slowlog>
     </redis>
-    <ProxyUserACL version="1.0.1" persisted_at="1780922367.68" description="Group and User ACL settings">
+    <ProxyUserACL version="1.0.1" persisted_at="1780922384.85" description="Group and User ACL settings">
       <general>
         <ACLs>
           <ACL uuid="ab880690-e839-436e-a9aa-4c0ebc09a4b3">
-            <Priority>1</Priority>
+            <Priority>2</Priority>
             <Name>ACESSO_PADRAO</Name>
             <Hex>41434553534f5f50414452414f</Hex>
             <Action>allow</Action>
@@ -16394,7 +16394,7 @@ ip_transnet_bahia</content>
             <Domains>whatsapp.com,whatsapp.net</Domains>
           </ACL>
           <ACL uuid="68c51ce1-dec0-4ae0-a84e-954714fd41b4">
-            <Priority>2</Priority>
+            <Priority>3</Priority>
             <Name>ACESSO_LIBERADO</Name>
             <Hex>41434553534f5f4c4942455241444f</Hex>
             <Action>allow</Action>
@@ -16404,7 +16404,7 @@ ip_transnet_bahia</content>
             <Domains>.*</Domains>
           </ACL>
           <ACL uuid="1f5ffe08-28ea-47a9-b292-85a9db80be7d">
-            <Priority>3</Priority>
+            <Priority>4</Priority>
             <Name>ACESSO_BLOQUEADO</Name>
             <Hex>41434553534f5f424c4f51554541444f</Hex>
             <Action>deny</Action>
@@ -16414,7 +16414,7 @@ ip_transnet_bahia</content>
             <Domains>.*</Domains>
           </ACL>
           <ACL uuid="43ab3527-3413-4804-8bc2-b9c61f4b0ead">
-            <Priority>4</Priority>
+            <Priority>5</Priority>
             <Name>Blacklist</Name>
             <Hex>426c61636b6c697374</Hex>
             <Action>deny</Action>
@@ -16427,6 +16427,16 @@ ip_transnet_bahia</content>
             <Priority>0</Priority>
             <Name>felipe.silva</Name>
             <Hex>66656c6970652e73696c7661</Hex>
+            <Action>allow</Action>
+            <SourceType>user</SourceType>
+            <SourceAddress/>
+            <Categories/>
+            <Domains>youtube.com</Domains>
+          </ACL>
+          <ACL uuid="2f731cfe-4df3-476e-a5d8-214e7a43b795">
+            <Priority>1</Priority>
+            <Name>teste</Name>
+            <Hex>7465737465</Hex>
             <Action>allow</Action>
             <SourceType>user</SourceType>
             <SourceAddress/>
