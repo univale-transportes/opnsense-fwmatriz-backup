@@ -3145,8 +3145,8 @@ YJaOYXrqzPnq+VLMvJo3AAAAEWZ3bWF0cml6QG9wbnNlbnNlAQIDBA==&#13;
   </ntpd>
   <revision>
     <username>jhonatan.rosario@172.16.30.18</username>
-    <description>/api/proxyuseracl/settings/setACL/d7e1a6a1-8775-479a-ac45-a8222c3a7081 made changes</description>
-    <time>1780924188.02</time>
+    <description>/api/proxyuseracl/settings/setACL/43ab3527-3413-4804-8bc2-b9c61f4b0ead made changes</description>
+    <time>1780924332.62</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -16380,7 +16380,7 @@ ip_transnet_bahia</content>
         <max_len>128</max_len>
       </slowlog>
     </redis>
-    <ProxyUserACL version="1.0.1" persisted_at="1780924188.02" description="Group and User ACL settings">
+    <ProxyUserACL version="1.0.1" persisted_at="1780924332.62" description="Group and User ACL settings">
       <general>
         <ACLs>
           <ACL uuid="ab880690-e839-436e-a9aa-4c0ebc09a4b3">
@@ -16421,7 +16421,7 @@ ip_transnet_bahia</content>
             <SourceType>address</SourceType>
             <SourceAddress>192.168.0.0/24</SourceAddress>
             <Categories/>
-            <Domains>shopee.com.br,mercadolivre.com.br,banggood.com,shein.com,aliexpress.com,gearbest.ma,americanas.com.br,magazineluiza.com.br,casasbahia.com.br,pontofrio.com.br,carrefour.com.br,madeiramadeira.com.br,zema.com,ebay.com,tidal.com,signal.org,threads.com,messenger.com,kabum.com.br,zoom.com.br,pichau.com.br,terabyteshop.com.br,studiopc.com.br,chipart.com.br,olx.com.br,enjoei.com.br,meliuz.com.br,livelo.com.br,esfera.com.vc,4shared.com,depositfiles.org,mega.io,mediafire.com,zippyshare.com,sourceforge.net,wetransfer.com,rapidshare.com,upload.com,bitshare.com,depositfiles.com,turbobit.net,sendspace.com,uploaded.net,perplexity.ai,deepseek.com,grok.com,bbc.com,uol.com.br,terra.com.br,r7.com,sbt.com.br,ocioso.com.br,estadao.com.br,espn.com.br,tntsports.com.br,ticketsports.com.br,shopee.com,whatsapp.net,hojeemdia.com.br,itatiaia.com.br,bhaz.com.br,agenciaminas.mg.gov.br,em.com.br,uai.com.br,otempo.com.br,netshoes.com.br,zattini.com.br,cvc.com.br,decolar.com,trivago.com.br,tesourodireto.com.br,b3.com.br,infomoney.com.br,fxmais.com,bitget.com,empiricus.com.br,moneytimes.com.br,weex.com,viajanet.com.br,exame.com,airbnb.com.br,transfermarkt.com.br,flashscore.com.br,lance.com.br,sofascore.com,ogol.com.br,365scores.com,whatsapp.com,r10score.com,livescore.com,youtube.com,googlevideo.com</Domains>
+            <Domains>shopee.com.br,mercadolivre.com.br,banggood.com,shein.com,aliexpress.com,gearbest.ma,americanas.com.br,magazineluiza.com.br,casasbahia.com.br,pontofrio.com.br,carrefour.com.br,madeiramadeira.com.br,zema.com,ebay.com,tidal.com,signal.org,threads.com,messenger.com,kabum.com.br,zoom.com.br,pichau.com.br,terabyteshop.com.br,studiopc.com.br,chipart.com.br,olx.com.br,enjoei.com.br,meliuz.com.br,livelo.com.br,esfera.com.vc,4shared.com,depositfiles.org,mega.io,mediafire.com,zippyshare.com,sourceforge.net,wetransfer.com,rapidshare.com,upload.com,bitshare.com,depositfiles.com,turbobit.net,sendspace.com,uploaded.net,perplexity.ai,deepseek.com,grok.com,bbc.com,uol.com.br,terra.com.br,r7.com,sbt.com.br,ocioso.com.br,estadao.com.br,espn.com.br,tntsports.com.br,ticketsports.com.br,shopee.com,whatsapp.net,hojeemdia.com.br,itatiaia.com.br,bhaz.com.br,agenciaminas.mg.gov.br,em.com.br,uai.com.br,otempo.com.br,netshoes.com.br,zattini.com.br,cvc.com.br,decolar.com,trivago.com.br,tesourodireto.com.br,b3.com.br,infomoney.com.br,fxmais.com,bitget.com,empiricus.com.br,moneytimes.com.br,weex.com,viajanet.com.br,exame.com,airbnb.com.br,transfermarkt.com.br,flashscore.com.br,lance.com.br,sofascore.com,ogol.com.br,365scores.com,whatsapp.com,r10score.com,livescore.com,youtube.com,googlevideo.com,temu.com</Domains>
           </ACL>
           <ACL uuid="d7e1a6a1-8775-479a-ac45-a8222c3a7081">
             <Priority>0</Priority>
