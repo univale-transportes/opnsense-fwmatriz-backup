@@ -3145,8 +3145,8 @@ YJaOYXrqzPnq+VLMvJo3AAAAEWZ3bWF0cml6QG9wbnNlbnNlAQIDBA==&#13;
   </ntpd>
   <revision>
     <username>jhonatan.rosario@172.16.30.18</username>
-    <description>/api/proxyuseracl/settings/setACL/b5d68806-9ac8-4214-8c05-e281f74aa247 made changes</description>
-    <time>1780939478.46</time>
+    <description>/api/proxyuseracl/settings/setACL/3402ba4b-8403-4e96-9096-6de79e4dd35e made changes</description>
+    <time>1780939816.82</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -16379,7 +16379,7 @@ ip_transnet_bahia</content>
         <max_len>128</max_len>
       </slowlog>
     </redis>
-    <ProxyUserACL version="1.0.1" persisted_at="1780939478.45" description="Group and User ACL settings">
+    <ProxyUserACL version="1.0.1" persisted_at="1780939816.82" description="Group and User ACL settings">
       <general>
         <ACLs>
           <ACL uuid="ab880690-e839-436e-a9aa-4c0ebc09a4b3">
@@ -16500,7 +16500,7 @@ ip_transnet_bahia</content>
             <SourceType>address</SourceType>
             <SourceAddress>192.168.0.0/24</SourceAddress>
             <Categories/>
-            <Domains>perplexity.ai,deepseek.com,grok.com</Domains>
+            <Domains>perplexity.ai,deepseek.com,grok.com,meta.ai,meta.com,mistral.ai,copilot.microsoft.com,qwen.ai,huggingface.co,innerai.com,adapta.org,maritaca.ai,deepai.org,quillbot.com</Domains>
           </ACL>
           <ACL uuid="bc92db09-e6b9-401c-8104-260e1b63298d">
             <Priority>13</Priority>
