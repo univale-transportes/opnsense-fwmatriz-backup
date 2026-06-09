@@ -3145,8 +3145,8 @@ YJaOYXrqzPnq+VLMvJo3AAAAEWZ3bWF0cml6QG9wbnNlbnNlAQIDBA==&#13;
   </ntpd>
   <revision>
     <username>jhonatan.rosario@172.16.30.18</username>
-    <description>/api/proxyuseracl/settings/setACL/cd5b2889-3bc2-40f2-a92c-0108b8918d98 made changes</description>
-    <time>1781025670.77</time>
+    <description>/api/nginx/settings/addcredential/ made changes</description>
+    <time>1781038725.04</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -16589,7 +16589,7 @@ ip_transnet_bahia</content>
         </ACLs>
       </general>
     </ProxyUserACL>
-    <Nginx version="1.35.2" persisted_at="1780890720.65" description="nginx web server, reverse proxy and waf">
+    <Nginx version="1.35.2" persisted_at="1781038725.04" description="nginx web server, reverse proxy and waf">
       <general>
         <enabled>1</enabled>
         <ban_ttl>4320</ban_ttl>
@@ -16620,6 +16620,10 @@ ip_transnet_bahia</content>
       <credential uuid="66171880-f50c-4397-b82e-f61e6344d829">
         <username>admin</username>
         <password>uni@123</password>
+      </credential>
+      <credential uuid="c4eeabb4-0632-4ca3-93c8-b23ced908f70">
+        <username>daniel.soares</username>
+        <password>Acesso@1607</password>
       </credential>
       <location uuid="0c78e850-9c68-4ad3-a4cb-96562a5c92a2">
         <description>default</description>
