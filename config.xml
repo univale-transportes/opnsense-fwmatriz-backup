@@ -3145,8 +3145,8 @@ YJaOYXrqzPnq+VLMvJo3AAAAEWZ3bWF0cml6QG9wbnNlbnNlAQIDBA==&#13;
   </ntpd>
   <revision>
     <username>jhonatan.rosario@172.16.30.18</username>
-    <description>/api/proxyuseracl/settings/setACL/b5d68806-9ac8-4214-8c05-e281f74aa247 made changes</description>
-    <time>1781042525.46</time>
+    <description>/api/proxyuseracl/settings/setACL/0faa7c24-7cc0-4102-98f1-718d368b39e8 made changes</description>
+    <time>1781042551.78</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -16401,7 +16401,7 @@ ip_transnet_bahia</content>
         <max_len>128</max_len>
       </slowlog>
     </redis>
-    <ProxyUserACL version="1.0.1" persisted_at="1781042525.46" description="Group and User ACL settings">
+    <ProxyUserACL version="1.0.1" persisted_at="1781042551.78" description="Group and User ACL settings">
       <general>
         <ACLs>
           <ACL uuid="ab880690-e839-436e-a9aa-4c0ebc09a4b3">
@@ -16492,7 +16492,7 @@ ip_transnet_bahia</content>
             <SourceType>address</SourceType>
             <SourceAddress>192.168.0.0/24</SourceAddress>
             <Categories/>
-            <Domains>tidal.com,youtube.com,googlevideo.com</Domains>
+            <Domains>tidal.com,youtube.com,googlevideo.com,kick.com,alvoradafm.com.br,jovempan.com.br,eletronicamixbrasil.com.br,jb.fm,radiocontinental.com.br,kboingfm.com.br,radio.garden,sou101fm.com.br</Domains>
           </ACL>
           <ACL uuid="7bc88039-f40b-4ac5-ba58-2b2f400aaf0c">
             <Priority>10</Priority>
