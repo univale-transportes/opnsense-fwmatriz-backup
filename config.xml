@@ -3145,8 +3145,8 @@ YJaOYXrqzPnq+VLMvJo3AAAAEWZ3bWF0cml6QG9wbnNlbnNlAQIDBA==&#13;
   </ntpd>
   <revision>
     <username>jhonatan.rosario@172.16.30.18</username>
-    <description>/api/firewall/alias/set made changes</description>
-    <time>1781043103.11</time>
+    <description>/api/firewall/alias/set_item/4ebf1743-c9c8-437b-b5cc-7fefb6350969 made changes</description>
+    <time>1781043355.91</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -4160,22 +4160,21 @@ a363abe4509328902356d4dabaaac9fc
       <Lvtemplate version="0.0.1">
         <templates/>
       </Lvtemplate>
-      <Alias version="1.0.1" persisted_at="1781043103.11" description="Firewall aliases">
+      <Alias version="1.0.1" persisted_at="1781043355.91" description="Firewall aliases">
         <geoip>
           <url/>
         </geoip>
         <aliases>
           <alias uuid="4ebf1743-c9c8-437b-b5cc-7fefb6350969">
             <enabled>1</enabled>
-            <name>ips_navegam_sem_proxy</name>
+            <name>ips_pc_navegam_sem_proxy</name>
             <type>host</type>
             <path_expression/>
             <proto/>
             <interface/>
             <counters>1</counters>
             <updatefreq/>
-            <content>ips_servidores
-192.168.0.19
+            <content>192.168.0.19
 192.168.0.214
 192.168.0.221
 192.168.0.195
@@ -4232,10 +4231,8 @@ a363abe4509328902356d4dabaaac9fc
 192.168.0.22
 192.168.0.169
 192.168.0.249
-ips_roteadores
 192.168.0.80
 192.168.0.117
-ips_intelbras_defense_ia
 192.168.0.100
 192.168.0.87
 192.168.0.108
@@ -4353,7 +4350,7 @@ gov.br</content>
             <interface/>
             <counters>1</counters>
             <updatefreq/>
-            <content>ips_navegam_sem_proxy
+            <content>ips_pc_navegam_sem_proxy
 sites_acessados_sem_proxy
 ips_navegam_sem_proxy_tmp</content>
             <password/>
@@ -9082,7 +9079,7 @@ ip_transnet_bahia</content>
             <protocol>any</protocol>
             <icmptype/>
             <icmp6type/>
-            <source_net>ips_navegam_sem_proxy</source_net>
+            <source_net>ips_pc_navegam_sem_proxy</source_net>
             <source_not>0</source_not>
             <source_port/>
             <destination_net>redes_rfc1918</destination_net>
