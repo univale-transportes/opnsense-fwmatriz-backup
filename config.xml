@@ -3145,8 +3145,8 @@ YJaOYXrqzPnq+VLMvJo3AAAAEWZ3bWF0cml6QG9wbnNlbnNlAQIDBA==&#13;
   </ntpd>
   <revision>
     <username>jhonatan.rosario@172.16.30.18</username>
-    <description>/api/firewall/alias/set_item/3b584843-4fb4-4111-beb1-84676951898e made changes</description>
-    <time>1781043489.23</time>
+    <description>/api/firewall/alias/set_item/4ebf1743-c9c8-437b-b5cc-7fefb6350969 made changes</description>
+    <time>1781043505.43</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -4160,7 +4160,7 @@ a363abe4509328902356d4dabaaac9fc
       <Lvtemplate version="0.0.1">
         <templates/>
       </Lvtemplate>
-      <Alias version="1.0.1" persisted_at="1781043489.23" description="Firewall aliases">
+      <Alias version="1.0.1" persisted_at="1781043505.43" description="Firewall aliases">
         <geoip>
           <url/>
         </geoip>
@@ -4242,7 +4242,7 @@ a363abe4509328902356d4dabaaac9fc
             <authtype/>
             <expire/>
             <categories/>
-            <description>PCs e roteadores que usa internet sem o proxy (Obs.: fixar ip primeiro)</description>
+            <description>IPs de PC que usa internet sem o proxy (Obs.: fixar ip primeiro)</description>
           </alias>
           <alias uuid="ca96172f-91d6-4d6f-a9f4-1f3a5123cd1b">
             <enabled>1</enabled>
