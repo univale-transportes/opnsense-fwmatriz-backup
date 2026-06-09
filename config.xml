@@ -3145,8 +3145,8 @@ YJaOYXrqzPnq+VLMvJo3AAAAEWZ3bWF0cml6QG9wbnNlbnNlAQIDBA==&#13;
   </ntpd>
   <revision>
     <username>jhonatan.rosario@172.16.30.18</username>
-    <description>/api/firewall/alias/set made changes</description>
-    <time>1781043470.64</time>
+    <description>/api/firewall/alias/set_item/3b584843-4fb4-4111-beb1-84676951898e made changes</description>
+    <time>1781043489.23</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -4160,7 +4160,7 @@ a363abe4509328902356d4dabaaac9fc
       <Lvtemplate version="0.0.1">
         <templates/>
       </Lvtemplate>
-      <Alias version="1.0.1" persisted_at="1781043470.64" description="Firewall aliases">
+      <Alias version="1.0.1" persisted_at="1781043489.23" description="Firewall aliases">
         <geoip>
           <url/>
         </geoip>
@@ -5369,7 +5369,7 @@ ip_transnet_bahia</content>
             <authtype/>
             <expire/>
             <categories/>
-            <description>(TEMP) PCs e roteadores que usa internet sem o proxy TEMPORARIAMENTE (sem ip fixado)</description>
+            <description>(TEMP) IPs de PC que usa internet sem o proxy TEMPORARIAMENTE (sem ip fixado)</description>
           </alias>
           <alias uuid="dae9022e-4d6e-4cef-96d2-af7fd5e7bccf">
             <enabled>1</enabled>
