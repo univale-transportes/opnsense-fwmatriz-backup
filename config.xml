@@ -3146,7 +3146,7 @@ YJaOYXrqzPnq+VLMvJo3AAAAEWZ3bWF0cml6QG9wbnNlbnNlAQIDBA==&#13;
   <revision>
     <username>jhonatan.rosario@172.16.30.18</username>
     <description>/api/firewall/alias/set_item/4ebf1743-c9c8-437b-b5cc-7fefb6350969 made changes</description>
-    <time>1781042983.56</time>
+    <time>1781043065.07</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -4160,7 +4160,7 @@ a363abe4509328902356d4dabaaac9fc
       <Lvtemplate version="0.0.1">
         <templates/>
       </Lvtemplate>
-      <Alias version="1.0.1" persisted_at="1781042983.55" description="Firewall aliases">
+      <Alias version="1.0.1" persisted_at="1781043065.07" description="Firewall aliases">
         <geoip>
           <url/>
         </geoip>
@@ -4181,13 +4181,11 @@ a363abe4509328902356d4dabaaac9fc
 192.168.0.195
 192.168.0.244
 192.168.0.222
-192.168.0.224
 192.168.0.180
 192.168.0.209
 192.168.0.76
 192.168.0.174
 192.168.0.157
-192.168.0.242
 192.168.0.254
 192.168.0.133
 192.168.0.233
@@ -4215,9 +4213,7 @@ a363abe4509328902356d4dabaaac9fc
 192.168.0.189
 192.168.0.84
 192.168.0.113
-192.168.0.223
 192.168.0.239
-192.168.0.18
 192.168.0.247
 192.168.0.128
 192.168.0.115
@@ -4232,7 +4228,6 @@ a363abe4509328902356d4dabaaac9fc
 192.168.0.74
 192.168.0.243
 192.168.0.83
-192.168.0.250
 192.168.0.203
 192.168.0.17
 192.168.0.162
