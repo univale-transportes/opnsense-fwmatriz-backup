@@ -3145,8 +3145,8 @@ YJaOYXrqzPnq+VLMvJo3AAAAEWZ3bWF0cml6QG9wbnNlbnNlAQIDBA==&#13;
   </ntpd>
   <revision>
     <username>jhonatan.rosario@172.16.30.18</username>
-    <description>/api/proxyuseracl/settings/setACL/0216cd7d-2894-4f04-b4d2-b8bd666d8f0d made changes</description>
-    <time>1781045030.35</time>
+    <description>/api/kea/dhcpv4/set_reservation/4cde4954-a136-4111-b26f-9e9fae830c2a made changes</description>
+    <time>1781047113.22</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -12736,7 +12736,7 @@ ip_transnet_bahia</content>
           <http_port>8000</http_port>
         </general>
       </ctrl_agent>
-      <dhcp4 version="1.0.5" persisted_at="1781039892.58" description="Kea DHCPv4 configuration">
+      <dhcp4 version="1.0.5" persisted_at="1781047113.22" description="Kea DHCPv4 configuration">
         <general>
           <enabled>1</enabled>
           <manual_config>0</manual_config>
@@ -13575,7 +13575,7 @@ ip_transnet_bahia</content>
             <description>Roteador - Audit&#xF3;rio</description>
             <next_server/>
             <option_data>
-              <domain_name_servers/>
+              <domain_name_servers>172.16.20.14</domain_name_servers>
               <domain_search/>
               <routers/>
               <static_routes/>
