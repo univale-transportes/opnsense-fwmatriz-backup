@@ -3145,8 +3145,8 @@ YJaOYXrqzPnq+VLMvJo3AAAAEWZ3bWF0cml6QG9wbnNlbnNlAQIDBA==&#13;
   </ntpd>
   <revision>
     <username>jhonatan.rosario@172.16.30.18</username>
-    <description>/api/proxyuseracl/settings/addACL/ made changes</description>
-    <time>1781025424.58</time>
+    <description>/api/proxyuseracl/settings/setACL/cd5b2889-3bc2-40f2-a92c-0108b8918d98 made changes</description>
+    <time>1781025670.77</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -16423,7 +16423,7 @@ ip_transnet_bahia</content>
         <max_len>128</max_len>
       </slowlog>
     </redis>
-    <ProxyUserACL version="1.0.1" persisted_at="1781025424.58" description="Group and User ACL settings">
+    <ProxyUserACL version="1.0.1" persisted_at="1781025670.77" description="Group and User ACL settings">
       <general>
         <ACLs>
           <ACL uuid="ab880690-e839-436e-a9aa-4c0ebc09a4b3">
@@ -16584,7 +16584,7 @@ ip_transnet_bahia</content>
             <SourceType>group</SourceType>
             <SourceAddress/>
             <Categories/>
-            <Domains>voeazul.com.br,azulviagens.com.br,voegol.com.br,latamairlines.com</Domains>
+            <Domains>mercadolivre.com.br,kabum.com.br,cofermeta.com.br,americanas.com.br,casasbahia.com.br</Domains>
           </ACL>
         </ACLs>
       </general>
