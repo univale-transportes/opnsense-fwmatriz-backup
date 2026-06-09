@@ -3145,8 +3145,8 @@ YJaOYXrqzPnq+VLMvJo3AAAAEWZ3bWF0cml6QG9wbnNlbnNlAQIDBA==&#13;
   </ntpd>
   <revision>
     <username>jhonatan.rosario@172.16.30.18</username>
-    <description>/api/proxyuseracl/settings/setACL/43ab3527-3413-4804-8bc2-b9c61f4b0ead made changes</description>
-    <time>1781042563.49</time>
+    <description>/api/proxyuseracl/settings/setACL/7bc88039-f40b-4ac5-ba58-2b2f400aaf0c made changes</description>
+    <time>1781042579.08</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -16401,7 +16401,7 @@ ip_transnet_bahia</content>
         <max_len>128</max_len>
       </slowlog>
     </redis>
-    <ProxyUserACL version="1.0.1" persisted_at="1781042563.49" description="Group and User ACL settings">
+    <ProxyUserACL version="1.0.1" persisted_at="1781042579.08" description="Group and User ACL settings">
       <general>
         <ACLs>
           <ACL uuid="ab880690-e839-436e-a9aa-4c0ebc09a4b3">
@@ -16502,7 +16502,7 @@ ip_transnet_bahia</content>
             <SourceType>address</SourceType>
             <SourceAddress>192.168.0.0/24</SourceAddress>
             <Categories/>
-            <Domains>bbc.com,uol.com.br,terra.com.br,r7.com,sbt.com.br,ocioso.com.br,estadao.com.br,espn.com.br,tntsports.com.br,ticketsports.com.br,hojeemdia.com.br,itatiaia.com.br,bhaz.com.br,em.com.br,uai.com.br,otempo.com.br,exame.com,flashscore.com.br,lance.com.br,sofascore.com,ogol.com.br,365scores.com,r10score.com,livescore.com</Domains>
+            <Domains>bbc.com,uol.com.br,terra.com.br,r7.com,sbt.com.br,ocioso.com.br,estadao.com.br,espn.com.br,tntsports.com.br,ticketsports.com.br,hojeemdia.com.br,itatiaia.com.br,bhaz.com.br,em.com.br,uai.com.br,otempo.com.br,exame.com,flashscore.com.br,lance.com.br,sofascore.com,ogol.com.br,365scores.com,r10score.com,livescore.com,ig.com.br,grandepremio.com.br,diariodoaco.com.br,plox.com.br,correiobraziliense.com.br,aventurasnahistoria.com.br,tribunadonorte.com.br</Domains>
           </ACL>
           <ACL uuid="8c1a33d3-52a6-408f-b28b-d2474dffc794">
             <Priority>11</Priority>
