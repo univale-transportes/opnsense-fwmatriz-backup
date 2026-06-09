@@ -3145,8 +3145,8 @@ YJaOYXrqzPnq+VLMvJo3AAAAEWZ3bWF0cml6QG9wbnNlbnNlAQIDBA==&#13;
   </ntpd>
   <revision>
     <username>jhonatan.rosario@172.16.30.18</username>
-    <description>/api/nginx/settings/addcredential/ made changes</description>
-    <time>1781038725.04</time>
+    <description>/api/nginx/settings/setuserlist/a5fb85ac-1e6b-4292-ac8b-802a8ccf0752 made changes</description>
+    <time>1781038967.08</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -16589,7 +16589,7 @@ ip_transnet_bahia</content>
         </ACLs>
       </general>
     </ProxyUserACL>
-    <Nginx version="1.35.2" persisted_at="1781038725.04" description="nginx web server, reverse proxy and waf">
+    <Nginx version="1.35.2" persisted_at="1781038967.08" description="nginx web server, reverse proxy and waf">
       <general>
         <enabled>1</enabled>
         <ban_ttl>4320</ban_ttl>
@@ -16615,7 +16615,7 @@ ip_transnet_bahia</content>
       </http>
       <userlist uuid="a5fb85ac-1e6b-4292-ac8b-802a8ccf0752">
         <name>users</name>
-        <users>66171880-f50c-4397-b82e-f61e6344d829</users>
+        <users>66171880-f50c-4397-b82e-f61e6344d829,c4eeabb4-0632-4ca3-93c8-b23ced908f70</users>
       </userlist>
       <credential uuid="66171880-f50c-4397-b82e-f61e6344d829">
         <username>admin</username>
