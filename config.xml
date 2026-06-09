@@ -3146,7 +3146,7 @@ YJaOYXrqzPnq+VLMvJo3AAAAEWZ3bWF0cml6QG9wbnNlbnNlAQIDBA==&#13;
   <revision>
     <username>jhonatan.rosario@172.16.30.18</username>
     <description>/api/proxyuseracl/settings/setACL/0216cd7d-2894-4f04-b4d2-b8bd666d8f0d made changes</description>
-    <time>1781044970.10</time>
+    <time>1781045030.35</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -16398,7 +16398,7 @@ ip_transnet_bahia</content>
         <max_len>128</max_len>
       </slowlog>
     </redis>
-    <ProxyUserACL version="1.0.1" persisted_at="1781044970.10" description="Group and User ACL settings">
+    <ProxyUserACL version="1.0.1" persisted_at="1781045030.35" description="Group and User ACL settings">
       <general>
         <ACLs>
           <ACL uuid="ab880690-e839-436e-a9aa-4c0ebc09a4b3">
@@ -16469,7 +16469,7 @@ ip_transnet_bahia</content>
             <SourceType>address</SourceType>
             <SourceAddress>192.168.0.0/24</SourceAddress>
             <Categories/>
-            <Domains>shopee.com.br,mercadolivre.com.br,banggood.com,shein.com,aliexpress.com,gearbest.ma,americanas.com.br,magazineluiza.com.br,casasbahia.com.br,pontofrio.com.br,carrefour.com.br,madeiramadeira.com.br,zema.com,ebay.com,kabum.com.br,zoom.com.br,pichau.com.br,terabyteshop.com.br,studiopc.com.br,chipart.com.br,olx.com.br,enjoei.com.br,meliuz.com.br,livelo.com.br,esfera.com.vc,netshoes.com.br,zattini.com.br,temu.com,wish.com,wepink.com.br,boxmagenta.com.br,giovannababy.com.br,glam.com.br,eudora.com.br,cuponomia.com.br,buscape.com.br,baianao.com.br,dako.com.br,decathlon.com.br,dafiti.com.br,avon.com.br,boticario.com.br,panasonic.com.br,centauro.com.br,samsung.com,samsung.com.br,lg.com,philco.com.br,mibrasil.com.br,mi.com,electrolux.com.br,brastemp.com.br,acer.com,avell.com.br,dell.com,logitechstore.com.br,razer.com,mancer.com.br,lojaadcos.com.br,abelharainha.com.br,amobeleza.com.br,bobo.com.br,asics.com.br,bagaggio.com.br,belezanaweb.com.br,bibi.com,bobstore.com.br,mormaiishop.com.br,mizuno.com.br,demillus.com.br,umbro.com.br,puma.com,adidas.com.br,nike.com.br,crocs.com.br,cea.com.br,lojasrenner.com.br,marisa.com.br,caiaqueiro.com.br,redelarimobiliaria.com.br,guimaraesconstrucao.com.br,vivara.com.br,rommanel.com.br,gsuplementos.com.br,madrugaosuplementos.com.br,newnutrition.com.br,integralmedica.com.br,essentialnutrition.com.br,vitafor.com.br,maxtitanium.com.br,iherb.com,vitacost.com,montecarlo.com.br,argennti.com.br,pandorajoias.com.br,jaklayne.com.br,saintgermainbrand.com.br</Domains>
+            <Domains>shopee.com.br,mercadolivre.com.br,banggood.com,shein.com,aliexpress.com,gearbest.ma,americanas.com.br,magazineluiza.com.br,casasbahia.com.br,pontofrio.com.br,carrefour.com.br,madeiramadeira.com.br,zema.com,ebay.com,kabum.com.br,zoom.com.br,pichau.com.br,terabyteshop.com.br,studiopc.com.br,chipart.com.br,olx.com.br,enjoei.com.br,meliuz.com.br,livelo.com.br,esfera.com.vc,netshoes.com.br,zattini.com.br,temu.com,wish.com,wepink.com.br,boxmagenta.com.br,giovannababy.com.br,glam.com.br,eudora.com.br,cuponomia.com.br,buscape.com.br,baianao.com.br,dako.com.br,decathlon.com.br,dafiti.com.br,avon.com.br,boticario.com.br,panasonic.com.br,centauro.com.br,samsung.com,samsung.com.br,lg.com,philco.com.br,mibrasil.com.br,mi.com,electrolux.com.br,brastemp.com.br,acer.com,avell.com.br,dell.com,logitechstore.com.br,razer.com,mancer.com.br,lojaadcos.com.br,abelharainha.com.br,amobeleza.com.br,bobo.com.br,asics.com.br,bagaggio.com.br,belezanaweb.com.br,bibi.com,bobstore.com.br,mormaiishop.com.br,mizuno.com.br,demillus.com.br,umbro.com.br,puma.com,adidas.com.br,nike.com.br,crocs.com.br,cea.com.br,lojasrenner.com.br,marisa.com.br,caiaqueiro.com.br,redelarimobiliaria.com.br,guimaraesconstrucao.com.br,vivara.com.br,rommanel.com.br,gsuplementos.com.br,madrugaosuplementos.com.br,newnutrition.com.br,integralmedica.com.br,essentialnutrition.com.br,vitafor.com.br,maxtitanium.com.br,iherb.com,vitacost.com,montecarlo.com.br,argennti.com.br,pandorajoias.com.br,jaklayne.com.br,saintgermainbrand.com.br,franciscajoias.com.br,cartier.com.br</Domains>
           </ACL>
           <ACL uuid="b5d68806-9ac8-4214-8c05-e281f74aa247">
             <Priority>9</Priority>
