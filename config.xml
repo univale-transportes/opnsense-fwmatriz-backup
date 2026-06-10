@@ -3184,9 +3184,9 @@ YJaOYXrqzPnq+VLMvJo3AAAAEWZ3bWF0cml6QG9wbnNlbnNlAQIDBA==&#13;
     <prefer>0.opnsense.pool.ntp.org</prefer>
   </ntpd>
   <revision>
-    <username>jhonatan.rosario@172.16.30.18</username>
-    <description>/api/firewall/d_nat/set_rule/2c507c72-6db1-4e2d-8a93-b063346d7f98 made changes</description>
-    <time>1781121060.93</time>
+    <username>(root)</username>
+    <description>/usr/local/opnsense/scripts/nginx/ngx_autoblock.php made changes</description>
+    <time>1781126220.88</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -16659,7 +16659,7 @@ ip_transnet_bahia</content>
         </ACLs>
       </general>
     </ProxyUserACL>
-    <Nginx version="1.35.2" persisted_at="1781038967.08" description="nginx web server, reverse proxy and waf">
+    <Nginx version="1.35.2" persisted_at="1781126220.87" description="nginx web server, reverse proxy and waf">
       <general>
         <enabled>1</enabled>
         <ban_ttl>4320</ban_ttl>
@@ -16908,6 +16908,10 @@ ip_transnet_bahia</content>
       <ban uuid="8af16bcc-fc9c-4a1d-ba6c-bf974f7dc715">
         <ip>45.56.79.53</ip>
         <time>1780890720</time>
+      </ban>
+      <ban uuid="ea5fb4a0-508c-477b-bc7b-a517b0079310">
+        <ip>160.119.76.61</ip>
+        <time>1781126220</time>
       </ban>
     </Nginx>
     <freeradius>
