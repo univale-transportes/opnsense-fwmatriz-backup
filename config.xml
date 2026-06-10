@@ -3185,8 +3185,8 @@ YJaOYXrqzPnq+VLMvJo3AAAAEWZ3bWF0cml6QG9wbnNlbnNlAQIDBA==&#13;
   </ntpd>
   <revision>
     <username>jhonatan.rosario@172.16.30.18</username>
-    <description>/api/kea/dhcpv4/set_reservation/7cdfc881-ffe3-42b9-8d5d-c7e152a5762d made changes</description>
-    <time>1781094169.83</time>
+    <description>/api/kea/dhcpv4/set_reservation/6467728f-f602-4858-91e3-1718e0b4b87d made changes</description>
+    <time>1781094175.83</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -12776,7 +12776,7 @@ ip_transnet_bahia</content>
           <http_port>8000</http_port>
         </general>
       </ctrl_agent>
-      <dhcp4 version="1.0.5" persisted_at="1781094169.82" description="Kea DHCPv4 configuration">
+      <dhcp4 version="1.0.5" persisted_at="1781094175.83" description="Kea DHCPv4 configuration">
         <general>
           <enabled>1</enabled>
           <manual_config>0</manual_config>
@@ -13549,7 +13549,7 @@ ip_transnet_bahia</content>
             <description>Roteador - Manuten&#xE7;&#xE3;o</description>
             <next_server/>
             <option_data>
-              <domain_name_servers/>
+              <domain_name_servers>172.16.20.14</domain_name_servers>
               <domain_search/>
               <routers/>
               <static_routes/>
