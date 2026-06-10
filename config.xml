@@ -3133,7 +3133,7 @@ YJaOYXrqzPnq+VLMvJo3AAAAEWZ3bWF0cml6QG9wbnNlbnNlAQIDBA==&#13;
       <poolopts/>
       <log>1</log>
       <category/>
-      <descr>Redireciona cnsulta DNS dos roteadores para o NxFilter</descr>
+      <descr>Redireciona consulta DNS dos roteadores para o NxFilter</descr>
       <tag/>
       <tagged/>
       <nosync>0</nosync>
@@ -3147,7 +3147,7 @@ YJaOYXrqzPnq+VLMvJo3AAAAEWZ3bWF0cml6QG9wbnNlbnNlAQIDBA==&#13;
       </created>
       <updated>
         <username>jhonatan.rosario</username>
-        <time>1781063927.43</time>
+        <time>1781094342.64</time>
         <description>/api/api.php made changes</description>
       </updated>
     </rule>
@@ -3185,8 +3185,8 @@ YJaOYXrqzPnq+VLMvJo3AAAAEWZ3bWF0cml6QG9wbnNlbnNlAQIDBA==&#13;
   </ntpd>
   <revision>
     <username>jhonatan.rosario@172.16.30.18</username>
-    <description>/api/kea/dhcpv4/set made changes</description>
-    <time>1781094184.38</time>
+    <description>/api/firewall/d_nat/set_rule/f6e828d2-f04c-4c37-b3ba-82fd7ee6c459 made changes</description>
+    <time>1781094342.67</time>
   </revision>
   <OPNsense>
     <wireguard>
