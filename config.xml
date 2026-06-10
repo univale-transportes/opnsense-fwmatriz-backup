@@ -3185,8 +3185,8 @@ YJaOYXrqzPnq+VLMvJo3AAAAEWZ3bWF0cml6QG9wbnNlbnNlAQIDBA==&#13;
   </ntpd>
   <revision>
     <username>jhonatan.rosario@192.168.0.130</username>
-    <description>/api/firewall/alias/set_item/4ebf1743-c9c8-437b-b5cc-7fefb6350969 made changes</description>
-    <time>1781096573.77</time>
+    <description>/api/firewall/alias/set made changes</description>
+    <time>1781096577.10</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -4200,7 +4200,7 @@ a363abe4509328902356d4dabaaac9fc
       <Lvtemplate version="0.0.1">
         <templates/>
       </Lvtemplate>
-      <Alias version="1.0.1" persisted_at="1781096573.76" description="Firewall aliases">
+      <Alias version="1.0.1" persisted_at="1781096577.09" description="Firewall aliases">
         <geoip>
           <url/>
         </geoip>
