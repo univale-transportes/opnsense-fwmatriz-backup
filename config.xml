@@ -3111,6 +3111,46 @@ YJaOYXrqzPnq+VLMvJo3AAAAEWZ3bWF0cml6QG9wbnNlbnNlAQIDBA==&#13;
         <description>/api/api.php made changes</description>
       </updated>
     </rule>
+    <rule uuid="f6e828d2-f04c-4c37-b3ba-82fd7ee6c459">
+      <sequence>5200</sequence>
+      <disabled>0</disabled>
+      <nordr>0</nordr>
+      <interface>lan</interface>
+      <ipprotocol>inet</ipprotocol>
+      <protocol>tcp/udp</protocol>
+      <source>
+        <network>ips_roteadores</network>
+        <port/>
+        <not>0</not>
+      </source>
+      <destination>
+        <network>(self)</network>
+        <port>domain</port>
+        <not>1</not>
+      </destination>
+      <target>172.16.20.14</target>
+      <local-port>domain</local-port>
+      <poolopts/>
+      <log>1</log>
+      <category/>
+      <descr>Redireciona cnsulta DNS dos roteadores para o NxFilter</descr>
+      <tag/>
+      <tagged/>
+      <nosync>0</nosync>
+      <natreflection/>
+      <pass/>
+      <associated-rule-id/>
+      <created>
+        <username>jhonatan.rosario</username>
+        <time>1781059092.03</time>
+        <description>/api/api.php made changes</description>
+      </created>
+      <updated>
+        <username>jhonatan.rosario</username>
+        <time>1781059092.03</time>
+        <description>/api/api.php made changes</description>
+      </updated>
+    </rule>
   </nat>
   <filter>
     <scrub>
@@ -3144,9 +3184,9 @@ YJaOYXrqzPnq+VLMvJo3AAAAEWZ3bWF0cml6QG9wbnNlbnNlAQIDBA==&#13;
     <prefer>0.opnsense.pool.ntp.org</prefer>
   </ntpd>
   <revision>
-    <username>jhonatan.rosario@172.16.30.18</username>
-    <description>/api/kea/dhcpv4/set made changes</description>
-    <time>1781047115.34</time>
+    <username>jhonatan.rosario@192.168.0.130</username>
+    <description>/api/firewall/d_nat/add_rule/ made changes</description>
+    <time>1781059092.06</time>
   </revision>
   <OPNsense>
     <wireguard>
