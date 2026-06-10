@@ -3124,7 +3124,7 @@ YJaOYXrqzPnq+VLMvJo3AAAAEWZ3bWF0cml6QG9wbnNlbnNlAQIDBA==&#13;
         <not>0</not>
       </source>
       <destination>
-        <network>(self)</network>
+        <network>172.16.20.14</network>
         <port>domain</port>
         <not>1</not>
       </destination>
@@ -3137,7 +3137,7 @@ YJaOYXrqzPnq+VLMvJo3AAAAEWZ3bWF0cml6QG9wbnNlbnNlAQIDBA==&#13;
       <tag/>
       <tagged/>
       <nosync>0</nosync>
-      <natreflection/>
+      <natreflection>purenat</natreflection>
       <pass/>
       <associated-rule-id/>
       <created>
@@ -3147,7 +3147,7 @@ YJaOYXrqzPnq+VLMvJo3AAAAEWZ3bWF0cml6QG9wbnNlbnNlAQIDBA==&#13;
       </created>
       <updated>
         <username>jhonatan.rosario</username>
-        <time>1781059092.03</time>
+        <time>1781063927.43</time>
         <description>/api/api.php made changes</description>
       </updated>
     </rule>
@@ -3185,8 +3185,8 @@ YJaOYXrqzPnq+VLMvJo3AAAAEWZ3bWF0cml6QG9wbnNlbnNlAQIDBA==&#13;
   </ntpd>
   <revision>
     <username>jhonatan.rosario@192.168.0.130</username>
-    <description>/api/firewall/d_nat/add_rule/ made changes</description>
-    <time>1781059092.06</time>
+    <description>/api/firewall/d_nat/set_rule/f6e828d2-f04c-4c37-b3ba-82fd7ee6c459 made changes</description>
+    <time>1781063927.46</time>
   </revision>
   <OPNsense>
     <wireguard>
