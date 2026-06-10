@@ -3184,9 +3184,9 @@ YJaOYXrqzPnq+VLMvJo3AAAAEWZ3bWF0cml6QG9wbnNlbnNlAQIDBA==&#13;
     <prefer>0.opnsense.pool.ntp.org</prefer>
   </ntpd>
   <revision>
-    <username>jhonatan.rosario@192.168.0.130</username>
-    <description>/api/firewall/alias/set made changes</description>
-    <time>1781096577.10</time>
+    <username>jhonatan.rosario@172.16.30.18</username>
+    <description>/api/firewall/filter/add_rule/ made changes</description>
+    <time>1781103202.92</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -5578,7 +5578,7 @@ ip_transnet_bahia</content>
           </category>
         </categories>
       </Category>
-      <Filter version="1.0.4" persisted_at="1781043659.74" description="Firewall rules (new)">
+      <Filter version="1.0.4" persisted_at="1781103202.91" description="Firewall rules (new)">
         <rules>
           <rule uuid="793ce3fc-e2ac-4c48-89cf-5444c91602e2">
             <enabled>0</enabled>
@@ -12691,6 +12691,62 @@ ip_transnet_bahia</content>
             <shaper1/>
             <shaper2/>
             <description>Libera acesso as redes DMZ e MGMT para administradores</description>
+          </rule>
+          <rule uuid="c0a4e6ff-a0ef-44ba-af1d-77ea4a4c0d5e">
+            <enabled>1</enabled>
+            <statetype>keep</statetype>
+            <state-policy/>
+            <sequence>2801</sequence>
+            <action>pass</action>
+            <quick>1</quick>
+            <interfacenot>0</interfacenot>
+            <interface>lan</interface>
+            <direction>in</direction>
+            <ipprotocol>inet</ipprotocol>
+            <protocol>TCP/UDP</protocol>
+            <icmptype/>
+            <icmp6type/>
+            <source_net>ips_roteadores</source_net>
+            <source_not>0</source_not>
+            <source_port/>
+            <destination_net>any</destination_net>
+            <destination_not>0</destination_not>
+            <destination_port>853</destination_port>
+            <divert-to/>
+            <gateway/>
+            <replyto/>
+            <disablereplyto>0</disablereplyto>
+            <log>1</log>
+            <allowopts>0</allowopts>
+            <nosync>0</nosync>
+            <nopfsync>0</nopfsync>
+            <statetimeout/>
+            <udp-first/>
+            <udp-multiple/>
+            <udp-single/>
+            <max-src-nodes/>
+            <max-src-states/>
+            <max-src-conn/>
+            <max/>
+            <max-src-conn-rate/>
+            <max-src-conn-rates/>
+            <overload/>
+            <adaptivestart/>
+            <adaptiveend/>
+            <prio/>
+            <set-prio/>
+            <set-prio-low/>
+            <tag/>
+            <tagged/>
+            <tcpflags1/>
+            <tcpflags2/>
+            <tcpflags_any>0</tcpflags_any>
+            <categories/>
+            <sched/>
+            <tos/>
+            <shaper1/>
+            <shaper2/>
+            <description>Bloqueia DNS over TLS para os roteadores</description>
           </rule>
         </rules>
         <snatrules/>
