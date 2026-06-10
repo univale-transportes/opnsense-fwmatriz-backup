@@ -3185,8 +3185,8 @@ YJaOYXrqzPnq+VLMvJo3AAAAEWZ3bWF0cml6QG9wbnNlbnNlAQIDBA==&#13;
   </ntpd>
   <revision>
     <username>jhonatan.rosario@172.16.30.18</username>
-    <description>/api/firewall/filter/set_rule/1708f2a9-421a-42fc-a085-b9fa43b53a08 made changes</description>
-    <time>1781111133.01</time>
+    <description>/api/kea/dhcpv4/add_reservation/ made changes</description>
+    <time>1781116262.77</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -12833,7 +12833,7 @@ ip_transnet_bahia</content>
           <http_port>8000</http_port>
         </general>
       </ctrl_agent>
-      <dhcp4 version="1.0.5" persisted_at="1781094184.38" description="Kea DHCPv4 configuration">
+      <dhcp4 version="1.0.5" persisted_at="1781116262.76" description="Kea DHCPv4 configuration">
         <general>
           <enabled>1</enabled>
           <manual_config>0</manual_config>
@@ -15455,6 +15455,28 @@ ip_transnet_bahia</content>
             <next_server/>
             <option_data>
               <domain_name_servers/>
+              <domain_search/>
+              <routers/>
+              <static_routes/>
+              <classless_static_route/>
+              <domain_name/>
+              <ntp_servers/>
+              <time_servers/>
+              <tftp_server_name/>
+              <boot_file_name/>
+            </option_data>
+            <option/>
+          </reservation>
+          <reservation uuid="a8ada3e9-ed82-4eb9-8c7b-625be2dffda4">
+            <subnet>83ca4dde-0151-472f-bae9-c41d4fa8d9c3</subnet>
+            <ip_address>192.168.0.40</ip_address>
+            <hw_address>50:91:E3:08:1B:78</hw_address>
+            <client_id/>
+            <hostname/>
+            <description>Roteador - CSC</description>
+            <next_server/>
+            <option_data>
+              <domain_name_servers>172.16.20.14</domain_name_servers>
               <domain_search/>
               <routers/>
               <static_routes/>
