@@ -3184,9 +3184,9 @@ YJaOYXrqzPnq+VLMvJo3AAAAEWZ3bWF0cml6QG9wbnNlbnNlAQIDBA==&#13;
     <prefer>0.opnsense.pool.ntp.org</prefer>
   </ntpd>
   <revision>
-    <username>jhonatan.rosario@172.16.30.18</username>
-    <description>/api/firewall/d_nat/set_rule/f6e828d2-f04c-4c37-b3ba-82fd7ee6c459 made changes</description>
-    <time>1781094342.67</time>
+    <username>jhonatan.rosario@192.168.0.130</username>
+    <description>/api/firewall/alias/set_item/4ebf1743-c9c8-437b-b5cc-7fefb6350969 made changes</description>
+    <time>1781096573.77</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -4200,7 +4200,7 @@ a363abe4509328902356d4dabaaac9fc
       <Lvtemplate version="0.0.1">
         <templates/>
       </Lvtemplate>
-      <Alias version="1.0.1" persisted_at="1781043635.33" description="Firewall aliases">
+      <Alias version="1.0.1" persisted_at="1781096573.76" description="Firewall aliases">
         <geoip>
           <url/>
         </geoip>
@@ -4276,7 +4276,8 @@ a363abe4509328902356d4dabaaac9fc
 192.168.0.100
 192.168.0.87
 192.168.0.108
-192.168.0.77</content>
+192.168.0.77
+192.168.0.254</content>
             <password/>
             <username/>
             <authtype/>
