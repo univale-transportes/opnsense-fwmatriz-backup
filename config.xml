@@ -3185,8 +3185,8 @@ YJaOYXrqzPnq+VLMvJo3AAAAEWZ3bWF0cml6QG9wbnNlbnNlAQIDBA==&#13;
   </ntpd>
   <revision>
     <username>jhonatan.rosario@172.16.30.18</username>
-    <description>/api/proxyuseracl/settings/setACL/cd5b2889-3bc2-40f2-a92c-0108b8918d98 made changes</description>
-    <time>1781093088.82</time>
+    <description>/api/kea/dhcpv4/set_reservation/13381eb7-baa1-49ac-8653-b90d1df0a780 made changes</description>
+    <time>1781094155.56</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -12776,7 +12776,7 @@ ip_transnet_bahia</content>
           <http_port>8000</http_port>
         </general>
       </ctrl_agent>
-      <dhcp4 version="1.0.5" persisted_at="1781047115.33" description="Kea DHCPv4 configuration">
+      <dhcp4 version="1.0.5" persisted_at="1781094155.56" description="Kea DHCPv4 configuration">
         <general>
           <enabled>1</enabled>
           <manual_config>0</manual_config>
@@ -13593,7 +13593,7 @@ ip_transnet_bahia</content>
             <description>Roteador - Turismo</description>
             <next_server/>
             <option_data>
-              <domain_name_servers/>
+              <domain_name_servers>172.16.20.14</domain_name_servers>
               <domain_search/>
               <routers/>
               <static_routes/>
