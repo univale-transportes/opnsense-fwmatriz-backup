@@ -1073,11 +1073,11 @@ YJaOYXrqzPnq+VLMvJo3AAAAEWZ3bWF0cml6QG9wbnNlbnNlAQIDBA==&#13;
     </outbound>
     <rule uuid="2c507c72-6db1-4e2d-8a93-b063346d7f98">
       <sequence>100</sequence>
-      <disabled>0</disabled>
+      <disabled>1</disabled>
       <nordr>0</nordr>
       <interface>lan</interface>
       <ipprotocol>inet</ipprotocol>
-      <protocol>udp</protocol>
+      <protocol>tcp/udp</protocol>
       <source>
         <network>ips_servidores_ad</network>
         <port/>
@@ -1106,9 +1106,9 @@ YJaOYXrqzPnq+VLMvJo3AAAAEWZ3bWF0cml6QG9wbnNlbnNlAQIDBA==&#13;
         <description>/firewall_nat_edit.php made changes</description>
       </created>
       <updated>
-        <username>jhonatan.rosario@192.168.0.222</username>
-        <time>1767791969.0956</time>
-        <description>/firewall_nat_edit.php made changes</description>
+        <username>jhonatan.rosario</username>
+        <time>1781121060.90</time>
+        <description>/api/api.php made changes</description>
       </updated>
     </rule>
     <rule uuid="0fbc33ec-96cb-4a14-90e6-819278160492">
@@ -3185,8 +3185,8 @@ YJaOYXrqzPnq+VLMvJo3AAAAEWZ3bWF0cml6QG9wbnNlbnNlAQIDBA==&#13;
   </ntpd>
   <revision>
     <username>jhonatan.rosario@172.16.30.18</username>
-    <description>/api/firewall/alias/set made changes</description>
-    <time>1781119646.45</time>
+    <description>/api/firewall/d_nat/set_rule/2c507c72-6db1-4e2d-8a93-b063346d7f98 made changes</description>
+    <time>1781121060.93</time>
   </revision>
   <OPNsense>
     <wireguard>
