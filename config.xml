@@ -3185,8 +3185,8 @@ YJaOYXrqzPnq+VLMvJo3AAAAEWZ3bWF0cml6QG9wbnNlbnNlAQIDBA==&#13;
   </ntpd>
   <revision>
     <username>jhonatan.rosario@172.16.30.2</username>
-    <description>/api/proxyuseracl/settings/delACL/f5480c78-49f2-4d07-baa1-826c2ac121a3 made changes</description>
-    <time>1781212022.41</time>
+    <description>/api/proxyuseracl/settings/updownACL/2f731cfe-4df3-476e-a5d8-214e7a43b795 made changes</description>
+    <time>1781212033.18</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -16463,7 +16463,7 @@ ip_transnet_bahia</content>
         <max_len>128</max_len>
       </slowlog>
     </redis>
-    <ProxyUserACL version="1.0.1" persisted_at="1781212022.41" description="Group and User ACL settings">
+    <ProxyUserACL version="1.0.1" persisted_at="1781212033.18" description="Group and User ACL settings">
       <general>
         <ACLs>
           <ACL uuid="ab880690-e839-436e-a9aa-4c0ebc09a4b3">
@@ -16507,7 +16507,7 @@ ip_transnet_bahia</content>
             <Domains>tesourodireto.com.br,b3.com.br,infomoney.com.br,fxmais.com,bitget.com,empiricus.com.br,moneytimes.com.br,weex.com,investing.com,investidor10.com.br,tradingview.com</Domains>
           </ACL>
           <ACL uuid="d7e1a6a1-8775-479a-ac45-a8222c3a7081">
-            <Priority>0</Priority>
+            <Priority>1</Priority>
             <Name>felipe.silva</Name>
             <Hex>66656c6970652e73696c7661</Hex>
             <Action>allow</Action>
@@ -16517,7 +16517,7 @@ ip_transnet_bahia</content>
             <Domains>youtube.com,googlevideo.com</Domains>
           </ACL>
           <ACL uuid="2f731cfe-4df3-476e-a5d8-214e7a43b795">
-            <Priority>1</Priority>
+            <Priority>0</Priority>
             <Name>enielly.costa</Name>
             <Hex>656e69656c6c792e636f737461</Hex>
             <Action>allow</Action>
