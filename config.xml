@@ -3185,8 +3185,8 @@ YJaOYXrqzPnq+VLMvJo3AAAAEWZ3bWF0cml6QG9wbnNlbnNlAQIDBA==&#13;
   </ntpd>
   <revision>
     <username>andre.oliveira@172.16.30.2</username>
-    <description>/api/proxyuseracl/settings/setACL/bc7cc8c9-7445-47fd-8cc8-cd0fd76c8b97 made changes</description>
-    <time>1781182843.84</time>
+    <description>/api/proxy/settings/del_remote_blacklist/ea630cfb-e998-425a-a0e5-3f52d42144b0 made changes</description>
+    <time>1781183174.01</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -16014,7 +16014,7 @@ ip_transnet_bahia</content>
       </hosts>
       <aliases/>
     </unboundplus>
-    <proxy version="1.0.9" persisted_at="1781180476.86" description="Squid web proxy settings">
+    <proxy version="1.0.9" persisted_at="1781183174.01" description="Squid web proxy settings">
       <general>
         <enabled>1</enabled>
         <error_pages>custom</error_pages>
@@ -16243,16 +16243,6 @@ ip_transnet_bahia</content>
                 <filter/>
                 <sslNoVerify>0</sslNoVerify>
                 <description>Site which provides fakenews</description>
-              </blacklist>
-              <blacklist uuid="ea630cfb-e998-425a-a0e5-3f52d42144b0">
-                <enabled>1</enabled>
-                <filename>financial</filename>
-                <url>https://dsi.ut-capitole.fr/blacklists/download/financial.tar.gz</url>
-                <username/>
-                <password/>
-                <filter/>
-                <sslNoVerify>0</sslNoVerify>
-                <description>Sites relative financial information</description>
               </blacklist>
               <blacklist uuid="8a0b2ce1-f679-49b2-8f01-ca528e12de9e">
                 <enabled>1</enabled>
