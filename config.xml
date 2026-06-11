@@ -3184,9 +3184,9 @@ YJaOYXrqzPnq+VLMvJo3AAAAEWZ3bWF0cml6QG9wbnNlbnNlAQIDBA==&#13;
     <prefer>0.opnsense.pool.ntp.org</prefer>
   </ntpd>
   <revision>
-    <username>jhonatan.rosario@172.16.30.18</username>
-    <description>/api/firewall/alias/set made changes</description>
-    <time>1781181956.85</time>
+    <username>andre.oliveira@172.16.30.2</username>
+    <description>/api/proxyuseracl/settings/addACL/ made changes</description>
+    <time>1781182825.39</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -16473,11 +16473,11 @@ ip_transnet_bahia</content>
         <max_len>128</max_len>
       </slowlog>
     </redis>
-    <ProxyUserACL version="1.0.1" persisted_at="1781093088.82" description="Group and User ACL settings">
+    <ProxyUserACL version="1.0.1" persisted_at="1781182825.39" description="Group and User ACL settings">
       <general>
         <ACLs>
           <ACL uuid="ab880690-e839-436e-a9aa-4c0ebc09a4b3">
-            <Priority>4</Priority>
+            <Priority>5</Priority>
             <Name>ACESSO_PADRAO</Name>
             <Hex>41434553534f5f50414452414f</Hex>
             <Action>allow</Action>
@@ -16487,7 +16487,7 @@ ip_transnet_bahia</content>
             <Domains>whatsapp.com,whatsapp.net</Domains>
           </ACL>
           <ACL uuid="68c51ce1-dec0-4ae0-a84e-954714fd41b4">
-            <Priority>5</Priority>
+            <Priority>6</Priority>
             <Name>ACESSO_LIBERADO</Name>
             <Hex>41434553534f5f4c4942455241444f</Hex>
             <Action>allow</Action>
@@ -16497,7 +16497,7 @@ ip_transnet_bahia</content>
             <Domains>.*</Domains>
           </ACL>
           <ACL uuid="1f5ffe08-28ea-47a9-b292-85a9db80be7d">
-            <Priority>6</Priority>
+            <Priority>7</Priority>
             <Name>ACESSO_BLOQUEADO</Name>
             <Hex>41434553534f5f424c4f51554541444f</Hex>
             <Action>deny</Action>
@@ -16507,7 +16507,7 @@ ip_transnet_bahia</content>
             <Domains>.*</Domains>
           </ACL>
           <ACL uuid="43ab3527-3413-4804-8bc2-b9c61f4b0ead">
-            <Priority>15</Priority>
+            <Priority>16</Priority>
             <Name>Investimento</Name>
             <Hex>496e76657374696d656e746f</Hex>
             <Action>deny</Action>
@@ -16537,7 +16537,7 @@ ip_transnet_bahia</content>
             <Domains>youtube.com,googlevideo.com</Domains>
           </ACL>
           <ACL uuid="0216cd7d-2894-4f04-b4d2-b8bd666d8f0d">
-            <Priority>8</Priority>
+            <Priority>9</Priority>
             <Name>Shop</Name>
             <Hex>53686f70</Hex>
             <Action>deny</Action>
@@ -16547,7 +16547,7 @@ ip_transnet_bahia</content>
             <Domains>shopee.com.br,mercadolivre.com.br,banggood.com,shein.com,aliexpress.com,gearbest.ma,americanas.com.br,magazineluiza.com.br,casasbahia.com.br,pontofrio.com.br,carrefour.com.br,madeiramadeira.com.br,zema.com,ebay.com,kabum.com.br,zoom.com.br,pichau.com.br,terabyteshop.com.br,studiopc.com.br,chipart.com.br,olx.com.br,enjoei.com.br,meliuz.com.br,livelo.com.br,esfera.com.vc,netshoes.com.br,zattini.com.br,temu.com,wish.com,wepink.com.br,boxmagenta.com.br,giovannababy.com.br,glam.com.br,eudora.com.br,cuponomia.com.br,buscape.com.br,baianao.com.br,dako.com.br,decathlon.com.br,dafiti.com.br,avon.com.br,boticario.com.br,panasonic.com.br,centauro.com.br,samsung.com,samsung.com.br,lg.com,philco.com.br,mibrasil.com.br,mi.com,electrolux.com.br,brastemp.com.br,acer.com,avell.com.br,dell.com,logitechstore.com.br,razer.com,mancer.com.br,lojaadcos.com.br,abelharainha.com.br,amobeleza.com.br,bobo.com.br,asics.com.br,bagaggio.com.br,belezanaweb.com.br,bibi.com,bobstore.com.br,mormaiishop.com.br,mizuno.com.br,demillus.com.br,umbro.com.br,puma.com,adidas.com.br,nike.com.br,crocs.com.br,cea.com.br,lojasrenner.com.br,marisa.com.br,caiaqueiro.com.br,redelarimobiliaria.com.br,guimaraesconstrucao.com.br,vivara.com.br,rommanel.com.br,gsuplementos.com.br,madrugaosuplementos.com.br,newnutrition.com.br,integralmedica.com.br,essentialnutrition.com.br,vitafor.com.br,maxtitanium.com.br,iherb.com,vitacost.com,montecarlo.com.br,argennti.com.br,pandorajoias.com.br,jaklayne.com.br,saintgermainbrand.com.br,franciscajoias.com.br,cartier.com.br</Domains>
           </ACL>
           <ACL uuid="b5d68806-9ac8-4214-8c05-e281f74aa247">
-            <Priority>9</Priority>
+            <Priority>10</Priority>
             <Name>Viagem</Name>
             <Hex>56696167656d</Hex>
             <Action>deny</Action>
@@ -16557,7 +16557,7 @@ ip_transnet_bahia</content>
             <Domains>cvc.com.br,decolar.com,trivago.com.br,airbnb.com.br,voeazul.com.br,azulviagens.com.br,airpaz.com,latamairlines.com,viaza.com.br,voegol.com.br,viajanet.com.br,vaidepromo.com.br,flytap.com,cheapoair.com,airfrance.com.br,klm.com.br,klm.com,united.com,aireuropa.com,copaair.com,qatarairways.com,skyscanner.com.br,melhoresdestinos.com.br,avianca.com,999viagens.com.br,jetsmart.com,tickets.com.br,eumaisviagens.com.br,99app.com,uber.com,gigu.app,aluguefoco.com.br,sixt.com.br,br22.com.br,expedia.com.br,rentcars.com,localiza.com,unidas.com.br,mundi.com.br,movida.com.br,booking.com,carroaluguel.com,beachpark.com.br,betocarrero.com.br,agaxtur.com.br,agenteagaxtur.com.br,allianztravel.com.br,avis.com</Domains>
           </ACL>
           <ACL uuid="0faa7c24-7cc0-4102-98f1-718d368b39e8">
-            <Priority>10</Priority>
+            <Priority>11</Priority>
             <Name>Audio_Video</Name>
             <Hex>417564696f5f566964656f</Hex>
             <Action>deny</Action>
@@ -16567,7 +16567,7 @@ ip_transnet_bahia</content>
             <Domains>tidal.com,youtube.com,googlevideo.com,kick.com,alvoradafm.com.br,jovempan.com.br,eletronicamixbrasil.com.br,jb.fm,radiocontinental.com.br,kboingfm.com.br,radio.garden,sou101fm.com.br,sooplive.com,steam.tv</Domains>
           </ACL>
           <ACL uuid="7bc88039-f40b-4ac5-ba58-2b2f400aaf0c">
-            <Priority>12</Priority>
+            <Priority>13</Priority>
             <Name>Noticias</Name>
             <Hex>4e6f746963696173</Hex>
             <Action>deny</Action>
@@ -16577,7 +16577,7 @@ ip_transnet_bahia</content>
             <Domains>bbc.com,uol.com.br,terra.com.br,r7.com,sbt.com.br,ocioso.com.br,estadao.com.br,espn.com.br,tntsports.com.br,ticketsports.com.br,hojeemdia.com.br,itatiaia.com.br,bhaz.com.br,em.com.br,uai.com.br,otempo.com.br,exame.com,flashscore.com.br,lance.com.br,sofascore.com,ogol.com.br,365scores.com,r10score.com,livescore.com,ig.com.br,grandepremio.com.br,diariodoaco.com.br,plox.com.br,correiobraziliense.com.br,aventurasnahistoria.com.br,tribunadonorte.com.br</Domains>
           </ACL>
           <ACL uuid="8c1a33d3-52a6-408f-b28b-d2474dffc794">
-            <Priority>13</Priority>
+            <Priority>14</Priority>
             <Name>Social</Name>
             <Hex>536f6369616c</Hex>
             <Action>deny</Action>
@@ -16587,7 +16587,7 @@ ip_transnet_bahia</content>
             <Domains>signal.org,threads.com,messenger.com,whatsapp.net,whatsapp.com,kwai.com</Domains>
           </ACL>
           <ACL uuid="3402ba4b-8403-4e96-9096-6de79e4dd35e">
-            <Priority>14</Priority>
+            <Priority>15</Priority>
             <Name>IA</Name>
             <Hex>4941</Hex>
             <Action>deny</Action>
@@ -16597,7 +16597,7 @@ ip_transnet_bahia</content>
             <Domains>perplexity.ai,deepseek.com,grok.com,meta.ai,meta.com,mistral.ai,copilot.microsoft.com,qwen.ai,huggingface.co,innerai.com,adapta.org,maritaca.ai,deepai.org,quillbot.com</Domains>
           </ACL>
           <ACL uuid="bc92db09-e6b9-401c-8104-260e1b63298d">
-            <Priority>17</Priority>
+            <Priority>18</Priority>
             <Name>Blacklist</Name>
             <Hex>426c61636b6c697374</Hex>
             <Action>deny</Action>
@@ -16607,7 +16607,7 @@ ip_transnet_bahia</content>
             <Domains>tesourodireto.com.br,b3.com.br,infomoney.com.br,fxmais.com,bitget.com,empiricus.com.br,moneytimes.com.br,weex.com,investing.com,shopee.com.br,mercadolivre.com.br,banggood.com,shein.com,aliexpress.com,gearbest.ma,americanas.com.br,magazineluiza.com.br,casasbahia.com.br,pontofrio.com.br,carrefour.com.br,madeiramadeira.com.br,zema.com,ebay.com,tidal.com,signal.org,threads.com,messenger.com,kabum.com.br,zoom.com.br,pichau.com.br,terabyteshop.com.br,studiopc.com.br,chipart.com.br,olx.com.br,enjoei.com.br,meliuz.com.br,livelo.com.br,esfera.com.vc,4shared.com,depositfiles.org,mega.io,mediafire.com,zippyshare.com,sourceforge.net,wetransfer.com,rapidshare.com,upload.com,bitshare.com,depositfiles.com,turbobit.net,sendspace.com,uploaded.net,perplexity.ai,deepseek.com,grok.com,bbc.com,uol.com.br,terra.com.br,r7.com,sbt.com.br,ocioso.com.br,estadao.com.br,espn.com.br,tntsports.com.br,ticketsports.com.br,shopee.com,whatsapp.net,hojeemdia.com.br,itatiaia.com.br,bhaz.com.br,agenciaminas.mg.gov.br,em.com.br,uai.com.br,otempo.com.br,netshoes.com.br,zattini.com.br,cvc.com.br,decolar.com,trivago.com.br,viajanet.com.br,exame.com,airbnb.com.br,transfermarkt.com.br,flashscore.com.br,lance.com.br,sofascore.com,ogol.com.br,365scores.com,whatsapp.com,r10score.com,livescore.com,youtube.com,googlevideo.com,temu.com,wish.com,wepink.com.br,boxmagenta.com.br,giovannababy.com.br,glam.com.br,eudora.com.br</Domains>
           </ACL>
           <ACL uuid="6159c15b-0a61-47a8-be52-4e568fd05e44">
-            <Priority>16</Priority>
+            <Priority>17</Priority>
             <Name>Download</Name>
             <Hex>446f776e6c6f6164</Hex>
             <Action>deny</Action>
@@ -16617,7 +16617,7 @@ ip_transnet_bahia</content>
             <Domains>4shared.com,depositfiles.org,mega.io,mediafire.com,zippyshare.com,sourceforge.net,wetransfer.com,rapidshare.com,upload.com,bitshare.com,depositfiles.com,turbobit.net,sendspace.com,uploaded.net</Domains>
           </ACL>
           <ACL uuid="8b258e33-15ee-4371-a068-e88040fa8830">
-            <Priority>3</Priority>
+            <Priority>4</Priority>
             <Name>ACESSO_ASSESSORIA_ADM</Name>
             <Hex>41434553534f5f4153534553534f5249415f41444d</Hex>
             <Action>allow</Action>
@@ -16627,7 +16627,7 @@ ip_transnet_bahia</content>
             <Domains>voeazul.com.br,azulviagens.com.br,voegol.com.br,latamairlines.com</Domains>
           </ACL>
           <ACL uuid="cd5b2889-3bc2-40f2-a92c-0108b8918d98">
-            <Priority>2</Priority>
+            <Priority>3</Priority>
             <Name>ACESSO_SUPRIMENTOS</Name>
             <Hex>41434553534f5f53555052494d454e544f53</Hex>
             <Action>allow</Action>
@@ -16637,7 +16637,7 @@ ip_transnet_bahia</content>
             <Domains>mercadolivre.com.br,kabum.com.br,cofermeta.com.br,americanas.com.br,casasbahia.com.br,magazineluiza.com.br</Domains>
           </ACL>
           <ACL uuid="b3082801-f93b-4824-824f-105384816fc2">
-            <Priority>11</Priority>
+            <Priority>12</Priority>
             <Name>Esportes</Name>
             <Hex>4573706f72746573</Hex>
             <Action>deny</Action>
@@ -16647,7 +16647,7 @@ ip_transnet_bahia</content>
             <Domains>ufc.com,supermma.com,formula1.com,motogp.com,futemax</Domains>
           </ACL>
           <ACL uuid="19672669-bfd9-4061-a808-ebf935d1025a">
-            <Priority>7</Priority>
+            <Priority>8</Priority>
             <Name>Ferramentas</Name>
             <Hex>46657272616d656e746173</Hex>
             <Action>deny</Action>
@@ -16655,6 +16655,16 @@ ip_transnet_bahia</content>
             <SourceAddress>192.168.0.0/24</SourceAddress>
             <Categories/>
             <Domains>consultaai.app</Domains>
+          </ACL>
+          <ACL uuid="bc7cc8c9-7445-47fd-8cc8-cd0fd76c8b97">
+            <Priority>2</Priority>
+            <Name>ACESSO_GERENTES</Name>
+            <Hex>41434553534f5f474552454e544553</Hex>
+            <Action>allow</Action>
+            <SourceType>group</SourceType>
+            <SourceAddress/>
+            <Categories/>
+            <Domains>magazineluiza.com.br</Domains>
           </ACL>
         </ACLs>
       </general>
